@@ -2,7 +2,7 @@
 include 'includes/sessions.php';
 include 'includes/connection.php';
 
-$a=1;
+$a=6;
 
 ?>
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ $a=1;
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard</h1>
+            <h1 class="m-0 text-dark">Add New Product</h1>
           </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -60,49 +60,42 @@ $a=1;
 
     <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <div class="row">
-         
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-			<a href="add-blog.php" class="small-box-footer">
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3> Add Blog</h3>
-
-                <p>Add</p>
+      <div class="card card-outline card-info">
+        <div class="card-header">
+            <form action="includes/addproduct.php" method="post" class="row g-3" autocomplete="off" >
+            
+              <div class="col-md-6">
+                <label for="inputprod_name" class="form-label">Product Name</label>
+                <input type="text" class="form-control" id="inputprod_name" name="inputprod_name" value="" required/>
               </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
+              <div class="col-md-6">
+                <label for="inputprod_price" class="form-label">Product Price</label>
+                <input type="text" class="form-control" id="inputprod_price" name="inputprod_price" value="" required/>
               </div>
-             </div>
-			</a>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-			<a href="allproducts.php" class="small-box-footer">
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>View Products</h3>
-
-                <p>View</p>
+              <div class="col-md-6">
+                <label for="inputprod_link" class="form-label">Link</label>
+                <input type="text" class="form-control" id="inputprod_link" name="inputprod_link" value="" required/>
               </div>
-              <div class="icon">
-                <i class="ion ion-ios-box"></i>
+              <div class="col-md-6">
+                <label for="inputprod_category" class="form-label">Category</label>
+                <input type="text" class="form-control" id="inputprod_category" name="inputprod_category" value=""/>
               </div>
-             </div>
-			</a>
-          </div>
-          <!-- ./col -->
+              <div class="col-md-12">
+                <label for="prod_desc" class="form-label">Description</label>
+                <textarea class="form-control" id="prod_desc" rows="5" value=""></textarea>
+              </div>
+              <div class="col-md-12 mt-3 mb-3">
+              <label for="inputprod_image" class="form-label">Image</label>
+              <input class="fadfa" type="file" id="inputprod_image"value="">
+                  <img src="" width="120">
+              </div>
+            </form>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" >Save</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
         </div>
-        <!-- /.row -->
-        <!-- Main row -->
-        
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
+      </div>
     </section>
     <!-- /.content -->
   </div>

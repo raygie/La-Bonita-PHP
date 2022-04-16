@@ -30,9 +30,9 @@
   <div class="login-box">
     <div class="login-logo">
       <div class="main-logo pb-3">
-        <img src="assets/img/Labonita.png"style="height: 60px">
+        <img src="assets/img/Labonita.png"style="height: 70px">
       </div>
-      <h3>La Bonita Cosmetics</h3>
+      <h3>Login Admin</h3>
     </div>
     <!-- /.login-logo -->
     <div class="card">
