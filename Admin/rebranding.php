@@ -65,7 +65,7 @@ $a=9;
     <section class="content">
         <div class="container-fluid">
             <div class="col-12 d-flex justify-content-end">
-                <a type="button" class="btn btn-primary btn-lg my-3" href="addproductpage.php">
+                <a type="button" class="btn btn-primary btn-lg my-3" href="add_New_product.php">
                     Add New Product
                 </a>
             </div>
@@ -82,7 +82,8 @@ $a=9;
                             <th>Product Price</th>
                             <th>Description</th>
                             <th>Date</th>
-                            <th>Action</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -98,6 +99,8 @@ $a=9;
                                 <td><?=$prod['date_created'];?></td>
                                 <td>
                                     <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#updateproduct">Update</button>'?>
+                                </td>
+                                <td>
                                     <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
                                 </td>
                             </tr>

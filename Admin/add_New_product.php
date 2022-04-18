@@ -62,7 +62,7 @@ $a=6;
     <section class="content">
       <div class="card card-outline card-info">
         <div class="card-header">
-            <form action="includes/addproduct.php" method="post" class="row g-3" autocomplete="off" >
+            <form action="includes/addproduct.php" method="post" class="row g-3" autocomplete="off" enctype="multipart/form-data" >
             
               <div class="col-md-6">
                 <label for="inputprod_name" class="form-label">Product Name</label>
@@ -81,16 +81,16 @@ $a=6;
                 <input type="text" class="form-control" id="inputprod_category" name="inputprod_category" value=""/>
               </div>
               <div class="col-md-12">
-                <label for="prod_desc" class="form-label">Description</label>
-                <textarea class="form-control" id="prod_desc" rows="5" value=""></textarea>
+                <label for="inputprod_desc" class="form-label">Description</label>
+                <textarea class="form-control" id="inputprod_desc" rows="5" value="" name="inputprod_desc"required></textarea>
               </div>
               <div class="col-md-12 mt-3 mb-3">
-              <label for="inputprod_image" class="form-label">Image</label>
-              <input class="fadfa" type="file" id="inputprod_image"value="">
+              <label for="prod_image" class="form-label">Image</label>
+              <input class="fadfa" type="file" id="prod_image" name="prod_image" value="">
                   <img src="" width="120">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-primary" >Save</button>
+                <button type="submit" class="btn btn-primary" name="submit" >Save</button>
                 <button type="Reset" value="Reset" class="btn btn-secondary">Clear</button>
               </div>
             </form>

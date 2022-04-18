@@ -30,6 +30,7 @@ $a=7;
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
+  <link rel="stylesheet" href="plugins/simple-datatables/style.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -66,14 +67,23 @@ $a=7;
     <section class="content">
         <div class="container-fluid">
             <div class="col-12 d-flex justify-content-end">
-                <a type="button" class="btn btn-primary btn-lg my-3" href="addproductpage.php">
+                <a type="button" class="btn btn-primary btn-lg my-3" href="add_New_product.php">
                     Add New Product
                 </a>
             </div>
         <div class="card">
             <div class="card-body table-responsive">
                 <h5 class="card-title">Datatables</h5>
-
+                <?php
+                  if(isset($_SESSION['success']) && $_SESSION['success'] !=''){
+                    echo '<h2 class="bg-primary text-white"> '.$_SESSION['success'].'</h2>';
+                    unset($_SESSION['success']);
+                  }
+                  if(isset($_SESSION['status']) && $_SESSION['status'] !=''){
+                    echo '<h2 class="bg-danger text-white"> '.$_SESSION['status'].'</h2>';
+                    unset($_SESSION['status']);
+                  }
+                ?>
                 <table class="table datatable">
                     <thead>
                         <tr>
@@ -84,7 +94,8 @@ $a=7;
                             <th>Description</th>
                             <th>Category</th>
                             <th>Date</th>
-                            <th>Action</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -93,7 +104,7 @@ $a=7;
                         ?>
                             <tr>
                               <td><?=$counter?></td>
-                                <td><?=$prod['prod_image'];?></td>
+                                <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
                                 <td><?=$prod['prod_name'];?></td>
                                 <td><?=$prod['prod_price'];?></td>
                                 <td><?=$prod['prod_desc'];?></td>
@@ -101,6 +112,8 @@ $a=7;
                                 <td><?=$prod['date_created'];?></td>
                                 <td>
                                     <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#updateproduct">Update</button>'?>
+                                </td>
+                                <td>
                                     <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
                                 </td>
                             </tr>
@@ -213,5 +226,6 @@ $a=7;
 <script src="assets/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="assets/js/demo.js"></script>
+<script src="plugins/simple-datatables/simple-datatables.js"></script>
 </body>
 </html>
