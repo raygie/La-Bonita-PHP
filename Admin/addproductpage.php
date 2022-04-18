@@ -89,11 +89,11 @@ $a=6;
               <input class="fadfa" type="file" id="inputprod_image"value="">
                   <img src="" width="120">
               </div>
-            </form>
-            <div class="modal-footer">
+              <div class="modal-footer">
                 <button type="button" class="btn btn-primary" >Save</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-            </div>
+                <button type="Reset" value="Reset" class="btn btn-secondary">Clear</button>
+              </div>
+            </form>
         </div>
       </div>
     </section>

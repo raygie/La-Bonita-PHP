@@ -37,7 +37,7 @@
             </a>
           </li>
 		  
-          <li class="nav-item has-treeview menu-open">
+          <!-- <li class="nav-item has-treeview menu-open">
                 <h5 class="pt-2 pb-2" style="color:white;">BLOG SECTION</h5>
           </li>
               <li class="nav-item has-treeview menu-open">
@@ -63,7 +63,7 @@
                     View Blog
                   </p>
                 </a>
-              </li>
+              </li> -->
           <li class="nav-item has-treeview menu-open">
             <h5 class="pt-2 pb-2" style="color:white;">PRODUCT SECTION</h5>
 			    </li>

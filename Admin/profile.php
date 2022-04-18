@@ -42,7 +42,10 @@ $a=12;
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <?php include 'includes/sidebar.php'; ?>
+  <?php include 'includes/sidebar.php'; 
+    $result = $conn->query("SELECT * FROM admin_login");
+    $admin = $result->fetch_all(MYSQLI_ASSOC);
+  ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -68,14 +71,28 @@ $a=12;
                 <h4>Administrator</h4>
                 </div>
                 <div class="text-center mb-5">
-                    <img src="assets/img/Labonita.png" width="220">
+                  <img src="assets/img/Labonita.png" width="180">
+                <!-- <?php $counter =  mysqli_num_rows($result);
+                  foreach ($admin as $admin): 
+                ?>
+                    <img src="<?php echo $counter['admin_image'];?>" width="180">
+                    <?php echo '<img src="'.$admin['admin_image'].'""width="180""'?>
+                <?php $counter--; endforeach; ?> -->
                 </div>
                 <div class="mx-auto"></div>
             </div>
+            <div class="card card-outline card-info">
+                    <div class="card-body pt-3">
             <div class="col-md-12 mt-3 mb-3">
               <label for="inputprod_image" class="form-label">Image</label>
-              <input class="form-control" type="file" id="inputprod_image"value="">
-                <button type="button" class="btn btn-primary mt-3" id="changeImage">Change Image</button>
+              <input class="fdafa" type="file" id="inputprod_image"value="">
+              <div class="text-center" id="picmessage">
+                        </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="changeImage">Change Image</button>
+              </div>
+              </div>
+                    </div>
             </div>
         </div>
         <div class="col-xl-8">
@@ -198,6 +215,19 @@ $a=12;
 
 
 <script>
+$(document).ready(function(){
+  $('#changeImage').click(function(){
+    var inputprod_image=$('#inputprod_image').val();
+    $.ajax({
+      url:"includes/updateprofilepic.php",
+      method:"POST",
+      data:{inputprod_image:inputprod_image},
+      success:function(data){      
+        $('#picmessage').html(data);
+      }
+    })
+  })
+})
 $(document).ready(function(){
   $('#changeName').click(function(){
     var name=$('#newName').val();

@@ -65,7 +65,7 @@ $a=1;
         <div class="row">
          
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
+          <div class="col-md-6 col-lg-3">
             <!-- small box -->
 			<a href="add-blog.php" class="small-box-footer">
             <div class="small-box bg-warning">
@@ -81,7 +81,7 @@ $a=1;
 			</a>
           </div>
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
+          <div class="col-md-6 col-lg-3">
             <!-- small box -->
 			<a href="allproducts.php" class="small-box-footer">
             <div class="small-box bg-danger">
