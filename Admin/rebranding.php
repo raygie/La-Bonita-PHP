@@ -12,6 +12,8 @@ $a=9;
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <?php include 'includes/title.php'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
@@ -71,9 +73,8 @@ $a=9;
             </div>
         <div class="card">
             <div class="card-body table-responsive">
-                <h5 class="card-title">Datatables</h5>
 
-                <table class="table datatable">
+                <table class="table datatable" id="datatable">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -92,7 +93,7 @@ $a=9;
                         ?>
                             <tr>
                               <td><?=$counter?></td>
-                                <td><?=$prod['prod_image'];?></td>
+                              <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
                                 <td><?=$prod['prod_name'];?></td>
                                 <td><?=$prod['prod_price'];?></td>
                                 <td><?=$prod['prod_desc'];?></td>
@@ -213,5 +214,23 @@ $a=9;
 <script src="assets/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="assets/js/demo.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#datatable').DataTable({
+      "pagingType": "full_numbers",
+      "lengthMenu": [
+        [5, 10, 20, -1],
+        [5, 10, 20, "All"]
+      ],
+      responsive:true,
+      language:{
+        search: "_INPUT_",
+        searchPlaceholder: "Search Records",
+      }
+    });
+} );
+</script>
 </body>
 </html>

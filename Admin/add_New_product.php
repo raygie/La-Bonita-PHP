@@ -78,7 +78,15 @@ $a=6;
               </div>
               <div class="col-md-6">
                 <label for="inputprod_category" class="form-label">Category</label>
-                <input type="text" class="form-control" id="inputprod_category" name="inputprod_category" value=""/>
+                  <select
+                    id="inputprod_category"
+                    name="inputprod_category"
+                    class="form-control"
+                  >
+                    <option value="Retail/Samples" selected>Retail/Samples</option>
+                    <option value="Rebranding/Wholesale">Rebranding/Wholesale</option>
+                    <option value="Others">Others</option>
+                  </select>
               </div>
               <div class="col-md-12">
                 <label for="inputprod_desc" class="form-label">Description</label>
