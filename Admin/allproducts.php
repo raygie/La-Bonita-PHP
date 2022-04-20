@@ -47,8 +47,6 @@ $a=7;
 
   <!-- Main Sidebar Container -->
   <?php include 'includes/sidebar.php';
-    $result = $conn->query("SELECT * FROM products ORDER BY date_created desc");
-    $prod = $result->fetch_all(MYSQLI_ASSOC);
   ?>
   
 
@@ -74,7 +72,14 @@ $a=7;
             </div>
         <div class="card">
             <div class="card-body table-responsive">
-                
+            <div class="card-body table-responsive">
+            <?php
+              $query = "SELECT * FROM products";
+              $result = mysqli_query($conn, $query);
+              
+              if(mysqli_num_rows($result) > 0)
+              {
+                  ?>
                 <table class="table datatable" id="datatable">
                     <thead>
                         <tr>
@@ -90,11 +95,12 @@ $a=7;
                         </tr>
                     </thead>
                     <tbody>
-                        <?php $counter =  mysqli_num_rows($result);
-                            foreach ($prod as $prod): 
+                    <?php
+                          while($prod = mysqli_fetch_assoc($result))
+                          {
                         ?>
                             <tr>
-                              <td><?=$counter?></td>
+                              <td><?=$prod['id'];?></td>
                                 <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
                                 <td><?=$prod['prod_name'];?></td>
                                 <td><?=$prod['prod_price'];?></td>
@@ -102,12 +108,18 @@ $a=7;
                                 <td><?=$prod['prod_category'];?></td>
                                 <td><?=$prod['date_created'];?></td>
                                 <td>
-                                    <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#updateproduct">Update</button>'?>
+                                <form action="Editproductpage.php" method="POST">
+                                    <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
+                                    <button type="submit" name="edit_data" class="btn btn-success ">Update</button>
+                                  </form>
                                 </td>
                                 <td>
                                     <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
                                 </td>
                             </tr>
+                            <?php
+                          }
+                        ?>
                             <!-- Delete Modal -->
                             <div class="modal fade  " id="deleteModal-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
@@ -122,9 +134,15 @@ $a=7;
                             </div>
                             </div>
                         </div>
-                        <?php $counter--; endforeach; ?>
                     </tbody>
                 </table>
+                <?php
+              }
+              else
+              {
+                echo "No Record Found";
+              }
+            ?>
             </div>
         </div>
       </div><!-- /.container-fluid -->

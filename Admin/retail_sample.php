@@ -102,7 +102,10 @@ $a=8;
                                 <td><?=$prod['prod_desc'];?></td>
                                 <td><?=$prod['date_created'];?></td>
                                 <td>
-                                    <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#updateproduct">Update</button>'?>
+                                <form action="Editproductpage.php" method="POST">
+                                    <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
+                                    <button type="submit" name="edit_data" class="btn btn-success ">Update</button>
+                                  </form>
                                 </td>
                                 <td>
                                     <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
@@ -236,8 +239,6 @@ $a=8;
         [5, 10, 20, -1],
         [5, 10, 20, "All"]
       ],
-      "scrollY": 500,
-        "scrollX": true,
       responsive:true,
       language:{
         search: "_INPUT_",
