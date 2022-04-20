@@ -59,26 +59,26 @@ $a=1;
         </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <a href="allproducts.php" class="small-box-footer">
-                  <div class="small-box bg-warning">
+                  <div class="small-box" style="background-color: #ff9933; color:black;">
                     <div class="inner">
-                      <h3> All Products</h3>
-                      <h6>Total Product</h6>
+                      <h4> All Products</h4>
+                      <h6>Total no:</h6>
 
                       <?php
                         $query="SELECT * from products";
                         $query_run= mysqli_query($conn, $query);
                         if($total = mysqli_num_rows($query_run)){
-                          echo '<h4>'.$total.'</h4>';
+                          echo '<h3>'.$total.'</h3>';
                         }
                         else{
-                          echo'<h6>0</h6>';
+                          echo'<h3>0</h3>';
                         }
                       ?>
                     </div>
                     <div class="icon">
-                      <i class="ion ion-person-add"></i>
+                      <i class="ion ion-ios-list"></i>
                     </div>
                   </div>
             </a>
@@ -86,19 +86,19 @@ $a=1;
          
           <div class="col-md-6 col-lg-4">
             <a href="retail_sample.php" class="small-box-footer">
-                  <div class="small-box bg-danger">
+                  <div class="small-box" style="background-color: #cce0ff; color:black;">
                     <div class="inner">
-                      <h3>Retail</h3>
-                      <h6>Total Product</h6>
+                      <h4>Retail</h4>
+                      <h6>Total no:</h6>
 
                       <?php
                         $query="SELECT * from products WHERE prod_category = 'Retail/Samples'";
                         $query_run= mysqli_query($conn, $query);
                         if($total = mysqli_num_rows($query_run)){
-                          echo '<h4>'.$total.'</h4>';
+                          echo '<h3>'.$total.'</h3>';
                         }
                         else{
-                          echo'<h6>0</h6>';
+                          echo'<h3>0</h3>';
                         }
                       ?>
                     </div>
@@ -111,19 +111,19 @@ $a=1;
 
           <div class="col-md-6 col-lg-4">
             <a href="rebranding.php" class="small-box-footer">
-                  <div class="small-box bg-danger">
+                  <div class="small-box" style="background-color: #cce0ff; color:black;">
                     <div class="inner">
-                      <h3>Rebranding</h3>
-                      <h6>Total Product</h6>
+                      <h4>Rebranding</h4>
+                      <h6>Total no:</h6>
 
                       <?php
                         $query="SELECT * from products WHERE prod_category = 'Rebranding/Wholesale'";
                         $query_run= mysqli_query($conn, $query);
                         if($total = mysqli_num_rows($query_run)){
-                          echo '<h4>'.$total.'</h4>';
+                          echo '<h3>'.$total.'</h3>';
                         }
                         else{
-                          echo'<h6>0</h6>';
+                          echo'<h3>0</h3>';
                         }
                       ?>
                     </div>
