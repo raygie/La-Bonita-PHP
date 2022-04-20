@@ -99,7 +99,7 @@
                   </p>
                 </a>
               </li> 
-          <li class="nav-item has-treeview menu-open">
+          <!-- <li class="nav-item has-treeview menu-open">
                 <h5 class="pt-2 pb-2" style="color:white;">OTHER OPTIONS</h5>
           </li>
               <li class="nav-item has-treeview menu-open">
@@ -117,7 +117,7 @@
                     FAQ
                   </p>
                 </a>
-              </li>
+              </li> -->
           <li class="nav-item has-treeview menu-open">
                 <h5 class="pt-2 pb-2" style="color:#e28743;">User Management</h5>
           </li>

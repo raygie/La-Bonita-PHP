@@ -61,7 +61,7 @@ $a=7;
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1 class="m-0 text-dark">All Products</h1>
+                <h1 class="m-0 text-dark mt-2">All Products</h1>
               </div>
             </div>
           </div>

@@ -53,7 +53,7 @@ $a=6;
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Add New Product</h1>
+                <h1 class="m-0 text-dark mt-2">Add New Product</h1>
               </div>
             </div>
           </div>
