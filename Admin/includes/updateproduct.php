@@ -7,14 +7,40 @@ if(isset($_POST['update_btn'])){
     $inputprod_link = $_POST['edit_inputprod_link'];
     $inputprod_category = $_POST['edit_inputprod_category'];
     $inputprod_desc = $_POST['edit_inputprod_desc'];
+
     $prod_image = $_FILES["prod_image"]['name'];
 
-    
-        $sql = "UPDATE products SET prod_name = '$inputprod_name',prod_price = '$inputprod_price', link ='$inputprod_link', prod_category = '$inputprod_category', prod_desc = '$inputprod_desc', prod_image = '$prod_image' WHERE id = '$edit_id'";
+    $img_query = "SELECT * FROM products WHERE id = '$edit_id'";
+    $img_query_run = mysqli_query($conn, $img_query);
+    foreach($img_query_run as $img_row)
+    {
+        if($prod_image == NULL)
+        {
+            $image_data = $img_row['prod_image'];
+        }
+        else
+        {
+            if($img_path = "prodpic/" .$img_row['prod_image'])
+            {
+                unlink($img_path);
+                $image_data = $prod_image;
+            }
+        }
+    }
+
+        $sql = "UPDATE products SET prod_name = '$inputprod_name',prod_price = '$inputprod_price', link ='$inputprod_link', prod_category = '$inputprod_category', prod_desc = '$inputprod_desc', prod_image = '$image_data' WHERE id = '$edit_id'";
         
         if(mysqli_query($conn, $sql)){
-            move_uploaded_file($_FILES["prod_image"]["tmp_name"], "prodpic/".$_FILES["prod_image"]["name"]);
-            header('Location: ../allproducts.php');
+            if($prod_image == NULL)
+            {
+                header('Location: ../allproducts.php');
+            }
+            else
+            {
+                move_uploaded_file($_FILES["prod_image"]["tmp_name"], "prodpic/".$_FILES["prod_image"]["name"]);
+                header('Location: ../allproducts.php');
+            }
+            
         }
         else{
             echo "Error : ".$conn->error;

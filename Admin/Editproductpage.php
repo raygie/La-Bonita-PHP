@@ -104,14 +104,16 @@ include 'includes/connection.php';
                 <label for="edit_inputprod_desc" class="form-label">Description</label>
                 <textarea class="form-control" id="edit_inputprod_desc" rows="5" name="edit_inputprod_desc" ><?php echo $prod['prod_desc']?></textarea>
               </div>
-              <div class="col-md-12 mt-3 mb-3">
-              <label for="prod_image" class="form-label">Image</label>
-              <input class="fadfa" type="file" id="prod_image" name="prod_image" value="<?php echo $prod['prod_image']?>">
-              <!-- <div>
-              <?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?>
-              </div> -->
+              <div class="item_pic mt-3 mb-3">
+                <div><label class="form-label">Current Image</label></div>
+                <?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="150px;"'?>
               </div>
-              <div class="modal-footer">
+              <div class="col-md-12 mt-3 mb-3">
+              <label for="prod_image" class="form-label">New Image</label>
+              <input class="fadfa" type="file" id="prod_image" name="prod_image" value="<?php echo $prod['prod_image']?>">
+              </div>
+              <hr>
+              <div class="form-footer">
                 <button type="submit" class="btn btn-primary" name="update_btn" >Update</button>
                 <a href="allproducts.php" class="btn btn-secondary">Cancel</a>
               </div>
