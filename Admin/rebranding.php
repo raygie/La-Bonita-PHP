@@ -44,27 +44,22 @@ $a=9;
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <?php include 'includes/sidebar.php'; 
-    $result = $conn->query("SELECT * FROM products ORDER BY date_created desc");
-    $prod = $result->fetch_all(MYSQLI_ASSOC);
-  ?>
+  <?php include 'includes/sidebar.php';?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Rebranding/Wholesale Products</h1>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
+    <section class="content mt-5">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Rebranding/Wholesale</h1>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="container-fluid">
             <div class="col-12 d-flex justify-content-end">
                 <a type="button" class="btn btn-primary btn-lg my-3" href="add_New_product.php">
@@ -73,14 +68,19 @@ $a=9;
             </div>
         <div class="card">
             <div class="card-body table-responsive">
-
+            <?php
+              $query = "SELECT * FROM products WHERE prod_category='Rebranding/Wholesale'";
+              $result = mysqli_query($conn, $query);
+              
+              if(mysqli_num_rows($result) > 0)
+              {
+                  ?>
                 <table class="table datatable" id="datatable">
                     <thead>
                         <tr>
-                            <th>ID</th>
                             <th>Image</th>
-                            <th>Product Name</th>
-                            <th>Product Price</th>
+                            <th>Product</th>
+                            <th>Price</th>
                             <th>Description</th>
                             <th>Date</th>
                             <th>Edit</th>
@@ -88,11 +88,12 @@ $a=9;
                         </tr>
                     </thead>
                     <tbody>
-                        <?php $counter =  mysqli_num_rows($result);
-                            foreach ($prod as $prod): 
+                    <?php
+                          while($prod = mysqli_fetch_assoc($result))
+                          {
                         ?>
                             <tr>
-                              <td><?=$counter?></td>
+                              
                               <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
                                 <td><?=$prod['prod_name'];?></td>
                                 <td><?=$prod['prod_price'];?></td>
@@ -105,6 +106,9 @@ $a=9;
                                     <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
                                 </td>
                             </tr>
+                            <?php
+                          }
+                        ?>
                             <!-- Delete Modal -->
                             <div class="modal fade  " id="deleteModal-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
@@ -119,9 +123,16 @@ $a=9;
                             </div>
                             </div>
                         </div>
-                        <?php $counter--; endforeach; ?>
+
                     </tbody>
                 </table>
+                <?php
+              }
+              else
+              {
+                echo "No Record Found";
+              }
+            ?>
             </div>
         </div>
       </div><!-- /.container-fluid -->

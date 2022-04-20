@@ -46,20 +46,18 @@ $a=6;
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Add New Product</h1>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
+    <section class="content mt-5">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Add New Product</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       <div class="card card-outline card-info">
         <div class="card-header">
             <form action="includes/addproduct.php" method="post" class="row g-3" autocomplete="off" enctype="multipart/form-data" >

@@ -46,63 +46,96 @@ $a=1;
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
+    
+    <section class="content mt-5">
     <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard</h1>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
-
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <div class="row">
-         
-          <!-- ./col -->
-          <div class="col-md-6 col-lg-3">
-            <!-- small box -->
-			<a href="add-blog.php" class="small-box-footer">
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3> Add Blog</h3>
-
-                <p>Add</p>
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Dashboard</h1>
               </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-             </div>
-			</a>
+            </div>
           </div>
-          <!-- ./col -->
-          <div class="col-md-6 col-lg-3">
-            <!-- small box -->
-			<a href="allproducts.php" class="small-box-footer">
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>View Products</h3>
-
-                <p>View</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-ios-box"></i>
-              </div>
-             </div>
-			</a>
-          </div>
-          <!-- ./col -->
         </div>
-        <!-- /.row -->
-        <!-- Main row -->
-        
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="allproducts.php" class="small-box-footer">
+                  <div class="small-box bg-warning">
+                    <div class="inner">
+                      <h3> All Products</h3>
+                      <h6>Total Product</h6>
+
+                      <?php
+                        $query="SELECT * from products";
+                        $query_run= mysqli_query($conn, $query);
+                        if($total = mysqli_num_rows($query_run)){
+                          echo '<h4>'.$total.'</h4>';
+                        }
+                        else{
+                          echo'<h6>0</h6>';
+                        }
+                      ?>
+                    </div>
+                    <div class="icon">
+                      <i class="ion ion-person-add"></i>
+                    </div>
+                  </div>
+            </a>
+          </div>
+         
+          <div class="col-md-6 col-lg-4">
+            <a href="retail_sample.php" class="small-box-footer">
+                  <div class="small-box bg-danger">
+                    <div class="inner">
+                      <h3>Retail</h3>
+                      <h6>Total Product</h6>
+
+                      <?php
+                        $query="SELECT * from products WHERE prod_category = 'Retail/Samples'";
+                        $query_run= mysqli_query($conn, $query);
+                        if($total = mysqli_num_rows($query_run)){
+                          echo '<h4>'.$total.'</h4>';
+                        }
+                        else{
+                          echo'<h6>0</h6>';
+                        }
+                      ?>
+                    </div>
+                    <div class="icon">
+                      <i class="ion ion-ios-box"></i>
+                    </div>
+                  </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="rebranding.php" class="small-box-footer">
+                  <div class="small-box bg-danger">
+                    <div class="inner">
+                      <h3>Rebranding</h3>
+                      <h6>Total Product</h6>
+
+                      <?php
+                        $query="SELECT * from products WHERE prod_category = 'Rebranding/Wholesale'";
+                        $query_run= mysqli_query($conn, $query);
+                        if($total = mysqli_num_rows($query_run)){
+                          echo '<h4>'.$total.'</h4>';
+                        }
+                        else{
+                          echo'<h6>0</h6>';
+                        }
+                      ?>
+                    </div>
+                    <div class="icon">
+                      <i class="ion ion-ios-box"></i>
+                    </div>
+                  </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
     </section>
     <!-- /.content -->
   </div>

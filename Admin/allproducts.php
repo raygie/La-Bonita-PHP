@@ -54,20 +54,18 @@ $a=7;
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">All Products</h1>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
+    <section class="content mt-5">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0 text-dark">All Products</h1>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="container-fluid">
             <div class="col-12 d-flex justify-content-end">
                 <a type="button" class="btn btn-primary btn-lg my-3" href="add_New_product.php">
@@ -82,8 +80,8 @@ $a=7;
                         <tr>
                             <th>ID</th>
                             <th>Image</th>
-                            <th>Product Name</th>
-                            <th>Product Price</th>
+                            <th>Product</th>
+                            <th>Price</th>
                             <th>Description</th>
                             <th>Category</th>
                             <th>Date</th>
