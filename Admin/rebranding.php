@@ -50,7 +50,7 @@ $a=9;
   <div class="content-wrapper">
 
     <!-- Main content -->
-    <section class="content mt-5">
+      <section class="content mt-5">
         <div class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
@@ -66,124 +66,80 @@ $a=9;
                     Add New Product
                 </a>
             </div>
-        <div class="card">
+          <div class="card">
             <div class="card-body table-responsive">
-            <?php
-              $query = "SELECT * FROM products WHERE prod_category='Rebranding/Wholesale'";
-              $result = mysqli_query($conn, $query);
-              
-              if(mysqli_num_rows($result) > 0)
-              {
-                  ?>
-                <table class="table datatable" id="datatable">
-                    <thead>
-                        <tr>
-                            <th>Image</th>
-                            <th>Product</th>
-                            <th>Price</th>
-                            <th>Description</th>
-                            <th>Date</th>
-                            <th>Edit</th>
-                            <th>Delete</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    <?php
-                          while($prod = mysqli_fetch_assoc($result))
-                          {
-                        ?>
-                            <tr>
-                              
-                              <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
-                                <td><?=$prod['prod_name'];?></td>
-                                <td><?=$prod['prod_price'];?></td>
-                                <td><?=$prod['prod_desc'];?></td>
-                                <td><?=$prod['date_created'];?></td>
-                                <td>
-                                <form action="Editproductpage.php" method="POST">
-                                    <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
-                                    <button type="submit" name="edit_data" class="btn btn-success ">Update</button>
-                                  </form>
-                                </td>
-                                <td>
-                                    <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
-                                </td>
-                            </tr>
-                            <?php
-                          }
-                        ?>
-                            <!-- Delete Modal -->
-                            <div class="modal fade  " id="deleteModal-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h4 class="modal-title" id="exampleModalLabel">Are you sure you want to permanently delete this record?</h4>
+              <?php
+                $query = "SELECT * FROM products WHERE prod_category='Rebranding/Wholesale'";
+                $result = mysqli_query($conn, $query);
+                
+                if(mysqli_num_rows($result) > 0)
+                {
+                    ?>
+                  <table class="table datatable" id="datatable">
+                      <thead>
+                          <tr>
+                              <th>Image</th>
+                              <th>Product</th>
+                              <th>Price</th>
+                              <th>Description</th>
+                              <th>Date</th>
+                              <th>Edit</th>
+                              <th>Delete</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                      <?php
+                            while($prod = mysqli_fetch_assoc($result))
+                            {
+                          ?>
+                              <tr>
+                                
+                                <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
+                                  <td><?=$prod['prod_name'];?></td>
+                                  <td><?=$prod['prod_price'];?></td>
+                                  <td><?=$prod['prod_desc'];?></td>
+                                  <td><?=$prod['date_created'];?></td>
+                                  <td>
+                                  <form action="Editproductpage.php" method="POST">
+                                      <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
+                                      <button type="submit" name="edit_data" class="btn btn-success ">Update</button>
+                                    </form>
+                                  </td>
+                                  <td>
+                                      <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
+                                  </td>
+                              </tr>
+                              <!-- Delete Modal -->
+                              <div class="modal fade  " id="deleteModal-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                      <h4 class="modal-title" id="exampleModalLabel">Are you sure you want to permanently delete this record?</h4>
+                                      </div>
+                                          <div class="modal-footer">
+                                      <?php echo '<a  href=./includes/deleteproduct.php?id=' . $prod['id'].' class="btn btn-primary">Delete Record</a>'?>
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                      </div>
+                                  </div>
                                 </div>
-                                    <div class="modal-footer">
-                                <?php echo '<a  href=./includes/deleteproduct.php?id=' . $prod['id'].' class="btn btn-primary">Delete Record</a>'?>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-
-                    </tbody>
-                </table>
-                <?php
-              }
-              else
-              {
-                echo "No Record Found";
-              }
-            ?>
+                              </div>
+                              <?php
+                            }
+                          ?>
+                      </tbody>
+                  </table>
+                  <?php
+                }
+                else
+                {
+                  echo "No Record Found";
+                }
+              ?>
             </div>
-        </div>
-      </div><!-- /.container-fluid -->
-    </section>
+          </div>
+        </div><!-- /.container-fluid -->
+      </section>
     <!-- /.content -->
-    <div class="modal fade" id="updateproduct" tabindex="-1" aria-labelledby="updateproduct" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title">Edit Product</h3>
-          </div>
-          <div class="modal-body">
-            <form action="includes/addproduct.php" method="post" class="row g-3" autocomplete="off" >
-            
-              <div class="col-md-6">
-                <label for="inputprod_name" class="form-label">Product Name</label>
-                <input type="text" class="form-control" id="inputprod_name" name="inputprod_name" value="" required/>
-              </div>
-              <div class="col-md-6">
-                <label for="inputprod_price" class="form-label">Product Price</label>
-                <input type="text" class="form-control" id="inputprod_price" name="inputprod_price" value="" required/>
-              </div>
-              <div class="col-md-6">
-                <label for="inputprod_link" class="form-label">Link</label>
-                <input type="text" class="form-control" id="inputprod_link" name="inputprod_link" value="" required/>
-              </div>
-              <div class="col-md-6">
-                <label for="inputprod_category" class="form-label">Category</label>
-                <input type="text" class="form-control" id="inputprod_category" name="inputprod_category" value=""/>
-              </div>
-              <div class="col-md-12">
-                <label for="prod_desc" class="form-label">Description</label>
-                <textarea class="form-control" id="prod_desc" rows="3" value=""></textarea>
-              </div>
-              <div class="col-md-12">
-              <label for="inputprod_image" class="form-label">Image</label>
-              <input class="form-control" type="file" id="inputprod_image"value="">
-                  <img src="" width="120">
-              </div>
-            </form>
-          </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" >Save</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-            </div>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- Control Sidebar -->
