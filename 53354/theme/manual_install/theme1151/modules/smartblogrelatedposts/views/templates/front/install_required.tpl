@@ -1,0 +1,1 @@
+<p style="color:#ff0000;font-weight:bold;font-size:16px;line-height:16px;">smartlatestnews module needs smarblog module to be shown here. please install smartblog module</p>

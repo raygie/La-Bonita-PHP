@@ -1,0 +1,35 @@
+#homegooglemap #map {
+  height: 510px;
+  width: 100%; }
+  @media (max-width: 767px) {
+    #homegooglemap #map {
+      height: 400px; } }
+  @media (max-width: 479px) {
+    #homegooglemap #map {
+      height: 350px; } }
+
+#homegooglemap #map .marker_content {
+  width: 300px; }
+
+#homegooglemap #map .marker_content .clearfix {
+  margin-bottom: 5px; }
+
+#homegooglemap #map .marker_content .marker_logo {
+  float: left;
+  height: auto;
+  margin-right: 5px;
+  width: 45%; }
+
+#homegooglemap #map .marker_content b {
+  display: block; }
+
+#homegooglemap #map .marker_content .description {
+  width: 50%;
+  float: left; }
+
+#homegooglemap #map .marker_content > p {
+  float: left;
+  font-size: 11px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  width: 50%; }

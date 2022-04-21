@@ -1,0 +1,70 @@
+#languages-block-top {
+  float: right;
+  margin-top: 20px;
+  margin-right: 16px;
+  padding-right: 16px;
+  position: relative; }
+  @media (max-width: 479px) {
+    #languages-block-top {
+      display: inline-block;
+      float: none;
+      margin-right: 0;
+      margin-top: 0;
+      padding-right: 0;
+      width: 40%; }
+      #languages-block-top div.current {
+        border: 1px solid #878787; } }
+  #languages-block-top span.firstWord {
+    display: none; }
+  #languages-block-top div.current {
+    color: #777;
+    cursor: pointer;
+    font: 13px/15px "Noto Sans", sans-serif;
+    padding: 4px 2px; }
+    @media (max-width: 479px) {
+      #languages-block-top div.current {
+        text-align: center;
+        padding: 9px 5px 10px;
+        font-size: 11px; } }
+    #languages-block-top div.current strong {
+      font-weight: normal; }
+    #languages-block-top div.current:hover, #languages-block-top div.current.active {
+      color: #00c8c8; }
+    #languages-block-top div.current:after {
+      content: "\f107";
+      font-family: "FontAwesome";
+      font-size: 13px;
+      line-height: 13px;
+      padding-left: 8px; }
+      @media (max-width: 479px) {
+        #languages-block-top div.current:after {
+          padding-left: 2px; } }
+    #languages-block-top div.current.active:after {
+      content: "\f106"; }
+    @media (max-width: 479px) {
+      #languages-block-top div.current .cur-label {
+        display: none; } }
+  #languages-block-top ul {
+    background: #343436;
+    display: none;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 37px;
+    width: 157px;
+    z-index: 200; }
+    @media (min-width: 480px) and (max-width: 767px) {
+      #languages-block-top ul {
+        left: 0;
+        right: auto; } }
+    #languages-block-top ul li {
+      color: white;
+      line-height: 35px;
+      font-size: 13px; }
+      #languages-block-top ul li a,
+      #languages-block-top ul li > span {
+        padding: 0 10px 0 12px;
+        display: block;
+        color: white; }
+      #languages-block-top ul li.selected, #languages-block-top ul li:hover a {
+        background: #00c8c8; }

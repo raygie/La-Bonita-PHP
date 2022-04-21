@@ -1,0 +1,10 @@
+"Slide ID";Active;Position;Description;Title;Legend;Url;Image
+1;1;0;"<h2>ideal skin</h2>
+<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+<p><button class=""btn btn-default"" type=""button"">Shop now!</button></p>";"Sample 1";sample-1;index.php?id_category=5&controller=category;3f87be113bfc3c88ed947451d68bac51f0b4d5bd_slider_1.jpg
+2;1;0;"<h2>free shipping</h2>
+<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+<p><button class=""btn btn-default"" type=""button"">Shop now!</button></p>";"Sample 2";sample-2;index.php?id_category=6&controller=category;088892c998ec24e1255734572d3a0dc19d426830_slider_2.jpg
+3;1;0;"<h2>new arrivals</h2>
+<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+<p><button class=""btn btn-default"" type=""button"">Shop now!</button></p>";"Sample 3";sample-3;index.php?id_category=7&controller=category;5f2e6e09470af4896df6be8ccc19f1dd0ff37c9d_slider_3.jpg
