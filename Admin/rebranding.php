@@ -102,11 +102,11 @@ $a=9;
                                   <td>
                                   <form action="Editproductpage.php" method="POST">
                                       <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
-                                      <button type="submit" name="edit_data" class="btn btn-success ">Update</button>
+                                      <button type="submit" name="edit_data" class="btn btn-success "><i class="fas fa-edit"></i></button>
                                     </form>
                                   </td>
                                   <td>
-                                      <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'">Delete</button>'?>
+                                      <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'"><i class="fas fa-trash"></i></button>'?>
                                   </td>
                               </tr>
                               <!-- Delete Modal -->
