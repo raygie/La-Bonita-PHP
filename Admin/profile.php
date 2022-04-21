@@ -59,28 +59,8 @@ $a=12;
                 <h4>Administrator</h4>
                 </div>
                 <div class="text-center mb-5">
-                  <img src="assets/img/Labonita.png" width="180">
-                <!-- <?php $counter =  mysqli_num_rows($result);
-                  foreach ($admin as $admin): 
-                ?>
-                    <img src="<?php echo $counter['admin_image'];?>" width="180">
-                    <?php echo '<img src="'.$admin['admin_image'].'""width="180""'?>
-                <?php $counter--; endforeach; ?> -->
+                  <img src="assets/img/Labonita.png" width="375">
                 </div>
-                <div class="mx-auto"></div>
-            </div>
-            <div class="card card-outline card-info">
-                    <div class="card-body pt-3">
-            <div class="col-md-12 mt-3 mb-3">
-              <label for="inputprod_image" class="form-label">Image</label>
-              <input class="fdafa" type="file" id="inputprod_image"value="">
-              <div class="text-center" id="picmessage">
-                        </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="changeImage">Change Image</button>
-              </div>
-              </div>
-                    </div>
             </div>
         </div>
         <div class="col-xl-8">
