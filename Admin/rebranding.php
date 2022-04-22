@@ -100,10 +100,7 @@ $a=9;
                                   <td><?=$prod['prod_desc'];?></td>
                                   <td><?=$prod['date_created'];?></td>
                                   <td>
-                                  <form action="Editproductpage.php" method="POST">
-                                      <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
-                                      <button type="submit" name="edit_data" class="btn btn-success "><i class="fas fa-edit"></i></button>
-                                    </form>
+                                      <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#update-'.$prod['id'].'"><i class="fas fa-edit"></i></button>'?>
                                   </td>
                                   <td>
                                       <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'"><i class="fas fa-trash"></i></button>'?>
@@ -123,6 +120,65 @@ $a=9;
                                   </div>
                                 </div>
                               </div>
+                              <!-- End Delete Modal -->
+                              <!-- Edit Modal -->
+                              <div class="modal fade" id="update-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="update" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h3 class="modal-title">Edit Product</h3>
+                                    </div>
+                                      <div class="modal-body">
+                                        <form action="includes/updateproduct.php" method="post" class="row g-3" autocomplete="off" enctype="multipart/form-data" >
+                                          <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
+                                          <div class="col-md-12">
+                                            <label for="edit_inputprod_name" class="form-label">Product Name</label>
+                                            <input type="text" class="form-control" id="edit_inputprod_name" name="edit_inputprod_name" value="<?php echo $prod['prod_name']?>" required/>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="edit_inputprod_price" class="form-label">Product Price</label>
+                                            <input type="text" class="form-control" id="edit_inputprod_price" name="edit_inputprod_price" value="<?php echo $prod['prod_price']?>" required/>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="edit_inputprod_link" class="form-label">Link</label>
+                                            <input type="text" class="form-control" id="edit_inputprod_link" name="edit_inputprod_link" value="<?php echo $prod['link']?>" required/>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="edit_inputprod_category" class="form-label">Category</label>
+                                              <select
+                                                id="edit_inputprod_category"
+                                                name="edit_inputprod_category"
+                                                class="form-control"
+                                                
+                                              >
+                                                <option value="Retail/Samples"<?php if($prod['prod_category']=='Retail/Samples' ) echo 'selected' ?>>Retail/Samples</option>
+                                                <option value="Rebranding/Wholesale"<?php if($prod['prod_category']=='Rebranding/Wholesale' ) echo 'selected' ?>>Rebranding/Wholesale</option>
+                                                <option value="Others"<?php if($prod['prod_category']=='Others' ) echo 'selected' ?>>Others</option>
+                                              </select>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="edit_inputprod_desc" class="form-label">Description</label>
+                                            <textarea class="form-control" id="edit_inputprod_desc" rows="5" name="edit_inputprod_desc" ><?php echo $prod['prod_desc']?></textarea>
+                                          </div>
+                                          <div class="item_pic mt-3 mb-3">
+                                            <div><label class="form-label">Current Image</label></div>
+                                            <?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="150px;"'?>
+                                          </div>
+                                          <div class="col-md-12 mt-3 mb-3">
+                                          <label for="prod_image" class="form-label">New Image</label>
+                                          <input class="fadfa" type="file" id="prod_image" name="prod_image" value="<?php echo $prod['prod_image']?>">
+                                          </div>
+                                          <hr>
+                                          <div class="d-md-flex align-items-center justify-content-end">
+                                            <button type="submit" class="btn btn-primary my-3 mx-1" name="update_btn" >Update</button>
+                                            <button type="button" class="btn btn-secondary my-3 mx-1" data-dismiss="modal">Cancel</button>
+                                          </div>
+                                        </form>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- End Edit Modal -->
                               <?php
                             }
                           ?>
