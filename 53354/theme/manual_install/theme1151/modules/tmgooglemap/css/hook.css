@@ -1,0 +1,29 @@
+#homegooglemap #map {
+	width:100%;
+	height:300px;	
+}
+#homegooglemap #map .marker_content {
+	width:300px;	
+}
+#homegooglemap #map .marker_content .clearfix {
+	margin-bottom:5px;	
+}
+#homegooglemap #map .marker_content .marker_logo {
+	float:left;
+	margin-right:5px;
+	width:45%;
+	height:auto;
+}
+#homegooglemap #map .marker_content b { display:block;}
+#homegooglemap #map .marker_content .description {
+	width:50%;
+	float:left;	
+}
+
+#homegooglemap #map .marker_content > p {
+	font-size:11px;
+	margin-bottom:5px;
+	width:50%;
+	float:left;
+	padding-right:10px;	
+}
