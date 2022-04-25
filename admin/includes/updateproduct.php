@@ -34,11 +34,14 @@ if(isset($_POST['update_btn'])){
             if($prod_image == NULL)
             {
                 header('Location: ../all-products.php');
+
             }
             else
             {
                 move_uploaded_file($_FILES["prod_image"]["tmp_name"], "prodpic/".$_FILES["prod_image"]["name"]);
+
                 header('Location: ../all-products.php');
+
             }
             
         }

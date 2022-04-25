@@ -68,7 +68,9 @@
             <h5 class="pt-2 pb-2" style="color:white;">PRODUCT SECTION</h5>
 			    </li>
               <li class="nav-item has-treeview menu-open">
+
                 <a href="add-new-product.php" class="nav-link <?php if($a==6){ echo 'active'; }?>">
+
                   <i class="fa fa-plus nav-icon"></i>
                   <p>
                     Add New Product
@@ -77,6 +79,7 @@
               </li> 
               <li class="nav-item has-treeview menu-open">
                 <a href="all-products.php" class="nav-link <?php if($a==7){ echo 'active'; }?>">
+
                   <i class="fa fa-eye nav-icon"></i>
                   <p>
                     All Products
@@ -85,6 +88,7 @@
               </li> 
               <li class="nav-item has-treeview menu-open">
                 <a href="retail-sample.php" class="nav-link <?php if($a==8){ echo 'active'; }?>">
+
                   <i class="fa fa-eye nav-icon"></i>
                   <p>
                     Retail/Samples

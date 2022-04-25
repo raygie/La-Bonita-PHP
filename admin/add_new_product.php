@@ -2,7 +2,7 @@
 include 'includes/sessions.php';
 include 'includes/connection.php';
 
-$a=1;
+$a=6;
 
 ?>
 <!DOCTYPE html>
@@ -46,97 +46,60 @@ $a=1;
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    
+
+    <!-- Main content -->
     <section class="content mt-5">
-    <div class="content-header">
+        <div class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1 class="m-0 text-dark mt-2">Dashboard</h1>
+                <h1 class="m-0 text-dark mt-2">Add New Product</h1>
               </div>
             </div>
           </div>
         </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <a href="all-products.php" class="small-box-footer">
-
-                  <div class="small-box" style="background-color: #ff9933; color:black;">
-                    <div class="inner">
-                      <h4> All Products</h4>
-                      <h6>Total no:</h6>
-
-                      <?php
-                        $query="SELECT * from products";
-                        $query_run= mysqli_query($conn, $query);
-                        if($total = mysqli_num_rows($query_run)){
-                          echo '<h3>'.$total.'</h3>';
-                        }
-                        else{
-                          echo'<h3>0</h3>';
-                        }
-                      ?>
-                    </div>
-                    <div class="icon">
-                      <i class="ion ion-ios-list"></i>
-                    </div>
-                  </div>
-            </a>
-          </div>
-         
-          <div class="col-md-6 col-lg-4">
-
-            <a href="retail-sample.php" class="small-box-footer">
-
-                  <div class="small-box" style="background-color: #cce0ff; color:black;">
-                    <div class="inner">
-                      <h4>Retail</h4>
-                      <h6>Total no:</h6>
-
-                      <?php
-                        $query="SELECT * from products WHERE prod_category = 'Retail/Samples'";
-                        $query_run= mysqli_query($conn, $query);
-                        if($total = mysqli_num_rows($query_run)){
-                          echo '<h3>'.$total.'</h3>';
-                        }
-                        else{
-                          echo'<h3>0</h3>';
-                        }
-                      ?>
-                    </div>
-                    <div class="icon">
-                      <i class="ion ion-ios-box"></i>
-                    </div>
-                  </div>
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <a href="rebranding.php" class="small-box-footer">
-                  <div class="small-box" style="background-color: #cce0ff; color:black;">
-                    <div class="inner">
-                      <h4>Rebranding</h4>
-                      <h6>Total no:</h6>
-
-                      <?php
-                        $query="SELECT * from products WHERE prod_category = 'Rebranding/Wholesale'";
-                        $query_run= mysqli_query($conn, $query);
-                        if($total = mysqli_num_rows($query_run)){
-                          echo '<h3>'.$total.'</h3>';
-                        }
-                        else{
-                          echo'<h3>0</h3>';
-                        }
-                      ?>
-                    </div>
-                    <div class="icon">
-                      <i class="ion ion-ios-box"></i>
-                    </div>
-                  </div>
-            </a>
-          </div>
-          
+      <div class="card card-outline card-info">
+        <div class="card-header">
+            <form action="includes/addproduct.php" method="post" class="row g-3" autocomplete="off" enctype="multipart/form-data" >
+            
+              <div class="col-md-6">
+                <label for="inputprod_name" class="form-label">Product Name</label>
+                <input type="text" class="form-control" id="inputprod_name" name="inputprod_name" value="" required/>
+              </div>
+              <div class="col-md-6">
+                <label for="inputprod_price" class="form-label">Product Price</label>
+                <input type="text" class="form-control" id="inputprod_price" name="inputprod_price" value="" required/>
+              </div>
+              <div class="col-md-6">
+                <label for="inputprod_link" class="form-label">Link</label>
+                <input type="text" class="form-control" id="inputprod_link" name="inputprod_link" value="" required/>
+              </div>
+              <div class="col-md-6">
+                <label for="inputprod_category" class="form-label">Category</label>
+                  <select
+                    id="inputprod_category"
+                    name="inputprod_category"
+                    class="form-control"
+                  >
+                    <option value="Retail/Samples" selected>Retail/Samples</option>
+                    <option value="Rebranding/Wholesale">Rebranding/Wholesale</option>
+                    <option value="Others">Others</option>
+                  </select>
+              </div>
+              <div class="col-md-12">
+                <label for="inputprod_desc" class="form-label">Description</label>
+                <textarea class="form-control" id="inputprod_desc" rows="5" value="" name="inputprod_desc"required></textarea>
+              </div>
+              <div class="col-md-12 mt-3 mb-3">
+              <label for="prod_image" class="form-label">Image</label>
+              <input class="fadfa" type="file" id="prod_image" name="prod_image" value="">
+                  <img src="" width="120">
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" name="submit" >Save</button>
+                <button type="Reset" value="Reset" class="btn btn-secondary">Clear</button>
+              </div>
+            </form>
         </div>
       </div>
     </section>

@@ -11,6 +11,7 @@ $id = $_GET['id'];
     if($conn->query($sql)){
         unlink($path);
         header("Location:../all-products.php");
+
     }
     else{
         echo "Error deleting record: ".$conn->error;
