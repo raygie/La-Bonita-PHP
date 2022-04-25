@@ -82,10 +82,10 @@ $a=7;
                 <table class="table datatable" id="datatable">
                     <thead>
                         <tr>
+                            <th>ID</th>
                             <th>Image</th>
                             <th>Product</th>
                             <th>Price</th>
-                            <th>Description</th>
                             <th>Category</th>
                             <th>Date</th>
                             <th>Edit</th>
@@ -98,10 +98,10 @@ $a=7;
                           {
                         ?>
                             <tr>
+                            <td><?=$prod['id'];?></td>
                                 <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
                                 <td><?=$prod['prod_name'];?></td>
                                 <td><?=$prod['prod_price'];?></td>
-                                <td><?=$prod['prod_desc'];?></td>
                                 <td><?=$prod['prod_category'];?></td>
                                 <td><?=$prod['date_created'];?></td>
                                 <td>

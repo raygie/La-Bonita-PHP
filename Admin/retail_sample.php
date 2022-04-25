@@ -80,10 +80,10 @@ $a=8;
                   <table class="table datatable" id="datatable">
                       <thead>
                           <tr>
+                            <th>ID</th>
                               <th>Image</th>
                               <th>Product</th>
                               <th>Price</th>
-                              <th>Description</th>
                               <th>Date</th>
                               <th>Edit</th>
                               <th>Delete</th>
@@ -96,10 +96,10 @@ $a=8;
                           ?>
                           
                               <tr>
+                              <td><?=$prod['id'];?></td>
                                 <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
                                   <td><?=$prod['prod_name'];?></td>
                                   <td><?=$prod['prod_price'];?></td>
-                                  <td><?=$prod['prod_desc'];?></td>
                                   <td><?=$prod['date_created'];?></td>
                                   <td>
                                       <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#update-'.$prod['id'].'"><i class="fas fa-edit"></i></button>'?>
