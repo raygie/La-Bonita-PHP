@@ -10,7 +10,7 @@ $id = $_GET['id'];
   else{
     if($conn->query($sql)){
         unlink($path);
-        header("Location:../allproducts.php");
+        header("Location:../all-products.php");
     }
     else{
         echo "Error deleting record: ".$conn->error;

@@ -2,7 +2,7 @@
 include 'includes/sessions.php';
 include 'includes/connection.php';
 
-$a=1;
+
 
 ?>
 <!DOCTYPE html>
@@ -46,94 +46,82 @@ $a=1;
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    
+
+    <!-- Main content -->
     <section class="content mt-5">
-    <div class="content-header">
+        <div class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1 class="m-0 text-dark mt-2">Dashboard</h1>
+                <h1 class="m-0 text-dark mt-2">Edit Product</h1>
               </div>
             </div>
           </div>
         </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <a href="allproducts.php" class="small-box-footer">
-                  <div class="small-box" style="background-color: #ff9933; color:black;">
-                    <div class="inner">
-                      <h4> All Products</h4>
-                      <h6>Total no:</h6>
+      <div class="card card-outline card-info">
+        <div class="card-header">
+            <?php
+                if(isset($_POST['edit_data']))
+                {
+                    $id = $_POST['edit_id'];
 
-                      <?php
-                        $query="SELECT * from products";
-                        $query_run= mysqli_query($conn, $query);
-                        if($total = mysqli_num_rows($query_run)){
-                          echo '<h3>'.$total.'</h3>';
-                        }
-                        else{
-                          echo'<h3>0</h3>';
-                        }
-                      ?>
-                    </div>
-                    <div class="icon">
-                      <i class="ion ion-ios-list"></i>
-                    </div>
-                  </div>
-            </a>
-          </div>
-         
-          <div class="col-md-6 col-lg-4">
-            <a href="retail_sample.php" class="small-box-footer">
-                  <div class="small-box" style="background-color: #cce0ff; color:black;">
-                    <div class="inner">
-                      <h4>Retail</h4>
-                      <h6>Total no:</h6>
+                    $query = "SELECT * FROM products WHERE id='$id'";
+                    $query_run = mysqli_query($conn,$query);
 
-                      <?php
-                        $query="SELECT * from products WHERE prod_category = 'Retail/Samples'";
-                        $query_run= mysqli_query($conn, $query);
-                        if($total = mysqli_num_rows($query_run)){
-                          echo '<h3>'.$total.'</h3>';
-                        }
-                        else{
-                          echo'<h3>0</h3>';
-                        }
-                      ?>
-                    </div>
-                    <div class="icon">
-                      <i class="ion ion-ios-box"></i>
-                    </div>
-                  </div>
-            </a>
-          </div>
+                    foreach($query_run as $prod)
+                    {
+                    ?>
 
-          <div class="col-md-6 col-lg-4">
-            <a href="rebranding.php" class="small-box-footer">
-                  <div class="small-box" style="background-color: #cce0ff; color:black;">
-                    <div class="inner">
-                      <h4>Rebranding</h4>
-                      <h6>Total no:</h6>
-
-                      <?php
-                        $query="SELECT * from products WHERE prod_category = 'Rebranding/Wholesale'";
-                        $query_run= mysqli_query($conn, $query);
-                        if($total = mysqli_num_rows($query_run)){
-                          echo '<h3>'.$total.'</h3>';
-                        }
-                        else{
-                          echo'<h3>0</h3>';
-                        }
-                      ?>
-                    </div>
-                    <div class="icon">
-                      <i class="ion ion-ios-box"></i>
-                    </div>
-                  </div>
-            </a>
-          </div>
-          
+                    
+            <form action="includes/updateproduct.php" method="post" class="row g-3" autocomplete="off" enctype="multipart/form-data" >
+            <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
+              <div class="col-md-6">
+                <label for="edit_inputprod_name" class="form-label">Product Name</label>
+                <input type="text" class="form-control" id="edit_inputprod_name" name="edit_inputprod_name" value="<?php echo $prod['prod_name']?>" required/>
+              </div>
+              <div class="col-md-6">
+                <label for="edit_inputprod_price" class="form-label">Product Price</label>
+                <input type="text" class="form-control" id="edit_inputprod_price" name="edit_inputprod_price" value="<?php echo $prod['prod_price']?>" required/>
+              </div>
+              <div class="col-md-6">
+                <label for="edit_inputprod_link" class="form-label">Link</label>
+                <input type="text" class="form-control" id="edit_inputprod_link" name="edit_inputprod_link" value="<?php echo $prod['link']?>" required/>
+              </div>
+              <div class="col-md-6">
+                <label for="edit_inputprod_category" class="form-label">Category</label>
+                  <select
+                    id="edit_inputprod_category"
+                    name="edit_inputprod_category"
+                    class="form-control"
+                    
+                  >
+                    <option value="Retail/Samples"<?php if($prod['prod_category']=='Retail/Samples' ) echo 'selected' ?>>Retail/Samples</option>
+                    <option value="Rebranding/Wholesale"<?php if($prod['prod_category']=='Rebranding/Wholesale' ) echo 'selected' ?>>Rebranding/Wholesale</option>
+                    <option value="Others"<?php if($prod['prod_category']=='Others' ) echo 'selected' ?>>Others</option>
+                  </select>
+              </div>
+              <div class="col-md-12">
+                <label for="edit_inputprod_desc" class="form-label">Description</label>
+                <textarea class="form-control" id="edit_inputprod_desc" rows="5" name="edit_inputprod_desc" ><?php echo $prod['prod_desc']?></textarea>
+              </div>
+              <div class="item_pic mt-3 mb-3">
+                <div><label class="form-label">Current Image</label></div>
+                <?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="150px;"'?>
+              </div>
+              <div class="col-md-12 mt-3 mb-3">
+              <label for="prod_image" class="form-label">New Image</label>
+              <input class="fadfa" type="file" id="prod_image" name="prod_image" value="<?php echo $prod['prod_image']?>">
+              </div>
+              <hr>
+              <div class="form-footer">
+                <button type="submit" class="btn btn-primary" name="update_btn" >Update</button>
+                <a href="all-products.php" class="btn btn-secondary">Cancel</a>
+              </div>
+            </form>
+            <?php    
+                    }
+                }
+            ?>
         </div>
       </div>
     </section>

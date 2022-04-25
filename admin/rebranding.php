@@ -2,7 +2,7 @@
 include 'includes/sessions.php';
 include 'includes/connection.php';
 
-$a=8;
+$a=9;
 
 ?>
 <!DOCTYPE html>
@@ -50,33 +50,31 @@ $a=8;
   <div class="content-wrapper">
 
     <!-- Main content -->
-    <section class="content mt-5">
+      <section class="content mt-5">
         <div class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1 class="m-0 text-dark mt-2">Retail/Samples</h1>
+                <h1 class="m-0 text-dark mt-2">Rebranding/Wholesale</h1>
               </div>
             </div>
           </div>
         </div>
         <div class="container-fluid">
             <div class="col-12 d-flex justify-content-end">
-                <a type="button" class="btn btn-primary btn-lg my-3" href="add_New_product.php">
+                <a type="button" class="btn btn-primary btn-lg my-3" href="add-new-product.php">
                     Add New Product
                 </a>
             </div>
           <div class="card">
             <div class="card-body table-responsive">
               <?php
-                $query = "SELECT * FROM products WHERE prod_category='Retail/Samples'";
+                $query = "SELECT * FROM products WHERE prod_category='Rebranding/Wholesale'";
                 $result = mysqli_query($conn, $query);
                 
                 if(mysqli_num_rows($result) > 0)
                 {
                     ?>
-                    
-
                   <table class="table datatable" id="datatable">
                       <thead>
                           <tr>
@@ -90,11 +88,10 @@ $a=8;
                           </tr>
                       </thead>
                       <tbody>
-                          <?php
+                      <?php
                             while($prod = mysqli_fetch_assoc($result))
                             {
                           ?>
-                          
                               <tr>
                               <td><?=$prod['id'];?></td>
                                 <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
@@ -103,7 +100,6 @@ $a=8;
                                   <td><?=$prod['date_created'];?></td>
                                   <td>
                                       <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#update-'.$prod['id'].'"><i class="fas fa-edit"></i></button>'?>
-                                  </td>
                                   </td>
                                   <td>
                                       <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'"><i class="fas fa-trash"></i></button>'?>
@@ -197,7 +193,7 @@ $a=8;
             </div>
           </div>
         </div><!-- /.container-fluid -->
-    </section>
+      </section>
     <!-- /.content -->
   </div>
 

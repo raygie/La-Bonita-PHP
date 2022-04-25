@@ -33,12 +33,12 @@ if(isset($_POST['update_btn'])){
         if(mysqli_query($conn, $sql)){
             if($prod_image == NULL)
             {
-                header('Location: ../allproducts.php');
+                header('Location: ../all-products.php');
             }
             else
             {
                 move_uploaded_file($_FILES["prod_image"]["tmp_name"], "prodpic/".$_FILES["prod_image"]["name"]);
-                header('Location: ../allproducts.php');
+                header('Location: ../all-products.php');
             }
             
         }

@@ -2,7 +2,7 @@
 include 'includes/sessions.php';
 include 'includes/connection.php';
 
-$a=9;
+$a=7;
 
 ?>
 <!DOCTYPE html>
@@ -13,6 +13,7 @@ $a=9;
   <?php include 'includes/title.php'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="plugins/bootstrap-5.1.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -32,6 +33,7 @@ $a=9;
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
+  <link rel="stylesheet" href="plugins/simple-datatables/style.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -44,84 +46,88 @@ $a=9;
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <?php include 'includes/sidebar.php';?>
+  <?php include 'includes/sidebar.php';
+  ?>
+  
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
 
     <!-- Main content -->
-      <section class="content mt-5">
+    <section class="content mt-5">
         <div class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1 class="m-0 text-dark mt-2">Rebranding/Wholesale</h1>
+                <h1 class="m-0 text-dark mt-2">All Products</h1>
               </div>
             </div>
           </div>
         </div>
         <div class="container-fluid">
             <div class="col-12 d-flex justify-content-end">
-                <a type="button" class="btn btn-primary btn-lg my-3" href="add_New_product.php">
+                <a type="button" class="btn btn-primary btn-lg my-3" href="add-new-product.php">
                     Add New Product
                 </a>
             </div>
           <div class="card">
             <div class="card-body table-responsive">
-              <?php
-                $query = "SELECT * FROM products WHERE prod_category='Rebranding/Wholesale'";
-                $result = mysqli_query($conn, $query);
-                
-                if(mysqli_num_rows($result) > 0)
-                {
-                    ?>
-                  <table class="table datatable" id="datatable">
-                      <thead>
-                          <tr>
+            <?php
+              $query = "SELECT * FROM products";
+              $result = mysqli_query($conn, $query);
+              
+              if(mysqli_num_rows($result) > 0)
+              {
+                  ?>
+                <table class="table datatable" id="datatable">
+                    <thead>
+                        <tr>
                             <th>ID</th>
-                              <th>Image</th>
-                              <th>Product</th>
-                              <th>Price</th>
-                              <th>Date</th>
-                              <th>Edit</th>
-                              <th>Delete</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                      <?php
-                            while($prod = mysqli_fetch_assoc($result))
-                            {
-                          ?>
-                              <tr>
-                              <td><?=$prod['id'];?></td>
+                            <th>Image</th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                          while($prod = mysqli_fetch_assoc($result))
+                          {
+                        ?>
+                            <tr>
+                            <td><?=$prod['id'];?></td>
                                 <td><?php echo '<img src="includes/prodpic/'.$prod['prod_image'].'" width="100px;"'?></td>
-                                  <td><?=$prod['prod_name'];?></td>
-                                  <td><?=$prod['prod_price'];?></td>
-                                  <td><?=$prod['date_created'];?></td>
-                                  <td>
+                                <td><?=$prod['prod_name'];?></td>
+                                <td><?=$prod['prod_price'];?></td>
+                                <td><?=$prod['prod_category'];?></td>
+                                <td><?=$prod['date_created'];?></td>
+                                <td>
                                       <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#update-'.$prod['id'].'"><i class="fas fa-edit"></i></button>'?>
                                   </td>
-                                  <td>
-                                      <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'"><i class="fas fa-trash"></i></button>'?>
-                                  </td>
-                              </tr>
-                              <!-- Delete Modal -->
-                              <div class="modal fade  " id="deleteModal-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                  <div class="modal-content">
-                                      <div class="modal-header">
-                                      <h4 class="modal-title" id="exampleModalLabel">Are you sure you want to permanently delete this record?</h4>
-                                      </div>
-                                          <div class="modal-footer">
-                                      <?php echo '<a  href=./includes/deleteproduct.php?id=' . $prod['id'].' class="btn btn-primary">Delete Record</a>'?>
-                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                      </div>
-                                  </div>
+                                <td>
+                                    <?php echo '<button type="button" class="btn btn-danger " data-toggle="modal" data-target="#deleteModal-'.$prod['id'].'"><i class="fas fa-trash"></i></button>'?>
+                                </td>
+                            </tr>
+                            <!-- Delete Modal -->
+                            <div class="modal fade  " id="deleteModal-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h4 class="modal-title" id="exampleModalLabel">Are you sure you want to permanently delete this record?</h4>
+                                    </div>
+                                        <div class="modal-footer">
+                                    <?php echo '<a  href=./includes/deleteproduct.php?id=' . $prod['id'].' class="btn btn-primary">Delete Record</a>'?>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    </div>
                                 </div>
                               </div>
-                              <!-- End Delete Modal -->
-                              <!-- Edit Modal -->
-                              <div class="modal fade" id="update-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="update" aria-hidden="true">
+                            </div>
+                            <!-- End Delete Modal -->
+                            <!-- Edit Modal -->
+                            <div class="modal fade" id="update-<?php echo $prod['id'];?>" tabindex="-1" aria-labelledby="update" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-lg">
                                   <div class="modal-content">
                                     <div class="modal-header">
@@ -178,22 +184,21 @@ $a=9;
                                 </div>
                               </div>
                               <!-- End Edit Modal -->
-                              <?php
-                            }
-                          ?>
-                      </tbody>
-                  </table>
-                  <?php
-                }
-                else
-                {
-                  echo "No Record Found";
-                }
-              ?>
-            </div>
+                            <?php
+                          }
+                        ?>
+                    </tbody>
+                </table>
+                <?php
+              }
+              else
+              {
+                echo "No Record Found";
+              }
+            ?>
           </div>
         </div><!-- /.container-fluid -->
-      </section>
+    </section>
     <!-- /.content -->
   </div>
 
@@ -239,6 +244,7 @@ $a=9;
 <script src="assets/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="assets/js/demo.js"></script>
+<script src="plugins/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
 <script>

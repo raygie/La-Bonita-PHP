@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
         
         if(mysqli_query($conn, $sql)){
             move_uploaded_file($_FILES["prod_image"]["tmp_name"], "prodpic/".$_FILES["prod_image"]["name"]);
-            header('Location: ../allproducts.php');
+            header('Location: ../all-products.php');
         }
         else{
             echo "Error : ".$conn->error;
