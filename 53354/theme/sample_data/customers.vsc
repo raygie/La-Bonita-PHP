@@ -1,5 +1,0 @@
-"Customer ID";"Active (0/1)";"Titles ID (Mr = 1, Ms = 2, else 0)";"Email *";"Password *";"Birthday (yyyy-mm-dd)";"Last Name *";"First Name *";"Newsletter (0/1)";"Opt-in (0/1)";"Default group ID"
-1;1;1;pub@prestashop.com;7daad3e99435d615471f8a935fbda85f;1970-01-15;DOE;John;1;1;3
-2;1;0;admin212@admin.com;dd7441c54731543f01ed158e903d0fd2;0000-00-00;admin;admin;0;0;2
-3;1;0;admin2112@admin.com;ddf9522cb81a3146b1aa19128c6e8248;0000-00-00;admin;admin;0;0;2
-4;1;0;bob@bob.bob;d7e99c50b32cadb58fe7b294914585a4;0000-00-00;Admin;Admin;0;0;3
