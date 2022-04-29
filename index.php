@@ -21,7 +21,6 @@
 <body>
     <!-- Navbar -->
     <?php include 'includes/navbar.php';?>
-    <?php include 'includes/pages/carousel/carousel.php'; ?>
     <script src="plugins/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

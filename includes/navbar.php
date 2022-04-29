@@ -41,19 +41,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="#">Blogs</a></li>
           <li><a href="#">About</a></li>
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Products
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Retail</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Rebranding</a></li>
-          </ul>
-        </li>
+          <li class="nav-link <?php if($a==1){ echo 'active'; }?>"><a href="allproducts.php">Products</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Testimonials</a></li>
         </ul>

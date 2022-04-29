@@ -52,18 +52,15 @@ $a=12;
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-xl-12">
             <div class="card card-outline card-info">
                 <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
                 <h2><?php echo $_SESSION["username"]; ?></h2>
                 <h4>Administrator</h4>
                 </div>
-                <div class="text-center mb-5">
-                  <img src="assets/img/Labonita.png" width="375">
-                </div>
             </div>
         </div>
-        <div class="col-xl-8">
+        <div class="col-xl-12">
             <div class="col-lg-12">
                 <div class="card card-outline card-info">
                     <div class="card-body pt-3">
