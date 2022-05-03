@@ -47,7 +47,7 @@
 <body class="u-body u-xl-mode">
     <header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417">
         <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-            <a href="Home.html" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
+            <a href="Home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
@@ -73,40 +73,40 @@
                     <ul class="u-custom-font u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Home.html" style="padding: 10px 20px;">Home</a>
+                                href="Home.php" style="padding: 10px 20px;">Home</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="About-Us.html" style="padding: 10px 20px;">About Us</a>
+                                href="About-Us.php" style="padding: 10px 20px;">About Us</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Objectives.html" style="padding: 10px 20px;">Objectives</a>
+                                href="Objectives.php" style="padding: 10px 20px;">Objectives</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Products.html" style="padding: 10px 20px;">Products</a>
+                                href="Products.php" style="padding: 10px 20px;">Products</a>
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="All-Products.html">All Products</a>
+                                            href="All-Products.php">All Products</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Retail.html">Retail/Samples</a>
+                                            href="Retail.php">Retail/Samples</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Rebrand.html">Rebranding/Wholesale</a>
+                                            href="Rebrand.php">Rebranding/Wholesale</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Contacts.html" style="padding: 10px 20px;">Contacts</a>
+                                href="Contacts.php" style="padding: 10px 20px;">Contacts</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Testimonials.html" style="padding: 10px 20px;">Testimonials</a>
+                                href="Testimonials.php" style="padding: 10px 20px;">Testimonials</a>
                         </li>
                     </ul>
                 </div>
@@ -115,35 +115,35 @@
                         <div class="u-inner-container-layout u-sidenav-overflow">
                             <div class="u-menu-close"></div>
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
                                 </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.html">About
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About
                                         Us</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Objectives.html">Objectives</a>
+                                        href="Objectives.php">Objectives</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Products.html">Products</a>
+                                        href="Products.php">Products</a>
                                     <div class="u-nav-popup">
                                         <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="All-Products.html">All Products</a>
+                                                    href="All-Products.php">All Products</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Retail.html">Retail/Samples</a>
+                                                    href="Retail.php">Retail/Samples</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Rebrand.html">Rebranding/Wholesale</a>
+                                                    href="Rebrand.php">Rebranding/Wholesale</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Contacts.html">Contacts</a>
+                                        href="Contacts.php">Contacts</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Testimonials.html">Testimonials</a>
+                                        href="Testimonials.php">Testimonials</a>
                                 </li>
                             </ul>
                         </div>

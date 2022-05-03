@@ -4,12 +4,12 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Our Categories">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Retail</title>
+    <title>Products</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-    <link rel="stylesheet" href="Retail.css" media="screen">
+    <link rel="stylesheet" href="Products.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
@@ -17,7 +17,6 @@
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
-
 
 
     <script type="application/ld+json">
@@ -39,16 +38,16 @@
     <meta name="theme-color" content="#478ac9">
     <meta name="twitter:site" content="@">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Retail">
+    <meta name="twitter:title" content="Products">
     <meta name="twitter:description" content="Labonita">
-    <meta property="og:title" content="Retail">
+    <meta property="og:title" content="Products">
     <meta property="og:type" content="website">
 </head>
 
 <body class="u-body u-xl-mode">
     <header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417">
         <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-            <a href="Home.html" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
+            <a href="Home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
@@ -74,40 +73,40 @@
                     <ul class="u-custom-font u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Home.html" style="padding: 10px 20px;">Home</a>
+                                href="Home.php" style="padding: 10px 20px;">Home</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="About-Us.html" style="padding: 10px 20px;">About Us</a>
+                                href="About-Us.php" style="padding: 10px 20px;">About Us</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Objectives.html" style="padding: 10px 20px;">Objectives</a>
+                                href="Objectives.php" style="padding: 10px 20px;">Objectives</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Products.html" style="padding: 10px 20px;">Products</a>
+                                href="Products.php" style="padding: 10px 20px;">Products</a>
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="All-Products.html">All Products</a>
+                                            href="All-Products.php">All Products</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Retail.html">Retail/Samples</a>
+                                            href="Retail.php">Retail/Samples</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Rebrand.html">Rebranding/Wholesale</a>
+                                            href="Rebrand.php">Rebranding/Wholesale</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Contacts.html" style="padding: 10px 20px;">Contacts</a>
+                                href="Contacts.php" style="padding: 10px 20px;">Contacts</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Testimonials.html" style="padding: 10px 20px;">Testimonials</a>
+                                href="Testimonials.php" style="padding: 10px 20px;">Testimonials</a>
                         </li>
                     </ul>
                 </div>
@@ -116,35 +115,35 @@
                         <div class="u-inner-container-layout u-sidenav-overflow">
                             <div class="u-menu-close"></div>
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
                                 </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.html">About
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About
                                         Us</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Objectives.html">Objectives</a>
+                                        href="Objectives.php">Objectives</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Products.html">Products</a>
+                                        href="Products.php">Products</a>
                                     <div class="u-nav-popup">
                                         <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="All-Products.html">All Products</a>
+                                                    href="All-Products.php">All Products</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Retail.html">Retail/Samples</a>
+                                                    href="Retail.php">Retail/Samples</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Rebrand.html">Rebranding/Wholesale</a>
+                                                    href="Rebrand.php">Rebranding/Wholesale</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Contacts.html">Contacts</a>
+                                        href="Contacts.php">Contacts</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Testimonials.html">Testimonials</a>
+                                        href="Testimonials.php">Testimonials</a>
                                 </li>
                             </ul>
                         </div>
@@ -154,183 +153,60 @@
             </nav>
         </div>
     </header>
-    <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-b167">
-        <div class="u-align-left u-clearfix u-sheet u-sheet-1">
-            <img class="u-hover-feature u-image u-image-round u-radius-35 u-image-1" src="images/Untitleddesign6-40.png"
-                alt="" data-image-width="1600" data-image-height="900">
-        </div>
-
-    </section>
-    <section class="u-align-center u-clearfix u-custom-color-3 u-section-2" id="sec-a093">
+    <section class="u-align-center u-clearfix u-custom-color-3 u-section-1" id="carousel_e15c">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <p class="u-custom-font u-text u-text-default u-text-1">Retail/Samples</p>
-            <!--products-->
-            <!--products_options_json-->
-            <!--{"type":"Recent","source":"","tags":"","count":""}-->
-            <!--/products_options_json-->
-            <div class="u-products u-products-1">
-                <div class="u-repeater u-repeater-1">
-                    <!--product_item-->
-                    <div
-                        class="u-align-left u-border-2 u-border-custom-color-3 u-container-style u-products-item u-radius-27 u-repeater-item u-shape-round u-white u-repeater-item-1">
-                        <div class="u-container-layout u-similar-container u-container-layout-1">
-                            <!--product_image-->
-                            <img alt=""
-                                class="u-hover-feature u-image u-image-round u-product-control u-radius-22 u-image-1"
-                                src="images/35.svg">
-                            <!--/product_image-->
-                            <!--product_title-->
-                            <h4 class="u-custom-font u-product-control u-text u-text-2">
-                                <a class="u-product-title-link" href="#">
-                                    <!--product_title_content-->Product 1 Title
-                                    <!--/product_title_content-->
-                                </a>
-                            </h4>
-                            <!--/product_title-->
-                            <!--product_content-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-desc u-text u-text-3">
-                                <!--product_content_content-->Sample small text. Lorem ipsum dolor sit amet.
-                                <!--/product_content_content-->
-                            </div>
-                            <!--/product_content-->
-                            <!--product_price-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-price u-product-price-1">
-                                <div class="u-price-wrapper u-spacing-10">
-                                    <!--product_old_price-->
-                                    <div class="u-hide-price u-old-price">
-                                        <!--product_old_price_content-->$12
-                                        <!--/product_old_price_content-->
-                                    </div>
-                                    <!--/product_old_price-->
-                                    <!--product_regular_price-->
-                                    <div class="u-price u-text-custom-color-5"
-                                        style="font-size: 1.5rem; font-weight: 700;">
-                                        <!--product_regular_price_content-->$9.95
-                                        <!--/product_regular_price_content-->
-                                    </div>
-                                    <!--/product_regular_price-->
-                                </div>
-                            </div>
-                            <!--/product_price-->
-                            <a href="https://nicepage.com/static-site-generator"
-                                class="u-border-none u-btn u-btn-round u-button-style u-custom-color-5 u-hover-custom-color-4 u-hover-feature u-radius-6 u-btn-1">BUY
-                                NOW</a>
+            <p class="u-custom-font u-text u-text-default u-text-1">Categories<span
+                    class="u-text-custom-color-5"></span>
+            </p>
+            <div class="u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
+                <div class="u-gallery-inner u-gallery-inner-1">
+                    <div class="u-effect-fade u-effect-hover-zoom u-gallery-item u-radius-50 u-shape-round"
+                        data-href="Retail.php" data-page-id="784919859">
+                        <div class="u-back-slide" data-image-width="1600" data-image-height="900">
+                            <img class="u-back-image u-expanded" src="images/Untitleddesign6.png" alt="Retail/Samples">
+                        </div>
+                        <div class="u-over-slide u-shading u-over-slide-1">
+                            <h3 class="u-custom-font u-font-montserrat u-gallery-heading" style="font-size: 1rem;">
+                                Retail/Samples</h3>
+                            <p class="u-gallery-text"></p>
                         </div>
                     </div>
-                    <!--/product_item-->
-                    <!--product_item-->
-                    <div
-                        class="u-align-left u-border-2 u-border-custom-color-3 u-container-style u-products-item u-radius-27 u-repeater-item u-shape-round u-white u-repeater-item-2">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <!--product_image-->
-                            <img alt=""
-                                class="u-hover-feature u-image u-image-round u-product-control u-radius-22 u-image-2"
-                                src="images/36.svg">
-                            <!--/product_image-->
-                            <!--product_title-->
-                            <h4 class="u-custom-font u-product-control u-text u-text-4">
-                                <a class="u-product-title-link" href="#">
-                                    <!--product_title_content-->Product 2 Title
-                                    <!--/product_title_content-->
-                                </a>
-                            </h4>
-                            <!--/product_title-->
-                            <!--product_content-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-desc u-text u-text-5">
-                                <!--product_content_content-->Sample small text. Lorem ipsum dolor sit amet.
-                                <!--/product_content_content-->
-                            </div>
-                            <!--/product_content-->
-                            <!--product_price-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-price u-product-price-2">
-                                <div class="u-price-wrapper u-spacing-10">
-                                    <!--product_old_price-->
-                                    <div class="u-hide-price u-old-price">
-                                        <!--product_old_price_content-->$12
-                                        <!--/product_old_price_content-->
-                                    </div>
-                                    <!--/product_old_price-->
-                                    <!--product_regular_price-->
-                                    <div class="u-price u-text-custom-color-5"
-                                        style="font-size: 1.5rem; font-weight: 700;">
-                                        <!--product_regular_price_content-->$9.95
-                                        <!--/product_regular_price_content-->
-                                    </div>
-                                    <!--/product_regular_price-->
-                                </div>
-                            </div>
-                            <!--/product_price-->
-                            <a href="https://nicepage.com/static-site-generator"
-                                class="u-border-none u-btn u-btn-round u-button-style u-custom-color-5 u-hover-custom-color-4 u-hover-feature u-radius-6 u-btn-2">BUY
-                                NOW</a>
+                    <div class="u-effect-fade u-effect-hover-zoom u-gallery-item u-radius-50 u-shape-round"
+                        data-href="All-Products.php" data-page-id="29699698">
+                        <div class="u-back-slide" data-image-width="1920" data-image-height="1080">
+                            <img class="u-back-image u-expanded" src="images/Untitleddesign4.png" alt="All Products">
+                        </div>
+                        <div class="u-over-slide u-shading u-over-slide-2">
+                            <h3 class="u-custom-font u-font-montserrat u-gallery-heading" style="font-size: 1rem;">All
+                                Products</h3>
+                            <p class="u-gallery-text"></p>
                         </div>
                     </div>
-                    <!--/product_item-->
-                    <!--product_item-->
-                    <div
-                        class="u-align-left u-border-2 u-border-custom-color-3 u-container-style u-products-item u-radius-27 u-repeater-item u-shape-round u-white u-repeater-item-3">
-                        <div class="u-container-layout u-similar-container u-container-layout-3">
-                            <!--product_image-->
-                            <img alt=""
-                                class="u-hover-feature u-image u-image-round u-product-control u-radius-22 u-image-3"
-                                src="images/37.svg">
-                            <!--/product_image-->
-                            <!--product_title-->
-                            <h4 class="u-custom-font u-product-control u-text u-text-6">
-                                <a class="u-product-title-link" href="#">
-                                    <!--product_title_content-->Product 3 Title
-                                    <!--/product_title_content-->
-                                </a>
-                            </h4>
-                            <!--/product_title-->
-                            <!--product_content-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-desc u-text u-text-7">
-                                <!--product_content_content-->Sample small text. Lorem ipsum dolor sit amet.
-                                <!--/product_content_content-->
-                            </div>
-                            <!--/product_content-->
-                            <!--product_price-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-price u-product-price-3">
-                                <div class="u-price-wrapper u-spacing-10">
-                                    <!--product_old_price-->
-                                    <div class="u-hide-price u-old-price">
-                                        <!--product_old_price_content-->$12
-                                        <!--/product_old_price_content-->
-                                    </div>
-                                    <!--/product_old_price-->
-                                    <!--product_regular_price-->
-                                    <div class="u-price u-text-custom-color-5"
-                                        style="font-size: 1.5rem; font-weight: 700;">
-                                        <!--product_regular_price_content-->$9.95
-                                        <!--/product_regular_price_content-->
-                                    </div>
-                                    <!--/product_regular_price-->
-                                </div>
-                            </div>
-                            <!--/product_price-->
-                            <a href="https://nicepage.com/static-site-generator"
-                                class="u-border-none u-btn u-btn-round u-button-style u-custom-color-5 u-hover-custom-color-4 u-hover-feature u-radius-6 u-btn-3">BUY
-                                NOW</a>
+                    <div class="u-effect-fade u-effect-hover-zoom u-gallery-item u-radius-50 u-shape-round u-gallery-item-3"
+                        data-href="Rebrand.php" data-page-id="842322346">
+                        <div class="u-back-slide" data-image-width="1600" data-image-height="900">
+                            <img class="u-back-image u-expanded u-back-image-3" src="images/Untitleddesign5.png"
+                                alt="Rebranding/Wholesale">
+                        </div>
+                        <div class="u-over-slide u-shading u-over-slide-3">
+                            <h3 class="u-custom-font u-font-montserrat u-gallery-heading" style="font-size: 1rem;">
+                                Rebranding/Wholesale</h3>
+                            <p class="u-gallery-text"></p>
                         </div>
                     </div>
-                    <!--/product_item-->
                 </div>
             </div>
-            <!--/products-->
+            <a href="https://shopee.ph/anafaracosmetics?fbclid=IwAR3cCn5bOjlK4U6UXgk59tM2Rr41kKTpP3FofNx-cqXfs3Y8JJrsBsT5JKQ"
+                class="u-align-center u-btn u-btn-round u-button-style u-custom-color-5 u-custom-font u-font-montserrat u-hover-custom-color-4 u-hover-feature u-radius-50 u-btn-1">Shop
+                now</a>
         </div>
 
-
-
-
-
-
     </section>
+    <style class="u-overlap-style">
+    .u-overlap:not(.u-sticky-scroll) .u-header {
+        background-color: #ffffff !important
+    }
+    </style>
 
 
     <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer"

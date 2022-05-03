@@ -4,19 +4,20 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="What is our objectives?">
+    <meta name="keywords" content="Protected Page">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Objectives</title>
+    <title>Page Password Template</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-    <link rel="stylesheet" href="Objectives.css" media="screen">
+    <link rel="stylesheet" href="Page-Password-Template.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
 
     <script type="application/ld+json">
     {
@@ -37,9 +38,9 @@
     <meta name="theme-color" content="#478ac9">
     <meta name="twitter:site" content="@">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Objectives">
+    <meta name="twitter:title" content="Page Password Template">
     <meta name="twitter:description" content="Labonita">
-    <meta property="og:title" content="Objectives">
+    <meta property="og:title" content="Page Password Template">
     <meta property="og:type" content="website">
 </head>
 
@@ -152,97 +153,103 @@
             </nav>
         </div>
     </header>
-
-    <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-c345">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign9.svg"
-                alt="" data-image-width="500" data-image-height="500">
-            <p class="u-custom-font u-text u-text-default u-text-1">Our Objectives</p>
-            <p class="u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2">La Bonita's Cosmetics
-                has
-                different of objectives&nbsp; that is based on different aspects</p>
-            <a href="https://www.facebook.com/LaBonitaCosmeticsByAnafara/"
-                class="u-border-2 u-border-grey-dark-1 u-btn u-btn-rectangle u-button-style u-hover-custom-color-4 u-none u-btn-1">LEARN
-                more</a>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-e23f">
+        <div class="u-align-left u-clearfix u-sheet u-valign-middle u-sheet-1"><span class="u-icon u-icon-1"><svg
+                    class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 96.668 96.668" style="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b691"></use>
+                </svg><svg class="u-svg-content" viewBox="0 0 96.668 96.668" x="0px" y="0px" id="svg-b691"
+                    style="enable-background:new 0 0 96.668 96.668;">
+                    <g>
+                        <path d="M80.372,40.605h-5.7V26.338C74.672,11.815,62.856,0,48.334,0C33.811,0,21.996,11.815,21.996,26.338v14.267h-5.7
+		c-1.104,0-2,0.896-2,2v52.063c0,1.104,0.896,2,2,2h64.076c1.104,0,2-0.896,2-2V42.605C82.372,41.5,81.478,40.605,80.372,40.605z
+		 M43.958,74.2c-1.302-1.218-2.02-2.871-2.02-4.656c0-3.526,2.869-6.396,6.396-6.396c3.526,0,6.396,2.869,6.396,6.396
+		c0,1.785-0.717,3.438-2.02,4.656c-0.404,0.378-0.634,0.907-0.634,1.461v6.782c0,2.063-1.679,3.742-3.743,3.742
+		c-2.064,0-3.743-1.679-3.743-3.742v-6.782C44.591,75.107,44.362,74.578,43.958,74.2z M48.334,14.197
+		c6.694,0,12.14,5.446,12.14,12.141v14.267h-24.28V26.338C36.194,19.644,41.64,14.197,48.334,14.197z"></path>
+                    </g>
+                </svg></span>
+            <h2 class="u-text u-text-default u-text-1">Protected Page</h2>
+            <div class="u-form u-password-control u-form-1">
+                <form action="#" method="POST"
+                    class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form"
+                    source="custom" name="form" style="padding: 10px;">
+                    <div class="u-align-center u-form-group u-form-password">
+                        <label for="password-4c82" class="u-form-control-hidden u-label"></label>
+                        <input type="password" placeholder="Enter your Password" id="password-4c82" name="password"
+                            class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-input-1"
+                            autofocus="autofocus" required="">
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                        <a href="#"
+                            class="u-active-palette-1-light-1 u-border-2 u-border-active-palette-1-light-1 u-border-hover-palette-1-light-1 u-border-palette-1-base u-btn u-btn-submit u-button-style u-hover-palette-1-light-1 u-palette-1-base u-btn-1">Submit</a>
+                        <input type="submit" value="submit" class="u-form-control-hidden">
+                        <div class="u-form-send-error u-form-send-message">Password is incorrect</div>
+                    </div>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                </form>
+            </div>
         </div>
+        <style data-mode="XXL">
+        @media (max-width: 0px) {
+            .u-section-1 {
+                background-image: none;
+            }
+
+            .u-section-1 .u-sheet-1 {
+                min-height: 600px;
+            }
+
+            .u-section-1 .u-icon-1 {
+                width: 71px;
+                height: 71px;
+                margin-top: 60px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .u-section-1 .u-text-1 {
+                font-weight: 700;
+                margin-top: 23px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0;
+            }
+
+            .u-section-1 .u-form-1 {
+                height: 124px;
+                width: 400px;
+                margin-top: 11px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 60px;
+            }
+
+            .u-section-1 .u-input-1 {
+                background-image: none;
+                font-size: 1.25rem;
+            }
+
+            .u-section-1 .u-btn-1 {
+                width: 100%;
+                font-size: 1.25rem;
+                background-image: none;
+                font-weight: 700;
+                border-style: solid;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                text-transform: none;
+            }
+        }
+        </style>
     </section>
 
-    <section class="u-clearfix u-custom-color-3 u-section-2" id="sec-bb70">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign8.png"
-                alt="" data-image-width="500" data-image-height="500">
-            <p class="u-custom-font u-text u-text-default u-text-1">Rebranding</p>
-            <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2"> La
-                Bonita
-                aspires to be the most popular cosmetics brand in the Philippines and to be the first choice of women
-                all
-                throughout the country. In addition, we want to expand our market share and brand recognition, as well
-                as enter
-                the foreign market.</p>
-        </div>
-    </section>
-
-    <section class="u-clearfix u-custom-color-3 u-section-3" id="carousel_b448">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign9.png"
-                alt="" data-image-width="500" data-image-height="500">
-            <p class="u-custom-font u-text u-text-default u-text-1">No side effects</p>
-            <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2">
-                Products
-                of La Bonita Cosmetics by Anafara are FDA approve, to ensure that products have no side effects. By of
-                ering a
-                cruelty-free and skincare products to keep you and your family healthy and glowing. It is also safe for
-                kids,
-                pregnant, and lactating mother.</p>
-        </div>
-    </section>
-
-    <section class="u-clearfix u-custom-color-3 u-section-4" id="carousel_a74f">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign11.png"
-                alt="" data-image-width="500" data-image-height="500">
-            <p class="u-custom-font u-text u-text-1">Offer beauty solutions</p>
-            <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2"> La
-                Bonita
-                aspires to be the most popular cosmetics brand in the Philippines and to be the first choice of women
-                all
-                throughout the country. In addition, we want to expand our market share and brand recognition, as well
-                as enter
-                the foreign market.</p>
-        </div>
-    </section>
-
-    <section class="u-clearfix u-custom-color-3 u-section-5" id="carousel_cff7">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign12.png"
-                alt="" data-image-width="500" data-image-height="500">
-            <p class="u-custom-font u-text u-text-1">Reach target market </p>
-            <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2"> La
-                Bonita
-                aspires to be the most popular cosmetics brand in the Philippines and to be the first choice of women
-                all
-                throughout the country. In addition, we want to expand our market share and brand recognition, as well
-                as enter
-                the foreign market.</p>
-        </div>
-    </section>
-
-    <section class="u-clearfix u-custom-color-3 u-section-6" id="carousel_f91f">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <p class="u-custom-font u-text u-text-default u-text-1">Innovation</p>
-            <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2"> In
-                having
-                a large volume of inquiries and product development from different partners and customers. La Bonita
-                Cosmetic by
-                Anafara aims to improve the product quality of an existing product and innovate it to a product that
-                will be
-                accommodating to the customers and users. We also aim to provide an innovative way to advertise the
-                products.
-            </p>
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign14.png"
-                alt="" data-image-width="500" data-image-height="500">
-        </div>
-    </section>
 
     <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer"
         id="sec-84aa">

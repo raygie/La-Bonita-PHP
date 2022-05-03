@@ -8,6 +8,25 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Home</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -20,23 +39,20 @@
 
 
 
-
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Labonita",
-        "logo": "images/Labonita.png",
-        "sameAs": [
-            "https://www.facebook.com/LaBonitaCosmeticsByAnafara",
-            "https://twitter.com/LaAnafara ",
-            " https://www.instagram.com/la_bonita_cosmetics/",
-            " https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/",
-            "https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ ",
-            "https://www.tiktok.com/@labonitacosmetics.ph?lang=en/ "
-        ]
-    }
-    </script>
+    <script type="application/ld  +json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Labonita",
+		"logo": "images/Labonita.png",
+		"sameAs": [
+				"https://www.facebook.com/LaBonitaCosmeticsByAnafara",
+				"https://twitter.com/LaAnafara ",
+				" https://www.instagram.com/la_bonita_cosmetics/",
+				" https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/",
+				"https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ ",
+				"https://www.tiktok.com/@labonitacosmetics.ph?lang=en/ "
+		]
+}</script>
     <meta name="theme-color" content="#478ac9">
     <meta name="twitter:site" content="@">
     <meta name="twitter:card" content="summary_large_image">
@@ -46,10 +62,10 @@
     <meta property="og:type" content="website">
 </head>
 
-<body class="u-body u-xl-mode">
+<body data-home-page="Home.php" data-home-page-title="Home" class="u-body u-xl-mode">
     <header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417">
         <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-            <a href="Home.html" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
+            <a href="Home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
@@ -75,40 +91,40 @@
                     <ul class="u-custom-font u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Home.html" style="padding: 10px 20px;">Home</a>
+                                href="Home.php" style="padding: 10px 20px;">Home</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="About-Us.html" style="padding: 10px 20px;">About Us</a>
+                                href="About-Us.php" style="padding: 10px 20px;">About Us</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Objectives.html" style="padding: 10px 20px;">Objectives</a>
+                                href="Objectives.php" style="padding: 10px 20px;">Objectives</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Products.html" style="padding: 10px 20px;">Products</a>
+                                href="Products.php" style="padding: 10px 20px;">Products</a>
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="All-Products.html">All Products</a>
+                                            href="All-Products.php">All Products</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Retail.html">Retail/Samples</a>
+                                            href="Retail.php">Retail/Samples</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Rebrand.html">Rebranding/Wholesale</a>
+                                            href="Rebrand.php">Rebranding/Wholesale</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Contacts.html" style="padding: 10px 20px;">Contacts</a>
+                                href="Contacts.php" style="padding: 10px 20px;">Contacts</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Testimonials.html" style="padding: 10px 20px;">Testimonials</a>
+                                href="Testimonials.php" style="padding: 10px 20px;">Testimonials</a>
                         </li>
                     </ul>
                 </div>
@@ -117,35 +133,35 @@
                         <div class="u-inner-container-layout u-sidenav-overflow">
                             <div class="u-menu-close"></div>
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
                                 </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.html">About
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About
                                         Us</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Objectives.html">Objectives</a>
+                                        href="Objectives.php">Objectives</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Products.html">Products</a>
+                                        href="Products.php">Products</a>
                                     <div class="u-nav-popup">
                                         <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="All-Products.html">All Products</a>
+                                                    href="All-Products.php">All Products</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Retail.html">Retail/Samples</a>
+                                                    href="Retail.php">Retail/Samples</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Rebrand.html">Rebranding/Wholesale</a>
+                                                    href="Rebrand.php">Rebranding/Wholesale</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Contacts.html">Contacts</a>
+                                        href="Contacts.php">Contacts</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Testimonials.html">Testimonials</a>
+                                        href="Testimonials.php">Testimonials</a>
                                 </li>
                             </ul>
                         </div>
@@ -207,7 +223,7 @@
                                 class="u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
                                 <div class="u-gallery-inner u-gallery-inner-1">
                                     <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round"
-                                        data-href="Products.html" data-page-id="114294678">
+                                        data-href="Products.php" data-page-id="114294678">
                                         <div class="u-back-slide" data-image-width="500" data-image-height="500">
                                             <img class="u-back-image u-expanded" src="images/Untitleddesign7.svg"
                                                 alt="Learn more">
@@ -219,7 +235,7 @@
                                         </div>
                                     </div>
                                     <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round"
-                                        data-href="Products.html" data-page-id="114294678">
+                                        data-href="Products.php" data-page-id="114294678">
                                         <div class="u-back-slide" data-image-width="1280" data-image-height="853">
                                             <img class="u-back-image u-expanded"
                                                 src="images/052ff167d6959deff34b6d1c8e8b05adece966434c883036d12f82c28e7e4848e84bde28ff191797631eba4b34035253e382331d34655b1f0333c1_1280.jpg"
@@ -232,7 +248,7 @@
                                         </div>
                                     </div>
                                     <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round"
-                                        data-href="Products.html" data-page-id="114294678">
+                                        data-href="Products.php" data-page-id="114294678">
                                         <div class="u-back-slide" data-image-width="150" data-image-height="112">
                                             <img class="u-back-image u-expanded"
                                                 src="images/671ffc462572c125cd323729c01f8d1a188ee52a03125127956f2be63d9ccf3787fd1d0bc00473b869e17be133f3e78719e3659f21bc1216af478b_1280.jpg"
@@ -255,7 +271,7 @@
                                 class="u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-2">
                                 <div class="u-gallery-inner u-gallery-inner-2">
                                     <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round"
-                                        data-href="Products.html" data-page-id="114294678">
+                                        data-href="Products.php" data-page-id="114294678">
                                         <div class="u-back-slide" data-image-width="1280" data-image-height="853">
                                             <img class="u-back-image u-expanded"
                                                 src="images/995cbb80fea7e520a26d0ae479d80fdb941c288fca49f9264140b0bea9a2be6cb368c3144193cda5b07c3a748148f063bad173d3646d17818cae0c_1280.jpg"
@@ -268,7 +284,7 @@
                                         </div>
                                     </div>
                                     <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round"
-                                        data-href="Products.html" data-page-id="114294678">
+                                        data-href="Products.php" data-page-id="114294678">
                                         <div class="u-back-slide" data-image-width="1280" data-image-height="923">
                                             <img class="u-back-image u-expanded"
                                                 src="images/2f5e1b023c517f4710c77996d6edda5a666e01e8c966e19b6bbe21e6fc26c8c626a167cb6df0526ebe4a75bd2ab47b8722d4c41c89957d41abbf9a_1280.jpg"
@@ -281,7 +297,7 @@
                                         </div>
                                     </div>
                                     <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round"
-                                        data-href="Products.html" data-page-id="114294678">
+                                        data-href="Products.php" data-page-id="114294678">
                                         <div class="u-back-slide" data-image-width="853" data-image-height="1280">
                                             <img class="u-back-image u-expanded"
                                                 src="images/b8c46251a3e7bcc84471711be18436bf637e527bbbd737183852eebfddbc977de4eb29b6738449f17cfc247392c428a68741b01266da1a2700b20d_1280.jpg"
