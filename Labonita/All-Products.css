@@ -58,7 +58,12 @@
 .u-section-1 .u-image-1,
 .u-section-1 .u-image-1:before,
 .u-section-1 .u-image-1 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    background-size, background-position;
 }
 
 .u-section-1 .u-image-1.u-image-1.u-image-1:hover {
@@ -75,7 +80,8 @@
 
 .u-container-layout.hover .u-section-1 .u-image-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-} .u-section-2 {
+}
+.u-section-2 {
   background-image: none;
 }
 
@@ -96,14 +102,16 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 8.66667px) calc(33.3333% - 8.66667px) calc(33.3333% - 8.66667px);
+  grid-template-columns: calc(33.3333% - 8.66667px) calc(33.3333% - 8.66667px) calc(
+      33.3333% - 8.66667px
+    );
   grid-gap: 13px 13px;
   min-height: 432px;
 }
 
 .u-section-2 .u-repeater-item-1 {
   background-image: none;
-  box-shadow: 0 0 12px 0 rgba(128,128,128,0.55);
+  box-shadow: 0 0 12px 0 rgba(128, 128, 128, 0.55);
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -146,7 +154,7 @@
 
 .u-section-2 .u-repeater-item-2 {
   background-image: none;
-  box-shadow: 0 0 12px 0 rgba(128,128,128,0.55);
+  box-shadow: 0 0 12px 0 rgba(128, 128, 128, 0.55);
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -189,7 +197,7 @@
 
 .u-section-2 .u-repeater-item-3 {
   background-image: none;
-  box-shadow: 0 0 12px 0 rgba(128,128,128,0.55);
+  box-shadow: 0 0 12px 0 rgba(128, 128, 128, 0.55);
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -534,7 +542,12 @@
 .u-section-2 .u-image-1,
 .u-section-2 .u-image-1:before,
 .u-section-2 .u-image-1 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    background-size, background-position;
 }
 
 .u-section-2 .u-image-1.u-image-1.u-image-1:hover {
@@ -556,7 +569,12 @@
 .u-section-2 .u-image-2,
 .u-section-2 .u-image-2:before,
 .u-section-2 .u-image-2 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    background-size, background-position;
 }
 
 .u-section-2 .u-image-2.u-image-2.u-image-2:hover {
@@ -578,7 +596,12 @@
 .u-section-2 .u-image-3,
 .u-section-2 .u-image-3:before,
 .u-section-2 .u-image-3 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    background-size, background-position;
 }
 
 .u-section-2 .u-image-3.u-image-3.u-image-3:hover {
@@ -600,7 +623,12 @@
 .u-section-2 .u-btn-1,
 .u-section-2 .u-btn-1:before,
 .u-section-2 .u-btn-1 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    background-size, background-position;
 }
 
 .u-section-2 .u-btn-1.u-btn-1.u-btn-1:hover {
@@ -626,7 +654,12 @@
 .u-section-2 .u-btn-2,
 .u-section-2 .u-btn-2:before,
 .u-section-2 .u-btn-2 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    background-size, background-position;
 }
 
 .u-section-2 .u-btn-2.u-btn-2.u-btn-2:hover {
@@ -652,7 +685,12 @@
 .u-section-2 .u-btn-3,
 .u-section-2 .u-btn-3:before,
 .u-section-2 .u-btn-3 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    background-size, background-position;
 }
 
 .u-section-2 .u-btn-3.u-btn-3.u-btn-3:hover {
