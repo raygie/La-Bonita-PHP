@@ -99,11 +99,11 @@
                   </p>
                 </a>
               </li> 
-          <!-- <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview menu-open">
                 <h5 class="pt-2 pb-2" style="color:white;">OTHER OPTIONS</h5>
           </li>
               <li class="nav-item has-treeview menu-open">
-                <a href="add-testimonials.php" class="nav-link <?php if($a==10){ echo 'active'; }?>">
+                <a href="add-new-testimonials.php" class="nav-link <?php if($a==10){ echo 'active'; }?>">
                   <i class="fa fa-plus nav-icon"></i>
                   <p>
                     Add Testimonials
@@ -111,13 +111,13 @@
                 </a>
               </li> 
               <li class="nav-item has-treeview menu-open">
-                <a href="faqs.php" class="nav-link <?php if($a==11){ echo 'active'; }?>">
-                  <i class="fa fa-plus nav-icon"></i>
+                <a href="all-testimonial.php" class="nav-link <?php if($a==11){ echo 'active'; }?>">
+                  <i class="fa fa-eye nav-icon"></i>
                   <p>
-                    FAQ
+                    View Testimonials
                   </p>
                 </a>
-              </li> -->
+              </li>
           <li class="nav-item has-treeview menu-open">
                 <h5 class="pt-2 pb-2" style="color:#e28743;">User Management</h5>
           </li>
