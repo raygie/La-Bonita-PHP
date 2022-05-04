@@ -7,7 +7,9 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
+
     <title>Retail</title>
+
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Retail.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -19,23 +21,9 @@
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
 
 
+    <?php include './includes/meta-script.php' ?>
+    <?php include './includes/meta/favicons.php' ?>
 
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Labonita",
-        "logo": "images/Labonita.png",
-        "sameAs": [
-            "https://www.facebook.com/LaBonitaCosmeticsByAnafara",
-            "https://twitter.com/LaAnafara ",
-            " https://www.instagram.com/la_bonita_cosmetics/",
-            " https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/",
-            "https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ ",
-            "https://www.tiktok.com/@labonitacosmetics.ph?lang=en/ "
-        ]
-    }
-    </script>
     <meta name="theme-color" content="#478ac9">
     <meta name="twitter:site" content="@">
     <meta name="twitter:card" content="summary_large_image">

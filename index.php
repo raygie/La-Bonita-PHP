@@ -7,25 +7,8 @@
     <meta name="keywords" content="​Check our latest products">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Home</title>
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <title>Home</title>
 
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Home.css" media="screen">
@@ -37,22 +20,9 @@
     <link id="u-page-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
 
+    <?php include './includes/meta/script.php' ?>
+    <?php include './includes/meta/favicons.php' ?>
 
-
-    <script type="application/ld  +json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Labonita",
-		"logo": "images/Labonita.png",
-		"sameAs": [
-				"https://www.facebook.com/LaBonitaCosmeticsByAnafara",
-				"https://twitter.com/LaAnafara ",
-				" https://www.instagram.com/la_bonita_cosmetics/",
-				" https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/",
-				"https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ ",
-				"https://www.tiktok.com/@labonitacosmetics.ph?lang=en/ "
-		]
-}</script>
     <meta name="theme-color" content="#478ac9">
     <meta name="twitter:site" content="@">
     <meta name="twitter:card" content="summary_large_image">
