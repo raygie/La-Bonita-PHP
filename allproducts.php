@@ -28,10 +28,12 @@ $a=1;
 <body>
     <!-- Navbar -->
     <?php include 'includes/navbar.php';?>
+
     <div class="content-wrapper">
         <div class="section">
 
             <div class="row">
+
                 <?php
                 $sql = "SELECT * FROM products ORDER BY date_created desc";
                 $result = $conn->query($sql);

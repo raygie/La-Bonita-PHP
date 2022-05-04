@@ -1,3 +1,10 @@
+<?php
+include 'includes/connection.php';
+$a=1;
+
+?>
+
+
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 
@@ -96,6 +103,7 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="u-custom-menu u-nav-container-collapse">
                     <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                         <div class="u-inner-container-layout u-sidenav-overflow">
@@ -146,6 +154,7 @@
         </div>
 
     </section>
+
     <section class="u-align-center u-clearfix u-custom-color-3 u-section-2" id="sec-e02f">
         <div class="u-clearfix u-sheet u-sheet-1">
             <p class="u-custom-font u-text u-text-default u-text-1">All Products</p>
@@ -156,18 +165,32 @@
             <div class="u-products u-products-1">
                 <div class="u-repeater u-repeater-1">
                     <!--product_item-->
+
+
+                    <!-- CARD -->
+
+                    <?php
+                $sql = "SELECT * FROM products ORDER BY date_created desc";
+                $result = $conn->query($sql);
+                while($row=$result->fetch_assoc()){ 
+                    
+                    ?>
+
                     <div
                         class="u-align-left u-border-2 u-border-custom-color-3 u-container-style u-products-item u-radius-27 u-repeater-item u-shape-round u-white u-repeater-item-1">
                         <div class="u-container-layout u-similar-container u-container-layout-1">
                             <!--product_image-->
-                            <img alt=""
+                            <?php echo   '<img alt="products"
                                 class="u-hover-feature u-image u-image-round u-product-control u-radius-24 u-image-1"
-                                src="images/35.svg">
+                                src="admin/includes/prodpic/'.$row['prod_image'].'">'
+
+
+                                ?>
                             <!--/product_image-->
                             <!--product_title-->
                             <h4 class="u-custom-font u-product-control u-text u-text-2">
                                 <a class="u-product-title-link" href="#">
-                                    <!--product_title_content-->Product 1 Title
+                                    <!--product_title_content--><?= $row['prod_name'];?>
                                     <!--/product_title_content-->
                                 </a>
                             </h4>
@@ -191,129 +214,34 @@
                                     <!--/product_old_price-->
                                     <!--product_regular_price-->
                                     <div class="u-price u-text-custom-color-5"
-                                        style="font-size: 1.5rem; font-weight: 700;">
-                                        <!--product_regular_price_content-->$9.95
+                                        style="font-size: 1.5rem; font-weight: 700;">₱
+                                        <!--product_regular_price_content--><?= $row['prod_price'];?>
                                         <!--/product_regular_price_content-->
                                     </div>
                                     <!--/product_regular_price-->
                                 </div>
                             </div>
                             <!--/product_price-->
-                            <a href="https://nicepage.com/static-site-generator"
+                            <a href="<?= $row['link'];?>"
                                 class="u-border-none u-btn u-btn-round u-button-style u-custom-color-5 u-hover-custom-color-4 u-hover-feature u-radius-6 u-btn-1">BUY
                                 NOW</a>
                         </div>
                     </div>
-                    <!--/product_item-->
-                    <!--product_item-->
-                    <div
-                        class="u-align-left u-border-2 u-border-custom-color-3 u-container-style u-products-item u-radius-27 u-repeater-item u-shape-round u-white u-repeater-item-2">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <!--product_image-->
-                            <img alt=""
-                                class="u-hover-feature u-image u-image-round u-product-control u-radius-24 u-image-2"
-                                src="images/36.svg">
-                            <!--/product_image-->
-                            <!--product_title-->
-                            <h4 class="u-custom-font u-product-control u-text u-text-4">
-                                <a class="u-product-title-link" href="#">
-                                    <!--product_title_content-->Product 2 Title
-                                    <!--/product_title_content-->
-                                </a>
-                            </h4>
-                            <!--/product_title-->
-                            <!--product_content-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-desc u-text u-text-5">
-                                <!--product_content_content-->Sample small text. Lorem ipsum dolor sit amet.
-                                <!--/product_content_content-->
-                            </div>
-                            <!--/product_content-->
-                            <!--product_price-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-price u-product-price-2">
-                                <div class="u-price-wrapper u-spacing-10">
-                                    <!--product_old_price-->
-                                    <div class="u-hide-price u-old-price">
-                                        <!--product_old_price_content-->$12
-                                        <!--/product_old_price_content-->
-                                    </div>
-                                    <!--/product_old_price-->
-                                    <!--product_regular_price-->
-                                    <div class="u-price u-text-custom-color-5"
-                                        style="font-size: 1.5rem; font-weight: 700;">
-                                        <!--product_regular_price_content-->$9.95
-                                        <!--/product_regular_price_content-->
-                                    </div>
-                                    <!--/product_regular_price-->
-                                </div>
-                            </div>
-                            <!--/product_price-->
-                            <a href="https://nicepage.com/static-site-generator"
-                                class="u-border-none u-btn u-btn-round u-button-style u-custom-color-5 u-hover-custom-color-4 u-hover-feature u-radius-6 u-btn-2">BUY
-                                NOW</a>
-                        </div>
-                    </div>
-                    <!--/product_item-->
-                    <!--product_item-->
-                    <div
-                        class="u-align-left u-border-2 u-border-custom-color-3 u-container-style u-products-item u-radius-27 u-repeater-item u-shape-round u-white u-repeater-item-3">
-                        <div class="u-container-layout u-similar-container u-container-layout-3">
-                            <!--product_image-->
-                            <img alt=""
-                                class="u-hover-feature u-image u-image-round u-product-control u-radius-24 u-image-3"
-                                src="images/37.svg">
-                            <!--/product_image-->
-                            <!--product_title-->
-                            <h4 class="u-custom-font u-product-control u-text u-text-6">
-                                <a class="u-product-title-link" href="#">
-                                    <!--product_title_content-->Product 3 Title
-                                    <!--/product_title_content-->
-                                </a>
-                            </h4>
-                            <!--/product_title-->
-                            <!--product_content-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-desc u-text u-text-7">
-                                <!--product_content_content-->Sample small text. Lorem ipsum dolor sit amet.
-                                <!--/product_content_content-->
-                            </div>
-                            <!--/product_content-->
-                            <!--product_price-->
-                            <div
-                                class="u-custom-font u-font-montserrat u-product-control u-product-price u-product-price-3">
-                                <div class="u-price-wrapper u-spacing-10">
-                                    <!--product_old_price-->
-                                    <div class="u-hide-price u-old-price">
-                                        <!--product_old_price_content-->$12
-                                        <!--/product_old_price_content-->
-                                    </div>
-                                    <!--/product_old_price-->
-                                    <!--product_regular_price-->
-                                    <div class="u-price u-text-custom-color-5"
-                                        style="font-size: 1.5rem; font-weight: 700;">
-                                        <!--product_regular_price_content-->$9.95
-                                        <!--/product_regular_price_content-->
-                                    </div>
-                                    <!--/product_regular_price-->
-                                </div>
-                            </div>
-                            <!--/product_price-->
-                            <a href="https://nicepage.com/static-site-generator"
-                                class="u-border-none u-btn u-btn-round u-button-style u-custom-color-5 u-hover-custom-color-4 u-hover-feature u-radius-6 u-btn-3">BUY
-                                NOW</a>
-                        </div>
-                    </div>
-                    <!--/product_item-->
+                    <?php 
+                }
+            ?>
+
+
+
+
+
+
+
+
                 </div>
             </div>
             <!--/products-->
         </div>
-
-
-
-
-
 
     </section>
 
