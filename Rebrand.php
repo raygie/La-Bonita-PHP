@@ -26,7 +26,7 @@ $a=1;
 
 
 
-    <?php include './includes/meta-script.php' ?>
+    <?php include './includes/meta/script.php' ?>
     <?php include './includes/meta/favicons.php' ?>
 
     <meta name="theme-color" content="#478ac9">
