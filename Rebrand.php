@@ -170,9 +170,9 @@ $a=1;
                                 class="u-hover-feature u-image u-image-round u-product-control u-radius-24 u-image-1"
                                 src="admin/includes/prodpic/'.$row['prod_image'].'">'
                                 ?>
-                                <h4 class="u-custom-font u-product-control u-text u-text-2">
+                                <h6 class="u-custom-font u-product-control u-text u-text-2">
                                     <a class="u-product-title-link" href="#"><?= $row['prod_name'];?></a>
-                                </h4>
+                                </h6>
                                 <div
                                     class="u-custom-font u-font-montserrat u-product-control u-product-desc u-text u-text-3">
                                     <?= $row['prod_desc'];?>

@@ -8,6 +8,7 @@
 
     <?php include './includes/meta/script.php' ?>
     <?php include './includes/meta/favicons.php' ?>
+    <?php include './includes/meta/head.php' ?>
 
     <meta name="twitter:title" content="Contacts">
     <meta name="twitter:description" content="Labonita">

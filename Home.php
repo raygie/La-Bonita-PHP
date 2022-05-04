@@ -6,8 +6,9 @@
     <title>Home</title>
     <link rel="stylesheet" href="Home.css" media="screen">
 
-    <?php include './includes/meta-script.php' ?>
+    <?php include './includes/meta/script.php' ?>
     <?php include './includes/meta/favicons.php' ?>
+    <?php include './includes/meta/head.php' ?>
 
     <meta name="twitter:title" content="Home">
     <meta name="twitter:description" content="Labonita">
