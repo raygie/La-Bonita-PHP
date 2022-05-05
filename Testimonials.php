@@ -1,3 +1,9 @@
+<?php
+include 'includes/connection.php';
+$a=1;
+
+?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 
@@ -148,54 +154,33 @@
             </p>
             <div class="u-expanded-width u-list u-list-1">
                 <div class="u-repeater u-repeater-1">
+                    <style>
+                    .avatar {
+                        vertical-align: middle;
+                        width: 6.8rem;
+                        height: 6.8rem;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                    }
+                    </style>
+                    <?php
+                        $sql = "SELECT * FROM testimonials ORDER BY date_created desc";
+                        $result = $conn->query($sql);
+                        while($row=$result->fetch_assoc()){ 
+                    ?>
                     <div class="u-container-style u-list-item u-repeater-item">
                         <div
                             class="u-container-layout u-similar-container u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-valign-top-lg u-valign-top-xl u-container-layout-1">
-                            <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="500"
-                                data-image-height="500"></div>
-                            <p class="u-align-justify u-text u-text-3">"Aenean pulvinar dui ornare, feugiat lorem non,
-                                ultrices justo.
-                                Mauris efficitur, mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu
-                                risus id metus.
-                                Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et
-                                semper vestibulum."
+                            <?php echo '<img src="admin/includes/testipic/'.$row['testi_image'].'"alt="Avatar" class="avatar">'?>
+                            <p class="u-align-justify u-text u-text-3">“<?php echo $row['input_testi']?>”
                             </p>
-                            <h5 class="u-align-center u-text u-text-4">Mattie Smith</h5>
-                            <h6 class="u-align-center u-text u-text-5">Chief Accountant</h6>
+                            <h5 class="u-align-center u-text u-text-4"><?php echo $row['input_name']?></h5>
+                            <h6 class="u-align-center u-text u-text-5"><?php echo $row['input_position']?></h6>
                         </div>
                     </div>
-                    <div class="u-container-style u-list-item u-repeater-item">
-                        <div
-                            class="u-container-layout u-similar-container u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-valign-top-lg u-valign-top-xl u-container-layout-2">
-                            <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="500"
-                                data-image-height="500"></div>
-                            <p class="u-align-justify u-text u-text-6">"Aenean pulvinar dui ornare, feugiat lorem non,
-                                ultrices justo.
-                                Mauris efficitur, mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu
-                                risus id metus.
-                                Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et
-                                semper vestibulum."
-                            </p>
-                            <h5 class="u-align-center u-text u-text-7">Bertie Norton</h5>
-                            <h6 class="u-align-center u-text u-text-8">Secretary</h6>
-                        </div>
-                    </div>
-                    <div class="u-container-style u-list-item u-repeater-item">
-                        <div
-                            class="u-container-layout u-similar-container u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-valign-top-lg u-valign-top-xl u-container-layout-3">
-                            <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="500"
-                                data-image-height="500"></div>
-                            <p class="u-align-justify u-text u-text-9">"Aenean pulvinar dui ornare, feugiat lorem non,
-                                ultrices justo.
-                                Mauris efficitur, mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu
-                                risus id metus.
-                                Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et
-                                semper vestibulum."
-                            </p>
-                            <h5 class="u-align-center u-text u-text-10">Nat Reynolds</h5>
-                            <h6 class="u-align-center u-text u-text-11">Accountant-auditor</h6>
-                        </div>
-                    </div>
+                    <?php 
+                        }
+                    ?>
                 </div>
             </div>
         </div>
