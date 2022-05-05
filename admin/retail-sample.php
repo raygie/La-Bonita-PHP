@@ -114,7 +114,7 @@ $a=8;
                                 <div class="modal-dialog modal-dialog-centered">
                                   <div class="modal-content">
                                       <div class="modal-header">
-                                      <h4 class="modal-title" id="exampleModalLabel">Are you sure you want to permanently delete this record?</h4>
+                                      <h4 class="modal-title" id="exampleModalLabel">Are you sure you want to Delete this record?</h4>
                                       </div>
                                           <div class="modal-footer">
                                       <?php echo '<a  href=./includes/deleteproduct.php?id=' . $prod['id'].' class="btn btn-primary">Delete Record</a>'?>

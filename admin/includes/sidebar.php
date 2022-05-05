@@ -99,6 +99,14 @@
                   </p>
                 </a>
               </li> 
+              <li class="nav-item has-treeview menu-open">
+                <a href="prod-recent-deleted.php" class="nav-link <?php if($a==13){ echo 'active'; }?>">
+                  <i class="fas fa-trash nav-icon"></i>
+                  <p>
+                    Recently Deleted
+                  </p>
+                </a>
+              </li>
           <li class="nav-item has-treeview menu-open">
                 <h5 class="pt-2 pb-2" style="color:white;">OTHER OPTIONS</h5>
           </li>
