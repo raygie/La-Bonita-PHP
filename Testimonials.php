@@ -75,13 +75,13 @@
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="All-Products.php">All Products</a>
+                                            href="ap.php">All Products</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Retail.php">Retail/Samples</a>
+                                            href="rs.php">Retail/Samples</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Rebrand.php">Rebranding/Wholesale</a>
+                                            href="rw.php">Rebranding/Wholesale</a>
                                     </li>
                                 </ul>
                             </div>
@@ -96,43 +96,24 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="u-custom-menu u-nav-container-collapse">
-                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-inner-container-layout u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About
-                                        Us</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Objectives.php">Objectives</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Products.php">Products</a>
-                                    <div class="u-nav-popup">
-                                        <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
-                                            <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="All-Products.php">All Products</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Retail.php">Retail/Samples</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Rebrand.php">Rebranding/Wholesale</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Contacts.php">Contacts</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Testimonials.php">Testimonials</a>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Objectives.php">Objectives</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Products.php">Products</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="ap.php">All Products</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rs.php">Retail/Samples</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rw.php">Rebranding/Wholesale</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacts.php">Contacts</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Testimonials.php">Testimonials</a>
+</li></ul>
+              </div>
+               
                     </div>
                     <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
                 </div>

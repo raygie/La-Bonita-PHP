@@ -84,13 +84,13 @@ $a=1;
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="All-Products.php">All Products</a>
+                                            href="ap.php">All Products</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Retail.php">Retail/Samples</a>
+                                            href="rs.php">Retail/Samples</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="Rebrand.php">Rebranding/Wholesale</a>
+                                            href="rw.php">Rebranding/Wholesale</a>
                                     </li>
                                 </ul>
                             </div>
@@ -123,13 +123,13 @@ $a=1;
                                     <div class="u-nav-popup">
                                         <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="All-Products.php">All Products</a>
+                                                    href="ap.php">All Products</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Retail.php">Retail/Samples</a>
+                                                    href="rs.php">Retail/Samples</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="Rebrand.php">Rebranding/Wholesale</a>
+                                                    href="rw.php">Rebranding/Wholesale</a>
                                             </li>
                                         </ul>
                                     </div>
