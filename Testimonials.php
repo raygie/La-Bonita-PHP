@@ -129,9 +129,9 @@ $a=1;
     <section class="u-align-center u-clearfix u-custom-color-3 u-section-1" id="sec-847c">
         <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
             <h2 class="u-custom-font u-text u-text-1">What our customers say?</h2>
-            <p class="u-text u-text-2">Sample text. Click to select the text box. <a href=""
+            <p class="u-text u-text-2"><a href=""
                     class="u-active-none u-border-1 u-border-grey-75 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1"
-                    target="_blank">Click again</a> or double click to start editing the text.
+                    target="_blank"></a> 
             </p>
             <div class="u-expanded-width u-list u-list-1">
                 <div class="u-repeater u-repeater-1">
