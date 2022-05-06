@@ -86,7 +86,6 @@ $a=11;
                             <th>Image</th>
                             <th>Name</th>
                             <th>Position</th>
-                            <th>Testimonial</th>
                             <th>Date</th>
                             <th>Edit</th>
                             <th>Delete</th>
@@ -102,7 +101,6 @@ $a=11;
                                 <td><?php echo '<img src="includes/testipic/'.$prod['testi_image'].'" width="100px;"'?></td>
                                 <td><?=$prod['input_name'];?></td>
                                 <td><?=$prod['input_position'];?></td>
-                                <td><?=$prod['input_testi'];?></td>
                                 <td><?=$prod['date_created'];?></td>
                                 <td>
                                       <?php echo '<button type="button" class="btn btn-success " data-toggle="modal" data-target="#update-'.$prod['id'].'"><i class="fas fa-edit"></i></button>'?>
