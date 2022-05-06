@@ -59,7 +59,7 @@
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
                                 href="Products.php" style="padding: 10px 20px;">Products</a>
                             <div class="u-nav-popup">
-                            <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
+                                <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
                                             href="ap.php">All Products</a>
                                     </li>
@@ -210,7 +210,8 @@
                                     <div class="u-container-layout u-container-layout-1">
                                         <h2 class="u-custom-font u-text u-text-1">contact form</h2>
                                         <div class="u-expanded-width u-form u-form-1">
-                                            <form action="#" method="POST"
+                                            <form action="https://formsubmit.co/9d127cca773ad970eeff976dc03e6cfa"
+                                                method="POST"
                                                 class="u-block-12b6-21 u-clearfix u-form-spacing-25 u-form-vertical u-inner-form"
                                                 source="email">
                                                 <div class="u-form-group u-form-name">
@@ -229,6 +230,18 @@
                                                         class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10"
                                                         required="">
                                                 </div>
+
+                                                <input type="hidden" name="_subject" value="La Bonita Cosmetics">
+
+                                                <div class="u-form-group">
+                                                    <select name="subject">
+                                                        <option value="Inquiry" selected>Inquiry
+                                                        </option>
+                                                        <option value="Retailing">Retailing</option>
+                                                        <option value="Rebranding">Rebranding</option>
+                                                    </select>
+                                                </div>
+
                                                 <div class="u-form-group u-form-message">
                                                     <label for="message-e4cc"
                                                         class="u-form-control-hidden u-label">Message</label>
@@ -238,9 +251,9 @@
                                                         required=""></textarea>
                                                 </div>
                                                 <div class="u-align-center u-form-group u-form-submit">
-                                                    <a href="#"
+                                                    <a href="https://formsubmit.co/confirm/9d127cca773ad970eeff976dc03e6cfa"
                                                         class="u-border-2 u-border-custom-color-5 u-border-hover-custom-color-4 u-btn u-btn-round u-btn-submit u-button-style u-radius-20 u-btn-1">Submit</a>
-                                                    <input type="submit" value="submit"
+                                                    <input type="submit" value="submit" name="submit"
                                                         class="u-form-control-hidden u-grey-5">
                                                 </div>
                                                 <div class="u-form-send-message u-form-send-success">Thank you! Your
@@ -249,7 +262,6 @@
                                                 <div class="u-form-send-error u-form-send-message">Unable to send your
                                                     message. Please fix
                                                     errors then try again.</div>
-                                                <input type="hidden" value="" name="recaptchaResponse">
                                             </form>
                                         </div>
                                     </div>
