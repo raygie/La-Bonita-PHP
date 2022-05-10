@@ -9,7 +9,7 @@ $id = $_GET['id'];
             }
   else{
     if($conn->query($sql)){
-        unlink($path);
+        // unlink($path);
         header("Location:../all-testimonial.php");
     }
     else{
