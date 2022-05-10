@@ -237,8 +237,8 @@
                                                     <select name="subject">
                                                         <option value="Inquiry" selected>Inquiry
                                                         </option>
-                                                        <option value="Retailing">Retailing</option>
-                                                        <option value="Rebranding">Rebranding</option>
+                                                        <option value="Retailing">Feedback</option>
+                                                        <option value="Rebranding">Concerns</option>
                                                     </select>
                                                 </div>
 
