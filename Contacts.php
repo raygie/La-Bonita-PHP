@@ -210,10 +210,27 @@
                                     <div class="u-container-layout u-container-layout-1">
                                         <h2 class="u-custom-font u-text u-text-1">contact form</h2>
                                         <div class="u-expanded-width u-form u-form-1">
-                                            <form action="https://formsubmit.co/9d127cca773ad970eeff976dc03e6cfa"
-                                                method="POST"
-                                                class="u-block-12b6-21 u-clearfix u-form-spacing-25 u-form-vertical u-inner-form"
-                                                source="email">
+                                            <!-- <form action="https://formsubmit.co/9d127cca773ad970eeff976dc03e6cfa"
+                                                -->
+
+                                            <form action="process.php" method="post">
+                                                <input type="text" name="name" placeholder="name"
+                                                    class="form-control mb-2">
+                                                <input type="email" name="email" placeholder="Email"
+                                                    class="form-control mb-2">
+                                                <select name="subject">
+                                                    <option value="Inquiry" selected>Inquiry
+                                                    </option>
+                                                    <option value="Retailing">Retailing</option>
+                                                    <option value="Rebranding">Rebranding</option>
+                                                </select>
+                                                <textarea name="msg" class="form-control mb-2"
+                                                    placeholder="Write a Message"></textarea>
+                                                <button class="btn btn-success" name="btn-send"> Send </button>
+                                            </form>
+
+                                            <!-- <form action="process.php" method="POST" class="u-block-12b6-21 u-clearfix u-form-spacing-25 u-form-vertical
+                                                u-inner-form" source="email">
                                                 <div class="u-form-group u-form-name">
                                                     <label for="name-e4cc"
                                                         class="u-form-control-hidden u-label">Name</label>
@@ -231,38 +248,36 @@
                                                         required="">
                                                 </div>
 
-                                                <input type="hidden" name="_subject" value="La Bonita Cosmetics">
-
                                                 <div class="u-form-group">
-                                                    <select name="subject">
-                                                        <option value="Inquiry" selected>Inquiry
-                                                        </option>
-                                                        <option value="Retailing">Retailing</option>
-                                                        <option value="Rebranding">Rebranding</option>
-                                                    </select>
+                                                    
                                                 </div>
 
                                                 <div class="u-form-group u-form-message">
                                                     <label for="message-e4cc"
                                                         class="u-form-control-hidden u-label">Message</label>
                                                     <textarea placeholder="Enter your message" rows="4" cols="50"
-                                                        id="message-e4cc" name="message"
+                                                        id="message-e4cc" name="msg"
                                                         class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10"
                                                         required=""></textarea>
                                                 </div>
                                                 <div class="u-align-center u-form-group u-form-submit">
-                                                    <a href="https://formsubmit.co/confirm/9d127cca773ad970eeff976dc03e6cfa"
+                                                    <a href="#"
                                                         class="u-border-2 u-border-custom-color-5 u-border-hover-custom-color-4 u-btn u-btn-round u-btn-submit u-button-style u-radius-20 u-btn-1">Submit</a>
-                                                    <input type="submit" value="submit" name="submit"
+                                                    <input type="submit" value="submit" name="btn-send"
                                                         class="u-form-control-hidden u-grey-5">
                                                 </div>
-                                                <div class="u-form-send-message u-form-send-success">Thank you! Your
-                                                    message has been sent.
-                                                </div>
-                                                <div class="u-form-send-error u-form-send-message">Unable to send your
-                                                    message. Please fix
-                                                    errors then try again.</div>
-                                            </form>
+                                                <?php 
+                                                    if(isset($_GET['error']))
+                                                    {
+                                                        '<div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>';
+                                                    }
+
+                                                    if(isset($_GET['success']))
+                                                    {
+                                                        '<div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent. </div>';
+                                                    }
+                                                ?>
+                                            </form> -->
                                         </div>
                                     </div>
                                 </div>

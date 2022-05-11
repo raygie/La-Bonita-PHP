@@ -18,7 +18,9 @@
 
            if(mail($to,$subject,$msg,$email))
            {
-               header("location:Contacts.php?success");
+            // header('location:Contacts.php?sucess');
+            echo "<script>alert('Posted Successfully');</script>
+	        <script>window.location.href = 'Contact.php'";
            }
        }
     }
