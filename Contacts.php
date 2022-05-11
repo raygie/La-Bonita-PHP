@@ -125,15 +125,17 @@
                     <div class="u-container-layout u-container-layout-1">
                       <h2 class="u-custom-font u-text u-text-1">contact form</h2>
                       <div class="u-expanded-width u-form u-form-1">
-                        <form action="#" method="POST" class="u-block-12b6-21 u-clearfix u-form-spacing-25 u-form-vertical u-inner-form" source="email">
+                        <form action="process.php" method="POST">
                           <div class="u-form-group u-form-name">
                             <label for="name-e4cc" class="u-custom-font u-font-montserrat u-form-control-hidden u-label">Name</label>
                             <input type="text" placeholder="Enter your Name" id="name-e4cc" name="name" class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10" required="">
                           </div>
+                          <br>
                           <div class="u-form-email u-form-group">
                             <label for="email-e4cc" class="u-custom-font u-font-montserrat u-form-control-hidden u-label">Email</label>
                             <input type="email" placeholder="Enter a valid email address" id="email-e4cc" name="email" class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10" required="">
                           </div>
+                          <br>
                           <div class="u-form-group u-form-select u-form-group-3">
                             <label for="select-24cd" class="u-custom-font u-font-montserrat u-label">Message Type:</label>
                             <div class="u-form-select-wrapper">
@@ -144,18 +146,21 @@
                               </select>
                               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
                             </div>
+                            <br>
                           </div>
                           <div class="u-form-group u-form-message">
                             <label for="message-e4cc" class="u-custom-font u-font-montserrat u-form-control-hidden u-label">Message</label>
                             <textarea placeholder="Enter your message" rows="4" cols="50" id="message-e4cc" name="message" class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10" required=""></textarea>
                           </div>
+                          <br>
                           <div class="u-align-center u-form-group u-form-submit">
-                            <a href="#" class="u-border-2 u-border-custom-color-5 u-border-hover-custom-color-4 u-btn u-btn-round u-btn-submit u-button-style u-radius-20 u-btn-1">Submit</a>
-                            <input type="submit" value="submit" class="u-form-control-hidden u-grey-5">
+                          <button class="u-border-2 u-border-custom-color-5 u-border-hover-custom-color-4 u-btn u-btn-round u-btn-submit u-button-style u-radius-20 u-btn-1" name="btn-send">Submit</button>
+                            <!-- <a href="#" class="u-border-2 u-border-custom-color-5 u-border-hover-custom-color-4 u-btn u-btn-round u-btn-submit u-button-style u-radius-20 u-btn-1">Submit</a>
+                            <input type="submit" value="submit" class="u-form-control-hidden u-grey-5"> -->
                           </div>
-                          <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+                          <!-- <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
                           <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
-                          <input type="hidden" value="" name="recaptchaResponse">
+                          <input type="hidden" value="" name="recaptchaResponse"> -->
                         </form>
                       </div>
                     </div>
