@@ -9,7 +9,7 @@
             }
     else{
         if($conn->query($sql) & $conn->query($sqll) ){
-            unlink($path);
+            // unlink($path);
             header("Location:../all-products.php");
         }
         else{

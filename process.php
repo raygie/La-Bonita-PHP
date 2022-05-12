@@ -1,4 +1,3 @@
-<!-- backup email when up na hosting, nothing to do with code  -->
 <?php 
 
     if(isset($_POST['btn-send']))
@@ -30,7 +29,4 @@
     {
         header("location:Contacts.php");
     }
-
-
-
 ?>
