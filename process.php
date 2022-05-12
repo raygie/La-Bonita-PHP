@@ -1,4 +1,3 @@
-<!-- backup email when up na hosting, nothing to do with code  -->
 <?php 
 
     if(isset($_POST['btn-send']))
@@ -10,7 +9,9 @@
 
        if(empty($name) || empty($email) || empty($subject) || empty($msg))
        {
-           header('location:Contacts.php?error');
+        //    header('location:Contacts.php?error');
+            echo "<script>alert('Please Fill out all the fields');</script>
+	        <script>window.location.href = 'Contacts.php'</script>";
        }
        else
        {
@@ -18,9 +19,9 @@
 
            if(mail($to,$subject,$msg,$email))
            {
-            // header('location:Contacts.php?sucess');
-            echo "<script>alert('Posted Successfully');</script>
-	        <script>window.location.href = 'Contact.php'";
+            //    header("location:Contacts.php?success");
+                echo "<script>alert('Send Successfully');</script>
+                <script>window.location.href = 'Contacts.php'</script>";
            }
        }
     }
@@ -28,7 +29,4 @@
     {
         header("location:Contacts.php");
     }
-
-
-
 ?>
