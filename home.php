@@ -9,7 +9,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     
-<link rel="stylesheet" href="Home.css" media="screen">
+<link rel="stylesheet" href="home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
@@ -44,7 +44,7 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417"><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-        <a href="Home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+        <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
           <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
         </a>
         <nav class="u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -56,32 +56,32 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-custom-font u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="Home.php" style="padding: 10px 20px;">Home</a>
+            <ul class="u-custom-font u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="home.php" style="padding: 10px 20px;">Home</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="About-Us.php" style="padding: 10px 20px;">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="Objectives.php" style="padding: 10px 20px;">Objectives</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="Products.php" style="padding: 10px 20px;">Products</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="All-Products.php">All Products</a>
-</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rs.php">Retail/Samples</a>
-</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rw.php">Rebranding/Wholesale</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="objectives.php" style="padding: 10px 20px;">Objectives</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="products.php" style="padding: 10px 20px;">Products</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="All-products.php">All Products</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="retail-sample.php">Retail/Samples</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rebranding-wholesale.php">Rebranding/Wholesale</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="Contacts.php" style="padding: 10px 20px;">Contacts</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="Testimonials.php" style="padding: 10px 20px;">Testimonials</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="contacts.php" style="padding: 10px 20px;">Contacts</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5" href="testimonials.php" style="padding: 10px 20px;">Testimonials</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="home.php">Home</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Objectives.php">Objectives</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Products.php">Products</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="All-Products.php">All Products</a>
-</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rs.php">Retail/Samples</a>
-</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rw.php">Rebranding/Wholesale</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="objectives.php">Objectives</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="products.php">Products</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="All-products.php">All Products</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="retail-sample.php">Retail/Samples</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rebranding-wholesale.php">Rebranding/Wholesale</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacts.php">Contacts</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Testimonials.php">Testimonials</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="contacts.php">Contacts</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="testimonials.php">Testimonials</a>
 </li></ul>
               </div>
             </div>
@@ -123,7 +123,7 @@
                 <h2 class="u-custom-font u-text u-text-default-xl u-text-1"> Check our latest products</h2>
                 <div class="u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
                   <div class="u-gallery-inner u-gallery-inner-1">
-                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="Products.php" data-page-id="114294678">
+                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="products.php" data-page-id="114294678">
                       <div class="u-back-slide" data-image-width="500" data-image-height="500">
                         <img class="u-back-image u-expanded" src="images/Untitleddesign7.svg" alt="Learn more">
                       </div>
@@ -132,7 +132,7 @@
                         <p class="u-gallery-text"></p>
                       </div>
                     </div>
-                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="Products.php" data-page-id="114294678">
+                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="products.php" data-page-id="114294678">
                       <div class="u-back-slide" data-image-width="1280" data-image-height="853">
                         <img class="u-back-image u-expanded" src="images/052ff167d6959deff34b6d1c8e8b05adece966434c883036d12f82c28e7e4848e84bde28ff191797631eba4b34035253e382331d34655b1f0333c1_1280.jpg" alt="Learn more">
                       </div>
@@ -141,7 +141,7 @@
                         <p class="u-gallery-text"></p>
                       </div>
                     </div>
-                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="Products.php" data-page-id="114294678">
+                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="products.php" data-page-id="114294678">
                       <div class="u-back-slide" data-image-width="150" data-image-height="112">
                         <img class="u-back-image u-expanded" src="images/671ffc462572c125cd323729c01f8d1a188ee52a03125127956f2be63d9ccf3787fd1d0bc00473b869e17be133f3e78719e3659f21bc1216af478b_1280.jpg" alt="Learn more">
                       </div>
@@ -159,7 +159,7 @@
                 <h2 class="u-custom-font u-text u-text-default-xl u-text-2">Come and shop now</h2>
                 <div class="u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-2">
                   <div class="u-gallery-inner u-gallery-inner-2">
-                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="Products.php" data-page-id="114294678">
+                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="products.php" data-page-id="114294678">
                       <div class="u-back-slide" data-image-width="1280" data-image-height="853">
                         <img class="u-back-image u-expanded" src="images/995cbb80fea7e520a26d0ae479d80fdb941c288fca49f9264140b0bea9a2be6cb368c3144193cda5b07c3a748148f063bad173d3646d17818cae0c_1280.jpg" alt="Learn more">
                       </div>
@@ -168,7 +168,7 @@
                         <p class="u-gallery-text"></p>
                       </div>
                     </div>
-                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="Products.php" data-page-id="114294678">
+                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="products.php" data-page-id="114294678">
                       <div class="u-back-slide" data-image-width="1280" data-image-height="923">
                         <img class="u-back-image u-expanded" src="images/2f5e1b023c517f4710c77996d6edda5a666e01e8c966e19b6bbe21e6fc26c8c626a167cb6df0526ebe4a75bd2ab47b8722d4c41c89957d41abbf9a_1280.jpg" alt="Learn more">
                       </div>
@@ -177,7 +177,7 @@
                         <p class="u-gallery-text"></p>
                       </div>
                     </div>
-                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="Products.php" data-page-id="114294678">
+                    <div class="u-effect-fade u-gallery-item u-radius-39 u-shape-round" data-href="products.php" data-page-id="114294678">
                       <div class="u-back-slide" data-image-width="853" data-image-height="1280">
                         <img class="u-back-image u-expanded" src="images/b8c46251a3e7bcc84471711be18436bf637e527bbbd737183852eebfddbc977de4eb29b6738449f17cfc247392c428a68741b01266da1a2700b20d_1280.jpg" alt="Learn more">
                       </div>

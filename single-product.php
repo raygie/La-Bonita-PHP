@@ -17,7 +17,7 @@ $fetch = mysqli_fetch_array($products);
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Product</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="ap.css" media="screen">
+<link rel="stylesheet" href="all-products.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
@@ -49,7 +49,7 @@ $fetch = mysqli_fetch_array($products);
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417"><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-        <a href="Home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+        <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
           <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
         </a>
         <nav class="u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -64,40 +64,40 @@ $fetch = mysqli_fetch_array($products);
                     <ul class="u-custom-font u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Home.php" style="padding: 10px 20px;">Home</a>
+                                href="home.php" style="padding: 10px 20px;">Home</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="About-Us.php" style="padding: 10px 20px;">About Us</a>
+                                href="about-us.php" style="padding: 10px 20px;">About Us</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Objectives.php" style="padding: 10px 20px;">Objectives</a>
+                                href="objectives.php" style="padding: 10px 20px;">Objectives</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Products.php" style="padding: 10px 20px;">Products</a>
+                                href="products.php" style="padding: 10px 20px;">Products</a>
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="ap.php">All Products</a>
+                                            href="all-products.php">All Products</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="rs.php">Retail/Samples</a>
+                                            href="retail-sample.php">Retail/Samples</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="rw.php">Rebranding/Wholesale</a>
+                                            href="rebranding-wholesale.php">Rebranding/Wholesale</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Contacts.php" style="padding: 10px 20px;">Contacts</a>
+                                href="contacts.php" style="padding: 10px 20px;">Contacts</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Testimonials.php" style="padding: 10px 20px;">Testimonials</a>
+                                href="testimonials.php" style="padding: 10px 20px;">Testimonials</a>
                         </li>
                     </ul>
                 </div>
@@ -105,16 +105,16 @@ $fetch = mysqli_fetch_array($products);
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Objectives.php">Objectives</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Products.php">Products</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="ap.php">All Products</a>
-</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rs.php">Retail/Samples</a>
-</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rw.php">Rebranding/Wholesale</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="home.php">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="about-us.php">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="objectives.php">Objectives</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="products.php">Products</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="all-products.php">All Products</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="retail-sample.php">Retail/Samples</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link" href="rebranding-wholesale.php">Rebranding/Wholesale</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacts.php">Contacts</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Testimonials.php">Testimonials</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="contacts.php">Contacts</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="testimonials.php">Testimonials</a>
 </li></ul>
               </div>
             </div>

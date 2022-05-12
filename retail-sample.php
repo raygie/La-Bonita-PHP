@@ -12,9 +12,11 @@ $a=1;
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>rw</title>
+    <title>rs</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-    <link rel="stylesheet" href="ap.css" media="screen">
+
+    <link rel="stylesheet" href="all-products.css" media="screen">
+
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
@@ -44,16 +46,16 @@ $a=1;
     <meta name="theme-color" content="#478ac9">
     <meta name="twitter:site" content="@">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="rw">
+    <meta name="twitter:title" content="rs">
     <meta name="twitter:description" content="Labonita">
-    <meta property="og:title" content="rw">
+    <meta property="og:title" content="rs">
     <meta property="og:type" content="website">
 </head>
 
 <body class="u-body u-xl-mode">
     <header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417">
         <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-            <a href="Home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
+            <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
@@ -79,40 +81,40 @@ $a=1;
                     <ul class="u-custom-font u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Home.php" style="padding: 10px 20px;">Home</a>
+                                href="home.php" style="padding: 10px 20px;">Home</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="About-Us.php" style="padding: 10px 20px;">About Us</a>
+                                href="about-us.php" style="padding: 10px 20px;">About Us</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Objectives.php" style="padding: 10px 20px;">Objectives</a>
+                                href="objectives.php" style="padding: 10px 20px;">Objectives</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Products.php" style="padding: 10px 20px;">Products</a>
+                                href="products.php" style="padding: 10px 20px;">Products</a>
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="ap.php">All Products</a>
+                                            href="All-products.php">All Products</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="rs.php">Retail/Samples</a>
+                                            href="retail-sample.php">Retail/Samples</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="rw.php">Rebranding/Wholesale</a>
+                                            href="rebranding-wholesale.php">Rebranding/Wholesale</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Contacts.php" style="padding: 10px 20px;">Contacts</a>
+                                href="contacts.php" style="padding: 10px 20px;">Contacts</a>
                         </li>
                         <li class="u-nav-item"><a
                                 class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="Testimonials.php" style="padding: 10px 20px;">Testimonials</a>
+                                href="testimonials.php" style="padding: 10px 20px;">Testimonials</a>
                         </li>
                     </ul>
                 </div>
@@ -121,35 +123,35 @@ $a=1;
                         <div class="u-inner-container-layout u-sidenav-overflow">
                             <div class="u-menu-close"></div>
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php">Home</a>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="home.php">Home</a>
                                 </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.php">About
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="about-us.php">About
                                         Us</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Objectives.php">Objectives</a>
+                                        href="objectives.php">Objectives</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Products.php">Products</a>
+                                        href="products.php">Products</a>
                                     <div class="u-nav-popup">
                                         <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="ap.php">All Products</a>
+                                                    href="All-Products.html">All Products</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="rs.php">Retail/Samples</a>
+                                                    href="retail-sample.php">Retail/Samples</a>
                                             </li>
                                             <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="rw.php">Rebranding/Wholesale</a>
+                                                    href="rebranding-wholesale.php">Rebranding/Wholesale</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Contacts.php">Contacts</a>
+                                        href="contacts.php">Contacts</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Testimonials.php">Testimonials</a>
+                                        href="testimonials.php">Testimonials</a>
                                 </li>
                             </ul>
                         </div>
@@ -159,21 +161,21 @@ $a=1;
             </nav>
         </div>
     </header>
-    <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-881b">
+    <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-b167">
         <div class="u-align-left u-clearfix u-sheet u-sheet-1">
-            <img class="u-hover-feature u-image u-image-round u-radius-35 u-image-1" src="images/Untitleddesign5-39.png"
+            <img class="u-hover-feature u-image u-image-round u-radius-35 u-image-1" src="images/Untitleddesign6-40.png"
                 alt="" data-image-width="1600" data-image-height="900">
         </div>
 
     </section>
-    <section class="u-align-center u-clearfix u-custom-color-3 u-section-2" id="sec-e548">
+    <section class="u-align-center u-clearfix u-custom-color-3 u-section-2" id="sec-eb81">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <p class="u-custom-font u-text u-text-default u-text-1">Rebrand & Wholesale</p>
+            <p class="u-custom-font u-text u-text-default u-text-1">Retails & Samples</p>
             <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
                 <div class="u-layout">
                     <div class="u-layout-row">
                         <?php
-                        $sql = "SELECT * FROM products WHERE prod_category ='Rebranding/Wholesale' ORDER BY date_created desc";
+                        $sql = "SELECT * FROM products WHERE prod_category ='Retail/Samples' ORDER BY date_created desc";
                         $result = $conn->query($sql);
                         while($row=$result->fetch_assoc()){ 
                     ?>

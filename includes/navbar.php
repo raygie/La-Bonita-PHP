@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,9 +19,10 @@
     <!-- Bootstrap-->
     <link rel="stylesheet" href="plugins/bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-  </head>
+</head>
+
 <body>
-  <!-- <header id="header" class="fixed-top">
+    <!-- <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       <h1 class="logo mr-auto"><a href="#">La Bonita</a></h1>
         <nav class="nav-menu d-none d-lg-block">
@@ -35,27 +37,28 @@
         </nav>
     </div>
   </header> -->
-  <header id="header" class="header fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-    <h1 class="logo mr-auto"><a href="#">La Bonita</a></h1>
+    <header id="header" class="header fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <h1 class="logo mr-auto"><a href="#">La Bonita</a></h1>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">About</a></li>
-          <li class="nav-link <?php if($a==1){ echo 'active'; }?>"><a href="allproducts.php">Products</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Testimonials</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="nav-link <?php if($a==1){ echo 'active'; }?>"><a href="allproducts.php">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
 
-    </div>
-  </header>
+        </div>
+    </header>
 
 
-  
-  <script src="plugins/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="plugins/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
