@@ -58,7 +58,7 @@
 
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-shape u-shape-svg u-text-custom-color-4 u-shape-1">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b1dd"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-b1dd"
@@ -69,7 +69,7 @@
                 </svg>
             </div>
             <div class="u-shape u-shape-svg u-text-custom-color-5 u-shape-2">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-598a"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-598a"
@@ -225,7 +225,7 @@
     <section class="u-clearfix u-custom-color-3 u-section-3" id="sec-6af6">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-shape u-shape-svg u-text-custom-color-5 u-shape-1">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-42b8"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-42b8"
@@ -236,7 +236,7 @@
                 </svg>
             </div>
             <div class="u-shape u-shape-svg u-text-custom-color-4 u-shape-2">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-bee3"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-bee3"

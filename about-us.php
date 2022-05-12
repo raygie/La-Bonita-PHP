@@ -44,7 +44,7 @@
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-f766">
         <div class="u-align-left u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
             <div class="u-shape u-shape-svg u-text-custom-color-4 u-shape-1">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c85f"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-c85f">
@@ -53,7 +53,7 @@
                 </svg>
             </div>
             <div class="u-shape u-shape-svg u-text-custom-color-5 u-shape-2">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b7a6"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-b7a6"
@@ -93,7 +93,7 @@
     <section class="u-clearfix u-custom-color-3 u-section-3" id="sec-bbdc">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-shape u-shape-svg u-text-custom-color-5 u-shape-1">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d99c"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-d99c"
@@ -104,7 +104,7 @@
                 </svg>
             </div>
             <div class="u-shape u-shape-svg u-text-custom-color-4 u-shape-2">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9bb5"></use>
                 </svg>
                 <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-9bb5"
@@ -163,7 +163,7 @@
                                             <span class="u-accordion-link-text">Create a Webinar in Minutes</span><span
                                                 class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg
                                                     class="u-svg-link" preserveAspectRatio="xMidYMin slice"
-                                                    viewBox="0 0 426.66667 426.66667" style="">
+                                                    viewBox="0 0 426.66667 426.66667">
                                                     <use xmlns:xlink="http://www.w3.org/1999/xlink"
                                                         xlink:href="#svg-347e"></use>
                                                 </svg><svg class="u-svg-content" viewBox="0 0 426.66667 426.66667"
@@ -221,7 +221,7 @@
                                                 Management</span><span
                                                 class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-2"><svg
                                                     class="u-svg-link" preserveAspectRatio="xMidYMin slice"
-                                                    viewBox="0 0 426.66667 426.66667" style="">
+                                                    viewBox="0 0 426.66667 426.66667">
                                                     <use xmlns:xlink="http://www.w3.org/1999/xlink"
                                                         xlink:href="#svg-ae03"></use>
                                                 </svg><svg class="u-svg-content" viewBox="0 0 426.66667 426.66667"
@@ -276,7 +276,7 @@
                                                 business</span><span
                                                 class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-3"><svg
                                                     class="u-svg-link" preserveAspectRatio="xMidYMin slice"
-                                                    viewBox="0 0 426.66667 426.66667" style="">
+                                                    viewBox="0 0 426.66667 426.66667">
                                                     <use xmlns:xlink="http://www.w3.org/1999/xlink"
                                                         xlink:href="#svg-a4a8"></use>
                                                 </svg><svg class="u-svg-content" viewBox="0 0 426.66667 426.66667"
@@ -330,7 +330,7 @@
                                                 products</span><span
                                                 class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-4"><svg
                                                     class="u-svg-link" preserveAspectRatio="xMidYMin slice"
-                                                    viewBox="0 0 426.66667 426.66667" style="">
+                                                    viewBox="0 0 426.66667 426.66667">
                                                     <use xmlns:xlink="http://www.w3.org/1999/xlink"
                                                         xlink:href="#svg-f384"></use>
                                                 </svg><svg class="u-svg-content" viewBox="0 0 426.66667 426.66667"
