@@ -9,8 +9,7 @@
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Home</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-    <?php include './includes/meta/favicons.php' ?>
-    <link rel="stylesheet" href="Home.css" media="screen">
+    <link rel="stylesheet" href="home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
@@ -18,8 +17,6 @@
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
-
-
 
 
     <script type="application/ld+json">
@@ -54,113 +51,13 @@
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
-            <nav class="u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1">
-                <div class="menu-collapse u-custom-font"
-                    style="font-size: 1rem; letter-spacing: 0px; font-family: Montserrat;">
-                    <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                        href="#">
-                        <svg class="u-svg-link" viewBox="0 0 24 24">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-                        </svg>
-                        <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                            <g>
-                                <rect y="1" width="16" height="2"></rect>
-                                <rect y="7" width="16" height="2"></rect>
-                                <rect y="13" width="16" height="2"></rect>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-                <div class="u-custom-menu u-nav-container">
-                    <ul class="u-custom-font u-nav u-unstyled u-nav-1">
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="home.php" style="padding: 10px 20px;">Home</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="about-us.php" style="padding: 10px 20px;">About Us</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="objectives.php" style="padding: 10px 20px;">Objectives</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="products.php" style="padding: 10px 20px;">Products</a>
-                            <div class="u-nav-popup">
-                                <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
-                                    <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="All-products.php">All Products</a>
-                                    </li>
-                                    <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="retail-sample.php">Retail/Samples</a>
-                                    </li>
-                                    <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                            href="rebranding-wholesale.php">Rebranding/Wholesale</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="contacts.php" style="padding: 10px 20px;">Contacts</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                                href="testimonials.php" style="padding: 10px 20px;">Testimonials</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="u-custom-menu u-nav-container-collapse">
-                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-inner-container-layout u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="home.php">Home</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="about-us.php">About
-                                        Us</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="objectives.php">Objectives</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="products.php">Products</a>
-                                    <div class="u-nav-popup">
-                                        <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
-                                            <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="All-Products.html">All Products</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="retail-sample.php">Retail/Samples</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                                    href="rebranding-wholesale.php">Rebranding/Wholesale</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="contacts.php">Contacts</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="testimonials.php">Testimonials</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-                </div>
-            </nav>
+            <?php include './includes/navigation-bar.php'; ?>
         </div>
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-0cbe">
 
         <div class="u-clearfix u-sheet u-sheet-1">
-            <div class="u-custom-color-4 u-shape u-shape-rectangle u-shape-1"></div>
-            <div class="u-shape u-shape-svg u-text-custom-color-4 u-shape-2">
+            <div class="u-shape u-shape-svg u-text-custom-color-4 u-shape-1">
                 <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b1dd"></use>
                 </svg>
@@ -171,7 +68,7 @@
 	C121.1,5,103.7-5.6,85.7,3.1c-6.8,3.3-12.6,7.7-20,10.2C58,15.9,49.5,16.6,41.6,19C26.8,23.6,16.7,31,10.3,39.9z"></path>
                 </svg>
             </div>
-            <div class="u-shape u-shape-svg u-text-custom-color-5 u-shape-3">
+            <div class="u-shape u-shape-svg u-text-custom-color-5 u-shape-2">
                 <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-598a"></use>
                 </svg>
@@ -182,10 +79,11 @@
 	C121.1,5,103.7-5.6,85.7,3.1c-6.8,3.3-12.6,7.7-20,10.2C58,15.9,49.5,16.6,41.6,19C26.8,23.6,16.7,31,10.3,39.9z"></path>
                 </svg>
             </div>
-            <img class="u-hover-feature u-image u-image-default u-image-1" src="images/Untitleddesign.svg" alt=""
+            <img class="u-hover-feature u-image u-image-default u-image-1" src="images/Untitleddesign16.png" alt=""
                 data-image-width="1600" data-image-height="900" data-animation-out="0">
             <p class="u-custom-font u-text u-text-1">Welcome to our website feel free to explore!</p>
             <p class="u-custom-font u-text u-text-2">La Bonita Cosmetics</p>
+            <div class="u-custom-color-4 u-shape u-shape-rectangle u-shape-3"></div>
         </div>
     </section>
     <section class="u-clearfix u-custom-color-3 u-section-2" id="carousel_acdd">
@@ -348,8 +246,6 @@
 	C121.1,5,103.7-5.6,85.7,3.1c-6.8,3.3-12.6,7.7-20,10.2C58,15.9,49.5,16.6,41.6,19C26.8,23.6,16.7,31,10.3,39.9z"></path>
                 </svg>
             </div>
-            <img class="u-image u-image-default u-image-1" src="images/LaBonita-WebsitePresentation169.svg" alt=""
-                data-image-width="1920" data-image-height="1080">
             <div class="u-container-style u-custom-color-4 u-group u-hover-feature u-opacity u-opacity-70 u-preserve-proportions u-radius-30 u-shape-round u-group-1"
                 data-image-width="500" data-image-height="500">
                 <div class="u-container-layout u-container-layout-1">
@@ -362,12 +258,10 @@
                         Now</a>
                 </div>
             </div>
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign17.png"
+                alt="" data-image-width="500" data-image-height="500">
         </div>
-
-
     </section>
-
-
     <?php include './includes/footer.php'?>
 </body>
 

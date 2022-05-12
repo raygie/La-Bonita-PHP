@@ -76,8 +76,7 @@
                         alt=""></span>
             </a>
         </div>
-        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1"> Ⓒ 2022 created by UIP
-            Dev
+        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1"> Ⓒ 2022 created by UIP Dev
             Interns</p>
     </div>
 </footer>
