@@ -2,47 +2,14 @@
 <html style="font-size: 16px;">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="COntact us, follow us, contact form">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <meta name="keywords" content="Contact us, follow us, contact form">
     <title>Contacts</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="contacts.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
-
-
-    <?php include './includes/meta/favicons.php' ?>
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Labonita",
-        "logo": "images/Labonita.png",
-        "sameAs": [
-            "https://www.facebook.com/LaBonitaCosmeticsByAnafara",
-            "https://twitter.com/LaAnafara ",
-            " https://www.instagram.com/la_bonita_cosmetics/",
-            " https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/",
-            "https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ ",
-            "https://www.tiktok.com/@labonitacosmetics.ph?lang=en/ "
-        ]
-    }
-    </script>
-    <meta name="theme-color" content="#478ac9">
-    <meta name="twitter:site" content="@">
-    <meta name="twitter:card" content="summary_large_image">
+    <?php include './includes/meta/meta.php'; ?>
+    <?php include './includes/meta/script.php'; ?>
+    <?php include './includes/meta/favicons.php'; ?>
     <meta name="twitter:title" content="Contacts">
-    <meta name="twitter:description" content="Labonita">
     <meta property="og:title" content="Contacts">
-    <meta property="og:type" content="website">
 </head>
 
 <body class="u-body u-xl-mode">
@@ -52,9 +19,7 @@
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
-
             <?php include './includes/navigation-bar.php'; ?>
-
         </div>
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="carousel_fd98">

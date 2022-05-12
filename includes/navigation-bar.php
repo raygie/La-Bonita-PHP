@@ -44,7 +44,7 @@
                                  href="retail-sample.php">Retail/Samples</a>
                          </li>
                          <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                 href="retail-wholesale.php">Rebranding/Wholesale</a>
+                                 href="rebranding-wholesale.php">Rebranding/Wholesale</a>
                          </li>
                      </ul>
                  </div>
