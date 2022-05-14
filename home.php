@@ -2,28 +2,46 @@
 <html style="font-size: 16px;">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <meta name="keywords" content="​Check our latest products">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Home</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="home.css" media="screen">
-    <?php include './includes/meta/meta.php'; ?>
-    <?php include './includes/meta/script.php'; ?>
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
+
+    <?php include './includes/meta/script.php'?>
     <?php include './includes/meta/favicons.php'; ?>
+
+    <meta name="theme-color" content="#478ac9">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Home">
+    <meta name="twitter:description" content="Labonita">
     <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
 </head>
 
-<body data-home-page="home.php" data-home-page-title="Home" class="u-body u-xl-mode">
+<body class="u-body u-xl-mode">
     <header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417">
         <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
             <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
-            <?php include './includes/navigation-bar.php'; ?>
+
+            <?php include './includes/navigation-bar.php'?>
         </div>
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-0cbe">
-
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-shape u-shape-svg u-text-custom-color-4 u-shape-1">
                 <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
@@ -229,8 +247,12 @@
             <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign17.png"
                 alt="" data-image-width="500" data-image-height="500">
         </div>
+
+
     </section>
+
     <?php include './includes/footer.php'?>
+
 </body>
 
 </html>
