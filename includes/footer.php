@@ -1,4 +1,4 @@
-<footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer"
+<footer class="fix-bottom u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer"
     id="sec-84aa">
     <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-sheet-1">
         <div class="u-align-left u-hover-feature u-social-icons u-spacing-10 u-social-icons-1">

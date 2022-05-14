@@ -9,9 +9,8 @@
 
        if(empty($name) || empty($email) || empty($subject) || empty($msg))
        {
-        //    header('location:contacts.php?error');
             echo "<script>alert('Please Fill out all the fields');</script>
-	        <script>window.location.href = 'contacts.php'</script>";
+	        <script>window.location.href = '../contacts.php'</script>";
        }
        else
        {
@@ -19,9 +18,8 @@
 
            if(mail($to,$subject,$msg,$email))
            {
-            //    header("location:contacts.php?success");
                 echo "<script>alert('Send Successfully');</script>
-                <script>window.location.href = 'contacts.php'</script>";
+                <script>window.location.href = '../contacts.php'</script>";
            }
        }
     }

@@ -24,7 +24,7 @@
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="carousel_fd98">
         <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
-            <h2 class="u-custom-font u-text u-text-1">COntact us</h2>
+            <h2 class="u-custom-font u-text u-text-1">Contact us</h2>
             <a href="https://nicepage.site"
                 class="u-active-none u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-1"><span
                     class="u-icon u-text-custom-color-5"><svg class="u-svg-content" viewBox="0 0 405.333 405.333"
@@ -131,7 +131,7 @@
                                                         class="u-custom-font u-font-montserrat u-label">Message
                                                         Type:</label>
                                                     <div class="u-form-select-wrapper">
-                                                        <select id="select-24cd" name="Message Type:"
+                                                        <select id="select-24cd" name="subject"
                                                             class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10">
                                                             <option value="Inquiry">Inquiry</option>
                                                             <option value="Feedback">Feedback</option>
@@ -148,7 +148,7 @@
                                                     <label for="message-e4cc"
                                                         class="u-custom-font u-font-montserrat u-form-control-hidden u-label">Message</label>
                                                     <textarea placeholder="Enter your message" rows="4" cols="50"
-                                                        id="message-e4cc" name="message"
+                                                        id="message-e4cc" name="msg"
                                                         class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10"
                                                         required=""></textarea>
                                                 </div>
