@@ -30,12 +30,6 @@ $fetch = mysqli_fetch_array($products);
             </a>
             <?php include './includes/navigation-bar.php'; ?>
         </div>
-
-        </div>
-        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-        </nav>
-        </div>
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-ff46">
         <div class="u-align-left u-clearfix u-sheet u-sheet-1">
@@ -63,7 +57,7 @@ $fetch = mysqli_fetch_array($products);
                 NOW</a>
         </div>
     </section>
-    <?php include './includes/footer.php'?>
+    <?php include './includes/footer.php'; ?>
 </body>
 
 </html>

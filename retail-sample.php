@@ -70,7 +70,7 @@ $a=1;
             </div>
         </div>
     </section>
-    <?php include './includes/footer.php'?>
+    <?php include './includes/footer.php'; ?>
 </body>
 
 </html>

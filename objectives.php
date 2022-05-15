@@ -19,7 +19,7 @@
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
 
 
-    <?php include './includes/meta/script.php'?>
+    <?php include './includes/meta/script.php'; ?>
     <?php include './includes/meta/favicons.php'; ?>
 
     <meta name="theme-color" content="#478ac9">
@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <?php include './includes/footer.php'?>
+    <?php include './includes/footer.php'; ?>
 
 </body>
 

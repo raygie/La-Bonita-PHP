@@ -16,7 +16,6 @@
          </a>
      </div>
 
-
      <!-- Navigation Bar -->
      <div class="u-custom-menu u-nav-container">
          <ul class="u-custom-font u-nav u-unstyled u-nav-1">
@@ -77,13 +76,13 @@
                      <li class="u-nav-item"><a class="u-button-style u-nav-link" href="products.php">Products</a>
                          <div class="u-nav-popup">
                              <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
-                                 <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
-                                         href="all-products.php">All Products</a>
+                                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="all-products.php">All
+                                         Products</a>
                                  </li>
-                                 <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
+                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
                                          href="retail-sample.php">Retail/Samples</a>
                                  </li>
-                                 <li class="u-nav-item"><a class="u-button-style u-custom-color-3 u-nav-link"
+                                 <li class="u-nav-item"><a class="u-button-style u-nav-link"
                                          href="rebranding-wholesale.php">Rebranding/Wholesale</a>
                                  </li>
                              </ul>

@@ -32,7 +32,7 @@
                         <path
                             d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z">
                         </path>
-                    </svg><img></span> +6384205940
+                    </svg><img></span> +63984205940
             </a>
             <h2 class="u-text u-text-2">follow us</h2>
             <div class="u-social-icons u-spacing-20 u-social-icons-1">
@@ -105,7 +105,7 @@
                             <div class="u-layout-row">
                                 <div class="u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-1">
                                     <div class="u-container-layout u-container-layout-1">
-                                        <h2 class="u-custom-font u-text u-text-1">contact form</h2>
+                                        <h2 class="u-custom-font u-text u-text-1">Contact form</h2>
                                         <div class="u-expanded-width u-form u-form-1">
                                             <form action="./includes/email.php" method="POST">
                                                 <div class="u-form-group u-form-name">
@@ -169,7 +169,7 @@
             </div>
         </div>
     </section>
-    <?php include './includes/footer.php'?>
+    <?php include './includes/footer.php'; ?>
 </body>
 
 </html>

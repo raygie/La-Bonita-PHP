@@ -18,7 +18,7 @@
     <link id="u-page-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
 
-    <?php include './includes/meta/script.php'?>
+    <?php include './includes/meta/script.php'; ?>
     <?php include './includes/meta/favicons.php'; ?>
 
     <meta name="theme-color" content="#478ac9">
@@ -37,7 +37,7 @@
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
-            <?php include './includes/navigation-bar.php'?>
+            <?php include './includes/navigation-bar.php'; ?>
         </div>
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-0cbe">
@@ -250,7 +250,7 @@
 
     </section>
 
-    <?php include './includes/footer.php'?>
+    <?php include './includes/footer.php'; ?>
 
 </body>
 
