@@ -16,6 +16,7 @@ $a=1;
     <?php include './includes/meta/favicons.php'; ?>
     <meta name="twitter:title" content="All Products">
     <meta property="og:title" content="All Products">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="u-body u-xl-mode">
@@ -60,8 +61,8 @@ $a=1;
                                 src="admin/includes/prodpic/'.$row['prod_image'].'" alt="" data-image-width="500" data-image-height="500">'
                                 ?>
                                 <p class="u-text u-text-2"><?= $row['prod_name'];?></p>
-                                <p class="u-text u-text-3"><?= $row['prod_price'];?></p>
-                                <?php echo '<a target="_blank"  href=single-product.php?id=' . $row['id'] . '>See More...</a>'?>
+                                <p class="u-text u-text-4 u-text-custom-color-5" style="margin-bottom: 10px"><?= $row['prod_price'];?></p>
+                                <?php echo '<a class="u-text u-text-4 u-text-custom-color-4 u-hover-color-5" target="_blank"  href=single-product.php?id=' . $row['id'] . '>See More <i class="fas fa-arrow-right"></i></a>'?>
                                 <a href="<?= $row['link'];?>"
                                     class="u-border-2 u-border-custom-color-5 u-btn u-btn-round u-button-style u-custom-font u-font-montserrat u-hover-custom-color-4 u-none u-radius-10 u-text-hover-white u-btn-1">BUY
                                     NOW</a>
