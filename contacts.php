@@ -187,13 +187,13 @@ require ('PHPMailer/SMTP.php');
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom('labonitacosmeticsofficial@gmail.com', 'LA BONITA');
+            $mail->setFrom($email, $name);
             $mail->addAddress('labonitacosmeticsofficial@gmail.com');    //Name is optional
 
             //Content
             $mail->isHTML(true);                                         //Set email format to HTML
             $mail->Subject = "$subject";
-            $mail->Body    = "Name: $name <br> Email: $email <br>";
+            $mail->Body    = "Name: $name <br> Email: $email <br> Message:<br> $msg <br>";
             // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
             $mail->send();
