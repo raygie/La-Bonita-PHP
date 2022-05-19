@@ -14,10 +14,8 @@
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.5, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Caudex:400,400i,700,700i">
 
     <?php include './includes/meta/script.php'; ?>
 
@@ -34,8 +32,7 @@
 <body class="u-body u-xl-mode">
     <header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="Home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
-                data-image-width="500" data-image-height="500" title="Home">
+            <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
             <?php include './includes/navigation-bar.php'; ?>
@@ -43,20 +40,17 @@
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-c345">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-round u-preserve-proportions u-image-1" src="images/Untitleddesign9.svg" alt=""
-                data-image-width="500" data-image-height="500">
+            <img class="u-image u-image-round u-preserve-proportions u-image-1" src="images/Untitleddesign9.svg" alt="" data-image-width="500" data-image-height="500">
             <p class="u-custom-font u-text u-text-default u-text-1">Ou​r Objectives</p>
             <p class="u-align-center-xs u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2">La
                 Bonita's Cosmetics has different of objectives&nbsp; that is based on different aspects</p>
-            <a href="https://www.facebook.com/LaBonitaCosmeticsByAnafara/"
-                class="u-border-2 u-border-grey-dark-1 u-btn u-btn-rectangle u-button-style u-hover-custom-color-4 u-none u-btn-1">LEARN
+            <a href="https://www.facebook.com/LaBonitaCosmeticsByAnafara/" class="u-border-2 u-border-grey-dark-1 u-btn u-btn-rectangle u-button-style u-hover-custom-color-4 u-none u-btn-1">LEARN
                 more</a>
         </div>
     </section>
     <section class="u-clearfix u-custom-color-3 u-section-2" id="sec-bb70">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign8.png"
-                alt="" data-image-width="500" data-image-height="500">
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign8.png" alt="" data-image-width="500" data-image-height="500">
             <p class="u-custom-font u-text u-text-default u-text-1">Rebranding</p>
             <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2"> La
                 Bonita aspires to be the most popular cosmetics brand in the Philippines and to be the first choice of
@@ -66,8 +60,7 @@
     </section>
     <section class="u-clearfix u-custom-color-3 u-section-3" id="carousel_b448">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign9.png"
-                alt="" data-image-width="500" data-image-height="500">
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign9.png" alt="" data-image-width="500" data-image-height="500">
             <p class="u-custom-font u-text u-text-default u-text-1">No side effects</p>
             <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2">
                 Products of La Bonita Cosmetics by Anafara are FDA approve, to ensure that products have no side
@@ -77,8 +70,7 @@
     </section>
     <section class="u-clearfix u-custom-color-3 u-section-4" id="carousel_a74f">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign11.png"
-                alt="" data-image-width="500" data-image-height="500">
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign11.png" alt="" data-image-width="500" data-image-height="500">
             <p class="u-custom-font u-text u-text-1">Offer beauty solutions</p>
             <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2"> La
                 Bonita aspires to be the most popular cosmetics brand in the Philippines and to be the first choice of
@@ -88,8 +80,7 @@
     </section>
     <section class="u-clearfix u-custom-color-3 u-section-5" id="carousel_cff7">
         <div class="u-clearfix u-sheet u-valign-middle-md u-sheet-1">
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign12.png"
-                alt="" data-image-width="500" data-image-height="500">
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign12.png" alt="" data-image-width="500" data-image-height="500">
             <p class="u-custom-font u-text u-text-1">Reach target market </p>
             <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2"> La
                 Bonita aspires to be the most popular cosmetics brand in the Philippines and to be the first choice of
@@ -105,20 +96,15 @@
                 Bonita Cosmetic by Anafara aims to improve the product quality of an existing product and innovate it to
                 a product that will be accommodating to the customers and users. We also aim to provide an innovative
                 way to advertise the products.</p>
-            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign14.png"
-                alt="" data-image-width="500" data-image-height="500">
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign14.png" alt="" data-image-width="500" data-image-height="500">
         </div>
     </section>
 
 
-    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer"
-        id="sec-84aa">
+    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa">
         <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-sheet-1">
             <div class="u-align-left u-hover-feature u-social-icons u-spacing-10 u-social-icons-1">
-                <a class="u-social-url" title="facebook" target="_blank"
-                    href="https://www.facebook.com/LaBonitaCosmeticsByAnafara"><span
-                        class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link"
-                            preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
+                <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/LaBonitaCosmeticsByAnafara"><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-aab7"></use>
                         </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-aab7">
                             <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -126,9 +112,7 @@
             c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path>
                         </svg></span>
                 </a>
-                <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/LaAnafara "><span
-                        class="u-icon u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link"
-                            preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
+                <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/LaAnafara "><span class="u-icon u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ff97"></use>
                         </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-ff97">
                             <circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle>
@@ -139,29 +123,21 @@
             c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path>
                         </svg></span>
                 </a>
-                <a class="u-social-url" title="instagram" target="_blank"
-                    href=" https://www.instagram.com/la_bonita_cosmetics/"><span
-                        class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link"
-                            preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
+                <a class="u-social-url" title="instagram" target="_blank" href=" https://www.instagram.com/la_bonita_cosmetics/"><span class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9698"></use>
                         </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9698">
                             <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
-                            <path fill="#FFFFFF"
-                                d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+                            <path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z">
                             </path>
-                            <path fill="#FFFFFF"
-                                d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z">
+                            <path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z">
                             </path>
                             <path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path>
                         </svg></span>
                 </a>
-                <a class="u-social-url" title="linkedin" target="_blank"
-                    href=" https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/"><span
-                        class="u-icon u-social-icon u-social-linkedin u-icon-4"><svg class="u-svg-link"
-                            preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
+                <a class="u-social-url" title="linkedin" target="_blank" href=" https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/"><span class="u-icon u-social-icon u-social-linkedin u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-229d"></use>
                         </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-229d">
                             <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -170,10 +146,7 @@
             H48.7c0,0,0.2-36.5,0-40.3h13.4v5.7c1.8-2.7,5-6.7,12.1-6.7c8.8,0,15.4,5.8,15.4,18.1V83.7z"></path>
                         </svg></span>
                 </a>
-                <a class="u-social-url" target="_blank" data-type="Pinterest" title="Pinterest"
-                    href="https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ "><span
-                        class="u-icon u-social-icon u-social-pinterest u-icon-5"><svg class="u-svg-link"
-                            preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
+                <a class="u-social-url" target="_blank" data-type="Pinterest" title="Pinterest" href="https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ "><span class="u-icon u-social-icon u-social-pinterest u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0f00"></use>
                         </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0f00">
                             <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -183,10 +156,7 @@
             C88.2,59.5,78.6,78.2,61.1,76.9z"></path>
                         </svg></span>
                 </a>
-                <a class="u-social-url" target="_blank" data-type="Custom" title="Custom"
-                    href="https://www.tiktok.com/@labonitacosmetics.ph?lang=en/ "><span
-                        class="u-file-icon u-icon u-social-custom u-social-icon u-icon-6"><img src="images/3116491.png"
-                            alt=""></span>
+                <a class="u-social-url" target="_blank" data-type="Custom" title="Custom" href="https://www.tiktok.com/@labonitacosmetics.ph?lang=en/ "><span class="u-file-icon u-icon u-social-custom u-social-icon u-icon-6"><img src="images/3116491.png" alt=""></span>
                 </a>
             </div>
             <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1"> Ⓒ 2022 created by UIP Dev
