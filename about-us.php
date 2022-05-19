@@ -167,9 +167,6 @@
                                         <div class="u-accordion-active u-accordion-pane u-align-left u-container-style u-custom-color-3 u-accordion-pane-1"
                                             id="accordion-7c0e" aria-labelledby="link-accordion-7c0e">
                                             <div class="u-container-layout u-valign-top u-container-layout-2">
-                                                <p class="u-text u-text-1">Interdum velit euismod in pellentesque massa
-                                                    placerat duis. Tristique et egestas quis ipsum suspendisse ultrices
-                                                    gravida dictum fusce. Nibh nisl condimentum.</p>
                                                 <ul class="u-custom-list u-text u-text-2">
                                                     <li>
                                                         <div class="u-list-icon">
