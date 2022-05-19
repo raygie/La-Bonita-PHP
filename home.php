@@ -37,8 +37,7 @@
                 data-image-width="500" data-image-height="500" title="Home">
                 <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
             </a>
-
-            <?php include './includes/navigation-bar.php'?>
+            <?php include './includes/navigation-bar.php' ?>
         </div>
     </header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-0cbe">

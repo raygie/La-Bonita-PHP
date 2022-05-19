@@ -87,17 +87,13 @@
                 class="u-align-center u-btn u-btn-round u-button-style u-custom-color-5 u-custom-font u-font-montserrat u-hover-custom-color-4 u-hover-feature u-radius-50 u-btn-1">Shop
                 now</a>
         </div>
-
     </section>
     <style class="u-overlap-style">
     .u-overlap:not(.u-sticky-scroll) .u-header {
         background-color: #ffffff !important
     }
     </style>
-
-
     <?php include './includes/footer.php'; ?>
-
 </body>
 
 </html>

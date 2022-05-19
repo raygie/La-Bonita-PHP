@@ -27,4 +27,3 @@
     {
         header("location:contacts.php");
     }
-?>

@@ -1,8 +1,8 @@
 <?php
 include 'includes/connection.php';
-$a=1;
+$a = 1;
 $id = $_GET['id'];
-$products = mysqli_query($conn,"SELECT * FROM products WHERE id=$id");
+$products = mysqli_query($conn, "SELECT * FROM products WHERE id=$id");
 $fetch = mysqli_fetch_array($products);
 
 ?>
@@ -41,18 +41,18 @@ $fetch = mysqli_fetch_array($products);
 
     <section class="u-clearfix u-custom-color-3 u-section-2" id="sec-bb70">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <?php echo '<img alt="products"
-                                class=" u-hover-feature u-image u-image-round u-preserve-proportions u-radius-22 u-image-1"
-                                src="admin/includes/prodpic/'.$fetch['prod_image'].'" alt="" data-image-width="500" data-image-height="500">'
-                                ?>
-            <p class="u-custom-font u-text u-text-default u-text-1"><?= $fetch['prod_name'];?></p>
-            <p class="u-price u-text-custom-color-5" style="font-size: 1.5rem; font-weight: 700; margin-top: 20px">Description:</p>
+            <?php echo '<img alt="products" class=" u-hover-feature u-image u-image-round u-preserve-proportions u-radius-22 u-image-1" src="admin/includes/prodpic/' . $fetch['prod_image'] . '" alt="" data-image-width="500" data-image-height="500">' ?>
+            <p class="u-custom-font u-text u-text-default u-text-1"><?= $fetch['prod_name']; ?></p>
+            <p class="u-price u-text-custom-color-5" style="font-size: 1.5rem; font-weight: 700; margin-top: 20px">
+                Description:</p>
             <p class="u-align-justify u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2">
-                <?= $fetch['prod_desc'];?></p>
-            <p class="u-price u-text-custom-color-5" style="font-size: 1.5rem; font-weight: 700; margin-top: 20px">Price:</p>
-            <p class="u-text u-text-5"><?= $fetch['prod_price'];?></p>
-            <a target="_blank" href="<?= $fetch['link'];?>"
-                class="u-border-2 u-border-custom-color-5 u-btn u-btn-round u-button-style u-custom-font u-font-montserrat u-hover-custom-color-4 u-none u-radius-10 u-text-hover-white u-btn-3" style="margin-bottom: 30px">BUY
+                <?= $fetch['prod_desc']; ?></p>
+            <p class="u-price u-text-custom-color-5" style="font-size: 1.5rem; font-weight: 700; margin-top: 20px">
+                Price:</p>
+            <p class="u-text u-text-5"><?= $fetch['prod_price']; ?></p>
+            <a target="_blank" href="<?= $fetch['link']; ?>"
+                class="u-border-2 u-border-custom-color-5 u-btn u-btn-round u-button-style u-custom-font u-font-montserrat u-hover-custom-color-4 u-none u-radius-10 u-text-hover-white u-btn-3"
+                style="margin-bottom: 30px">BUY
                 NOW</a>
         </div>
     </section>

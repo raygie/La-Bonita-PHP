@@ -107,7 +107,8 @@
                                     <div class="u-container-layout u-container-layout-1">
                                         <h2 class="u-custom-font u-text u-text-1">Contact form</h2>
                                         <div class="u-expanded-width u-form u-form-1">
-                                            <form action="./includes/email.php" method="POST">
+                                            <!-- <form action="./includes/email.php" method="POST"> -->
+                                            <form method="POST">
                                                 <div class="u-form-group u-form-name">
                                                     <label for="name-e4cc"
                                                         class="u-custom-font u-font-montserrat u-form-control-hidden u-label">Name</label>
@@ -159,6 +160,50 @@
                                                         name="btn-send">Submit</button>
                                                 </div>
                                             </form>
+                                            <?php
+
+                                            use PHPMailer\PHPMailer\PHPMailer;
+                                            use PHPMailer\PHPMailer\SMTP;
+                                            use PHPMailer\PHPMailer\Exception;
+
+                                            require('PHPMailer/Exception.php');
+                                            require('PHPMailer/PHPMailer.php');
+                                            require('PHPMailer/SMTP.php');
+
+                                            if (isset($_POST['btn-send'])) {
+                                                $name = $_POST['name'];
+                                                $email = $_POST['email'];
+                                                $subject = $_POST['subject'];
+                                                $msg = $_POST['msg'];
+                                                $mail = new PHPMailer(true);
+
+                                                try {
+                                                    //Server settings
+                                                    $mail->isSMTP();                                            //Send using SMTP
+                                                    $mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
+                                                    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+                                                    $mail->Username   = 'labonitacosmeticsofficial@gmail.com';  //SMTP username
+                                                    $mail->Password   = '!@labonita';                           //SMTP password
+                                                    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+                                                    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+                                                    //Recipients
+                                                    $mail->setFrom($email, $name);
+                                                    $mail->addAddress('labonitacosmeticsofficial@gmail.com');    //Name is optional
+
+                                                    //Content
+                                                    $mail->isHTML(true);                                         //Set email format to HTML
+                                                    $mail->Subject = "$subject";
+                                                    $mail->Body    = "Name: $name <br> Email: $email <br> Message:<br> $msg <br>";
+                                                    // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+                                                    $mail->send();
+                                                    echo "<script>alert('Message has been sent')</script>";
+                                                } catch (Exception $e) {
+                                                    echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}')</script>";
+                                                }
+                                            }
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
