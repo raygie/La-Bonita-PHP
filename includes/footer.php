@@ -5,7 +5,7 @@
             <a class="u-social-url" title="facebook" target="_blank"
                 href="https://www.facebook.com/LaBonitaCosmeticsByAnafara"><span
                     class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link"
-                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-aab7"></use>
                     </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-aab7">
                         <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -15,7 +15,7 @@
             </a>
             <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/LaAnafara "><span
                     class="u-icon u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link"
-                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ff97"></use>
                     </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-ff97">
                         <circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle>
@@ -29,7 +29,7 @@
             <a class="u-social-url" title="instagram" target="_blank"
                 href=" https://www.instagram.com/la_bonita_cosmetics/"><span
                     class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link"
-                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9698"></use>
                     </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9698">
                         <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -48,7 +48,7 @@
             <a class="u-social-url" title="linkedin" target="_blank"
                 href=" https://www.linkedin.com/in/la-bonita-cosmetics-incorporated-ltd-073360232/"><span
                     class="u-icon u-social-icon u-social-linkedin u-icon-4"><svg class="u-svg-link"
-                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-229d"></use>
                     </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-229d">
                         <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -60,7 +60,7 @@
             <a class="u-social-url" target="_blank" data-type="Pinterest" title="Pinterest"
                 href="https://www.pinterest.ph/labonitacosmeticsbyanafara/_saved/ "><span
                     class="u-icon u-social-icon u-social-pinterest u-icon-5"><svg class="u-svg-link"
-                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                        preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0f00"></use>
                     </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0f00">
                         <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
