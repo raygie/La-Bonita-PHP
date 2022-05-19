@@ -10,7 +10,7 @@ $a=1;
 <head>
     <meta name="keywords" content="">
     <title>All Products</title>
-    <link rel="stylesheet" href="all-products.css" media="screen">
+    <link rel="stylesheet" href="All-products.css" media="screen">
     <?php include './includes/meta/meta.php'; ?>
     <?php include './includes/meta/script.php'; ?>
     <?php include './includes/meta/favicons.php'; ?>
