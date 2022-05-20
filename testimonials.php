@@ -61,10 +61,10 @@ $a = 1;
                                     <h6 class="u-align-justify u-custom-font u-font-montserrat u-text u-text-2">
                                         “<?php echo $row['input_testi'] ?>”<br>
                                     </h6>
-                                    <h5 class="u-align-center u-custom-font u-font-montserrat u-text u-text-3">
+                                    <h5 class="u-align-center u-custom-font u-font-montserrat u-text u-text-3 u-text-custom-color-4">
                                         <?php echo $row['input_name'] ?></h5>
-                                    <h5 class="u-align-center u-custom-font u-font-montserrat u-text u-text-4">
-                                        <?php echo $row['input_position'] ?></h5>
+                                    <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-4 u-text-custom-color-5">
+                                        <?php echo $row['input_position'] ?></h6>
                                 </div>
                             </div>
                         <?php
