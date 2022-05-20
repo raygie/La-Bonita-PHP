@@ -4,7 +4,7 @@
 <head>
     <meta name="keywords" content="Contact us, follow us, contact form">
     <title>Contacts</title>
-    <link rel="stylesheet" href="contacts.css" media="screen">
+    <link rel="stylesheet" href="Contacts.css" media="screen">
     <?php include './includes/meta/meta.php'; ?>
     <?php include './includes/meta/script.php'; ?>
     <?php include './includes/meta/favicons.php'; ?>
