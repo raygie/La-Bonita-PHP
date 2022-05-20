@@ -29,7 +29,7 @@
              </li>
              <li class="u-nav-item"><a
                      class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
-                     href="Objectives.php" style="padding: 10px 20px;">Objectives</a>
+                     href="objectives.php" style="padding: 10px 20px;">Objectives</a>
              </li>
              <li class="u-nav-item"><a
                      class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-custom-color-5"
@@ -71,7 +71,7 @@
                      <li class="u-nav-item"><a class="u-button-style u-nav-link" href="about-us.php">About
                              Us</a>
                      </li>
-                     <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Objectives.php">Objectives</a>
+                     <li class="u-nav-item"><a class="u-button-style u-nav-link" href="objectives.php">Objectives</a>
                      </li>
                      <li class="u-nav-item"><a class="u-button-style u-nav-link" href="products.php">Products</a>
                          <div class="u-nav-popup">
