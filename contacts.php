@@ -1,3 +1,8 @@
+<?php
+include 'includes/connection.php';
+$sql = mysqli_query($conn, "SELECT * FROM settings");
+$fetch = mysqli_fetch_array($sql);
+?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 
@@ -25,18 +30,18 @@
     <section class="u-clearfix u-custom-color-3 u-section-1" id="carousel_fd98">
         <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
             <h2 class="u-custom-font u-text u-text-1">Contact us</h2>
-            <a href="https://nicepage.site"
+            <a href="tel:<?= $fetch['phone']; ?>"
                 class="u-active-none u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-1"><span
                     class="u-icon u-text-custom-color-5"><svg class="u-svg-content" viewBox="0 0 405.333 405.333"
                         x="0px" y="0px" style="width: 1em; height: 1em;">
                         <path
                             d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z">
                         </path>
-                    </svg><img></span> +63984205940
+                    </svg><img></span> <?= $fetch['phone']; ?>
             </a>
             <h2 class="u-text u-text-2">follow us</h2>
             <div class="u-social-icons u-spacing-20 u-social-icons-1">
-                <a class="u-social-url" target="_blank" href="https://www.facebook.com/LaBonitaCosmeticsByAnafara/ "
+                <a class="u-social-url" target="_blank" href="<?= $fetch['facebook']; ?>"
                     title="Facebook"><span
                         class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-5 u-icon-2">
                         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112.2 112.2">
@@ -50,7 +55,7 @@
                         </svg>
                     </span>
                 </a>
-                <a class="u-social-url" target="_blank" href="https://twitter.com/LaAnafara " title="Twitter"><span
+                <a class="u-social-url" target="_blank" href="<?= $fetch['twitter']; ?> " title="Twitter"><span
                         class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-5 u-icon-3">
                         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112.2 112.2">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b336"></use>
@@ -63,7 +68,7 @@
                         </svg>
                     </span>
                 </a>
-                <a class="u-social-url" target="_blank" href="https://www.instagram.com/la_bonita_cosmetics/"
+                <a class="u-social-url" target="_blank" href="<?= $fetch['instagram']; ?>"
                     title="Instagram"><span
                         class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-5 u-icon-4">
                         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112.2 112.2">
@@ -84,7 +89,7 @@
                     </span>
                 </a>
                 <a class="u-social-url" target="_blank"
-                    href="https://business.google.com/dashboard/l/09453915000760784275?gmbsrc=ww-ww-ot-gs-z-gmb-l-z-h~z-ogb-u "
+                    href="mailto: <?= $fetch['email']; ?>"
                     title="Google"><span
                         class="u-file-icon u-icon u-social-google u-social-icon u-text-custom-color-5 u-icon-5"><img
                             src="images/30.png" alt=""></span>
