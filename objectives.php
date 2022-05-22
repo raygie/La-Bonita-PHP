@@ -44,22 +44,20 @@
     <meta property="og:type" content="website">
     <?php include './includes/meta/favicons.php'; ?>
   </head>
-  <body class="u-body u-xl-mode"> <header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417">
-    
-  <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-            <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1"
-                data-image-width="500" data-image-height="500" title="Home">
-                <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
-            </a>
-            <?php include './includes/navigation-bar.php'; ?>
-        </div>
-    </header>
+  <body class="u-body u-xl-mode"><header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+          <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
+        </a>
+        
+          
+          <?php include './includes/navigation-bar.php'; ?>
+      </div></header>
     <section class="u-clearfix u-custom-color-3 u-section-1" id="sec-c345">
       <div class="u-clearfix u-sheet u-sheet-1">
         <img class="u-image u-image-round u-preserve-proportions u-image-1" src="images/Untitleddesign9.svg" alt="" data-image-width="500" data-image-height="500">
         <p class="u-custom-font u-text u-text-default-lg u-text-default-xl u-text-1">Ou​r Objectives</p>
         <p class="u-align-center-xs u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2">La Bonita's Cosmetics has different of objectives&nbsp; that is based on different aspects</p>
-        <a href="https://www.facebook.com/LaBonitaCosmeticsByAnafara/" class="u-border-2 u-border-grey-dark-1 u-btn u-btn-rectangle u-button-style u-hover-custom-color-4 u-none u-btn-1">LEARN more</a>
+        <a target="_blank" href="https://www.facebook.com/LaBonitaCosmeticsByAnafara/" class="u-border-2 u-border-grey-dark-1 u-btn u-btn-rectangle u-button-style u-hover-custom-color-4 u-none u-btn-1">LEARN more</a>
       </div>
     </section>
     <section class="u-clearfix u-custom-color-3 u-section-2" id="sec-bb70">
@@ -97,6 +95,11 @@
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/Untitleddesign14.png" alt="" data-image-width="500" data-image-height="500">
       </div>
     </section>
+    
+    
+    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-sheet-1">
     <?php include './includes/footer.php'; ?>
+  </footer>
+   
   </body>
 </html>
