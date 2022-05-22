@@ -43,66 +43,24 @@ $a=2;
   <!-- Main Sidebar Container -->
   <?php include 'includes/sidebar.php'; ?>
 <?php
-date_default_timezone_set('Asia/Kolkata');
-$today = date("D d M Y");
-//$edit = $_GET['edit'];
 
     $resultt = mysqli_query($conn,"SELECT * FROM settings where id='1'");
     $roww = mysqli_fetch_array($resultt);
     $edit = $roww['id'];
 
-if(isset($_POST['publise'])){
-extract($_POST);	
-//$title1 = $_POST['title'];
-//$title = str_replace("'","\'", $title1);
-//$category = $_POST['category'];
-//$descrip1 = $_POST['descrip'];
-//$descrip = str_replace("'","\'", $descrip1);
-//$url = $_POST['url'];
-
-/// header logo /// 
-// if($_FILES['header_logo']['name']!=''){
-// $header_logo = rand().$_FILES['header_logo']['name'];
-// }
-// else{
-// 	$header_logo = $roww["header_logo"];
-// }
-// $tempname = $_FILES['header_logo']['tmp_name'];
-// $folder = "../images/logo/".$header_logo;
-
-// /// footer logo ///
-// if($_FILES['footer_logo']['name']!=''){
-// $footer_logo = rand().$_FILES['footer_logo']['name'];
-// }
-// else{
-// 	$footer_logo = $roww["footer_logo"];
-// }
-// $tempname2 = $_FILES['footer_logo']['tmp_name'];
-// $folder2 = "../images/logo/".$footer_logo;
-// footer logo end ///
-
-
-if($edit==''){
-
-move_uploaded_file($tempname, $folder);
-move_uploaded_file($tempname2, $folder2);
-
-$insertdata = mysqli_query($conn,"INSERT INTO settings(phone,email,address,facebook,twitter,linkedin,instagram,youtube,tiktok)VALUES('$phone','$email','$address','$facebook','$twitter','$linkedin','$instagram','$youtube','$tiktok')");
-
-echo "<script>alert('Posted Successfully');</script>
-	<script>window.location.href = 'settings.php'</script>";
-}
-else{
-move_uploaded_file($tempname, $folder);
-move_uploaded_file($tempname2, $folder2);
-$insertdata = mysqli_query($conn,"UPDATE settings SET phone='$phone',email='$email',address='$address',facebook='$facebook',twitter='$twitter',linkedin='$linkedin',instagram='$instagram',youtube='$youtube',tiktok='$tiktok' where id=".$edit."");
-echo "<script>alert('Updated Successfully');</script>
-	<script>window.location.href = 'settings.php'</script>";
-}
-
-
-}
-
+  if(isset($_POST['publise'])){
+    extract($_POST);	
+      if($edit==''){
+        $insertdata = mysqli_query($conn,"INSERT INTO settings(phone,email,address,facebook,twitter,linkedin,instagram,youtube,tiktok)VALUES('$phone','$email','$address','$facebook','$twitter','$linkedin','$instagram','$youtube','$tiktok')");
+        echo "<script>alert('Posted Successfully');</script>
+        <script>window.location.href = 'settings.php'</script>";
+      }
+      else{
+        $insertdata = mysqli_query($conn,"UPDATE settings SET phone='$phone',email='$email',address='$address',facebook='$facebook',twitter='$twitter',linkedin='$linkedin',instagram='$instagram',youtube='$youtube',tiktok='$tiktok' where id=".$edit."");
+        echo "<script>alert('Updated Successfully');</script>
+        <script>window.location.href = 'settings.php'</script>";
+      }
+  }
 ?>
 
   <!-- Content Wrapper. Contains page content -->
