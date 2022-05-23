@@ -14,7 +14,7 @@ $fetch = mysqli_fetch_array($sql);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .aa{
-            color: white;
+            color: white !important;
         }
         .aa{
             text-decoration: none;
@@ -84,7 +84,7 @@ $fetch = mysqli_fetch_array($sql);
             <!-- Facebook -->
             <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #3b5998; border-radius: 25px;"
+            style="background-color: #3b5998; border-radius: 25px; font-size: 12px;"
             target="_blank" href="<?= $fetch['facebook']; ?>"
             role="button"
             ><i class="fab fa-facebook-f"></i
@@ -93,7 +93,7 @@ $fetch = mysqli_fetch_array($sql);
             <!-- Twitter -->
             <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #55acee; border-radius: 25px;"
+            style="background-color: #55acee; border-radius: 25px; font-size: 12px;"
             target="_blank" href="<?= $fetch['twitter']; ?>"
             role="button"
             ><i class="fab fa-twitter"></i
@@ -102,7 +102,7 @@ $fetch = mysqli_fetch_array($sql);
             <!-- Google -->
             <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #dd4b39; border-radius: 25px;"
+            style="background-color: #dd4b39; border-radius: 25px; font-size: 12px;"
             target="_blank" href="mailto: <?= $fetch['email']; ?>"
             role="button"
             ><i class="fab fa-google"></i
@@ -111,7 +111,7 @@ $fetch = mysqli_fetch_array($sql);
             <!-- Instagram -->
             <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #ac2bac; border-radius: 25px;"
+            style="background-color: #ac2bac; border-radius: 25px; font-size: 12px;"
             target="_blank" href="<?= $fetch['instagram']; ?>"
             role="button"
             ><i class="fab fa-instagram"></i
@@ -120,7 +120,7 @@ $fetch = mysqli_fetch_array($sql);
             <!-- Linkedin -->
             <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #0082ca; border-radius: 25px;"
+            style="background-color: #0082ca; border-radius: 25px; font-size: 12px;"
             target="_blank" href="<?= $fetch['linkedin']; ?>"
             role="button"
             ><i class="fab fa-linkedin-in"></i
@@ -129,7 +129,7 @@ $fetch = mysqli_fetch_array($sql);
             <!-- tiktok -->
             <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #333333; border-radius: 25px;"
+            style="background-color: #333333; border-radius: 25px; font-size: 12px;"
             target="_blank" href="<?= $fetch['tiktok']; ?>"
             role="button"
             ><i class="fab fa-tiktok"></i
