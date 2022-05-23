@@ -46,7 +46,7 @@ $a = 1;
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class="u-clearfix u-custom-color-3 u-header u-sticky u-header" id="sec-3417"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="Home.html" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+        <a href="home.php" data-page-id="235967989" class="u-hover-feature u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
           <img src="images/Labonita.png" class="u-logo-image u-logo-image-1">
         </a>
         
@@ -81,9 +81,12 @@ $a = 1;
     </section>
     
     
-    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-sheet-1">
-    <?php include './includes/footer.php'; ?>      
-  </footer>
+    
+    <footer class="u-align-left-md u-align-left-sm u-align-left-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa"><div class="u-clearfix u-sheet u-valign-left-lg u-valign-left-md u-sheet-1">
+    
+        <?php include './includes/footer.php'; ?>
+    
+      </footer>
    
   </body>
 </html>

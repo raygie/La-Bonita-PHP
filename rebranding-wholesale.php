@@ -65,7 +65,11 @@ $a = 1;
             </div>
         </div>
     </section>
-    <?php include './includes/footer.php'; ?>
+    <footer class="u-align-left-md u-align-left-sm u-align-left-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa"><div class="u-clearfix u-sheet u-valign-left-lg u-valign-left-md u-sheet-1">
+    
+        <?php include './includes/footer.php'; ?>
+    
+      </footer>
 </body>
 
 </html>

@@ -205,8 +205,12 @@
     </section>
     
     
-    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-sheet-1">
-    <?php include './includes/footer.php'; ?></footer>
+    
+    <footer class="u-align-left-md u-align-left-sm u-align-left-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa"><div class="u-clearfix u-sheet u-valign-left-lg u-valign-left-md u-sheet-1">
+    
+    <?php include './includes/footer.php'; ?>
+
+  </footer>
   
   </body>
 </html>
