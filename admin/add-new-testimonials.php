@@ -54,11 +54,11 @@ $a=10;
             
               <div class="col-md-6">
                 <label for="input_name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="input_name" name="input_name" onkeypress="return /[A-Za-z]/i.test(event.key)" value="" required/>
+                <input type="text" class="form-control" id="input_name" name="input_name" onkeypress="return /[A-Za-z ]/i.test(event.key)" value="" required/>
               </div>
               <div class="col-md-6">
                 <label for="input_position" class="form-label">Position</label>
-                <input type="text" class="form-control" id="input_position" name="input_position" onkeypress="return /[A-Za-z]/i.test(event.key)" value="" required/>
+                <input type="text" class="form-control" id="input_position" name="input_position" onkeypress="return /[A-Za-z ]/i.test(event.key)" value="" required/>
               </div>
               <div class="col-md-12">
                 <label for="input_testi" class="form-label">Testimonials</label>
