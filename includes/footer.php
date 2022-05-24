@@ -50,13 +50,13 @@ $fetch = mysqli_fetch_array($sql);
           <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold" style="color: #fb914f;">Products</h6>
             <p class="paragraph" style="font-size: 15px;">
-              <i class="fas fa-chevron-right"></i><a class="aa" href="all-products.php"> All Products</a>
+              <a class="aa" href="all-products.php"> All Products</a>
             </p>
             <p class="paragraph" style="font-size: 15px;">
-              <i class="fas fa-chevron-right"></i><a class="aa" href="retail-sample.php"> Retail</a>
+              <a class="aa" href="retail-sample.php"> Retail</a>
             </p>
             <p class="paragraph" style="font-size: 15px;">
-              <i class="fas fa-chevron-right"></i><a class="aa" href="rebranding-wholesale.php"> Rebranding</a>
+              <a class="aa" href="rebranding-wholesale.php"> Rebranding</a>
             </p>
           </div>
 
@@ -67,13 +67,13 @@ $fetch = mysqli_fetch_array($sql);
           <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold" style="color: #fb914f;">Links</h6>
             <p class="paragraph" style="font-size: 15px;">
-              <i class="fas fa-chevron-right"></i><a class="aa" href="home.php"> Home</a>
+              <a class="aa" href="home.php"> Home</a>
             </p>
             <p class="paragraph" style="font-size: 15px;">
-              <i class="fas fa-chevron-right"></i><a class="aa" href="about-us.php"> About Us</a>
+              </i><a class="aa" href="about-us.php"> About Us</a>
             </p>
             <p class="paragraph" style="font-size: 15px;">
-              <i class="fas fa-chevron-right"></i><a class="aa" href="objectives.php"> Objectives</a>
+              <a class="aa" href="objectives.php"> Objectives</a>
             </p>
           </div>
 
