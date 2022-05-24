@@ -125,11 +125,11 @@ $a=11;
                                           <input type="hidden" name="edit_id" value="<?php echo $prod['id']?>">
                                           <div class="col-md-12">
                                             <label for="edit_input_name" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="edit_input_name" name="edit_input_name" value="<?php echo $prod['input_name']?>" required/>
+                                            <input type="text" class="form-control" id="edit_input_name" name="edit_input_name" onkeypress="return /[A-Za-z]/i.test(event.key)" value="<?php echo $prod['input_name']?>" required/>
                                           </div>
                                           <div class="col-md-12">
                                             <label for="edit_input_position" class="form-label">Position</label>
-                                            <input type="text" class="form-control" id="edit_input_position" name="edit_input_position" value="<?php echo $prod['input_position']?>" required/>
+                                            <input type="text" class="form-control" id="edit_input_position" name="edit_input_position" onkeypress="return /[A-Za-z]/i.test(event.key)" value="<?php echo $prod['input_position']?>" required/>
                                           </div>
                                           <div class="col-md-12">
                                             <label for="edit_input_testi" class="form-label">Testimonial</label>
