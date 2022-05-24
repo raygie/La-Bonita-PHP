@@ -118,7 +118,7 @@ $fetch = mysqli_fetch_array($sql);
                                                     <label for="name-e4cc"
                                                         class="u-custom-font u-font-montserrat u-form-control-hidden u-label">Name</label>
                                                     <input type="text" placeholder="Enter your Name" id="name-e4cc"
-                                                        name="name"
+                                                        name="name" onkeypress="return /[A-Za-z]/i.test(event.key)"
                                                         class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle u-radius-10"
                                                         required="">
                                                 </div>
