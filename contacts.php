@@ -1,3 +1,4 @@
+<!-- Fetch setting information -->
 <?php
 include 'includes/connection.php';
 $sql = mysqli_query($conn, "SELECT * FROM settings");
@@ -9,7 +10,7 @@ $fetch = mysqli_fetch_array($sql);
 <head>
     <meta name="keywords" content="Contact us, follow us, contact form">
     <title>Contacts</title>
-    <link rel="stylesheet" href="Contacts.css" media="screen">
+    <link rel="stylesheet" href="contacts.css" media="screen">
     <?php include './includes/meta/meta.php'; ?>
     <?php include './includes/meta/script.php'; ?>
     <?php include './includes/meta/favicons.php'; ?>
@@ -41,8 +42,7 @@ $fetch = mysqli_fetch_array($sql);
             </a>
             <h2 class="u-text u-text-2">follow us</h2>
             <div class="u-social-icons u-spacing-20 u-social-icons-1">
-                <a class="u-social-url" target="_blank" href="<?= $fetch['facebook']; ?>"
-                    title="Facebook"><span
+                <a class="u-social-url" target="_blank" href="<?= $fetch['facebook']; ?>" title="Facebook"><span
                         class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-5 u-icon-2">
                         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112.2 112.2">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-60de"></use>
@@ -68,8 +68,7 @@ $fetch = mysqli_fetch_array($sql);
                         </svg>
                     </span>
                 </a>
-                <a class="u-social-url" target="_blank" href="<?= $fetch['instagram']; ?>"
-                    title="Instagram"><span
+                <a class="u-social-url" target="_blank" href="<?= $fetch['instagram']; ?>" title="Instagram"><span
                         class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-5 u-icon-4">
                         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112.2 112.2">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1dc5"></use>
@@ -88,9 +87,7 @@ $fetch = mysqli_fetch_array($sql);
                         </svg>
                     </span>
                 </a>
-                <a class="u-social-url" target="_blank"
-                    href="mailto: <?= $fetch['email']; ?>"
-                    title="Google"><span
+                <a class="u-social-url" target="_blank" href="mailto: <?= $fetch['email']; ?>" title="Google"><span
                         class="u-file-icon u-icon u-social-google u-social-icon u-text-custom-color-5 u-icon-5"><img
                             src="images/30.png" alt=""></span>
                 </a>
@@ -165,16 +162,19 @@ $fetch = mysqli_fetch_array($sql);
                                                         name="btn-send">Submit</button>
                                                 </div>
                                             </form>
+                                            <!-- PHPMailer Function -->
                                             <?php
 
                                             use PHPMailer\PHPMailer\PHPMailer;
                                             use PHPMailer\PHPMailer\SMTP;
                                             use PHPMailer\PHPMailer\Exception;
 
+                                            // Add required dependencies
                                             require('PHPMailer/Exception.php');
                                             require('PHPMailer/PHPMailer.php');
                                             require('PHPMailer/SMTP.php');
 
+                                            // Form validation
                                             if (isset($_POST['btn-send'])) {
                                                 $name = $_POST['name'];
                                                 $email = $_POST['email'];
@@ -219,11 +219,12 @@ $fetch = mysqli_fetch_array($sql);
             </div>
         </div>
     </section>
-    <footer class="u-align-left-md u-align-left-sm u-align-left-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa"><div class="u-clearfix u-sheet u-valign-left-lg u-valign-left-md u-sheet-1">
-    
-        <?php include './includes/footer.php'; ?>
-    
-      </footer>
+    <footer class="u-align-left-md u-align-left-sm u-align-left-xs u-clearfix u-custom-color-4 u-footer" id="sec-84aa">
+        <div class="u-clearfix u-sheet u-valign-left-lg u-valign-left-md u-sheet-1">
+
+            <?php include './includes/footer.php'; ?>
+
+    </footer>
 </body>
 
 </html>

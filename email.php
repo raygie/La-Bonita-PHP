@@ -1,4 +1,4 @@
-<!-- PHP Mailer debug -->
+<!-- PHP Mailer Debug Only nothing to do with codes.-->
 
 <?php
 //Import PHPMailer classes into the global namespace
@@ -7,9 +7,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require ('PHPMailer/Exception.php');
-require ('PHPMailer/PHPMailer.php');
-require ('PHPMailer/SMTP.php');
+require('PHPMailer/Exception.php');
+require('PHPMailer/PHPMailer.php');
+require('PHPMailer/SMTP.php');
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
