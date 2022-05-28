@@ -1,10 +1,10 @@
 # La-Bonita-PHP
 
-## Promotional Website using PHP CRUD
+### Promotional Website using PHP CRUD
 
-## Client: La Bonita Cosmetics
+### Client: La Bonita Cosmetics
 
-## Programmers:
+### Programmers:
 
 - Raygie Ramos
 - Zairyl Zafra
